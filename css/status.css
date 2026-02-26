@@ -1,0 +1,67 @@
+/* Garante que o cabeçalho fixo não esconda a linha quando o link rolar a página */
+tr[id] {
+    scroll-margin-top: 150px; /* Ajuste conforme a altura do seu header */
+}
+
+/* Animação de pulso para chamar atenção */
+@keyframes highlight-pulse {
+    0% { background-color: rgba(67, 231, 231, 0.0); }
+    50% { background-color: rgba(67, 231, 231, 0.4); }
+    100% { background-color: rgba(67, 231, 231, 0.15); }
+}
+
+tr:target td {
+    animation: highlight-pulse 1.5s ease-out forwards; 
+    background-color: rgba(67, 231, 231, 0.15); 
+    border-top: 1px solid #43e7e7;
+    border-bottom: 1px solid #43e7e7;
+    color: #fff;
+}
+
+tr:target td:first-child::before {
+    content: "➤ ";
+    color: #43e7e7;
+    margin-right: 5px;
+}
+
+tbody tr td {
+    transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+}
+
+tr:target td {
+    animation: highlight-pulse 1.5s ease-out forwards;
+    background-color: rgba(67, 231, 231, 0.15);
+    border-top: 1px solid #43e7e7;
+    border-bottom: 1px solid #43e7e7;
+    color: #fff;
+    font-weight: 700;
+}
+
+h2.tier-toggle {
+    cursor: pointer;
+    user-select: none; /* Impede seleção de texto ao clicar rápido */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.2); 
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+h2.tier-toggle:hover {
+    background-color: rgba(67, 231, 231, 0.1); 
+}
+
+.arrow {
+    font-size: 0.8em;
+    transition: transform 0.3s ease;
+}
+
+h2.tier-toggle.collapsed .arrow {
+    transform: rotate(-90deg);
+}
+
+.table-container.hidden {
+    display: none;
+}

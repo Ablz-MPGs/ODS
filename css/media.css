@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+    main {
+        padding: 5%;
+    }
+    
+    .topnav {
+        width: auto;
+    }
+
+    .navbar {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .nav-menu {
+        display: none; 
+        flex-direction: column;
+        position: absolute;
+        top: var(--header-height);
+        left: 0;
+        width: 100%;
+        background-color: var(--panel);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        z-index: 10;
+        padding: 10px 0;
+        border-bottom: 3px solid var(--accent);
+    }
+    
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 15px 20px;
+        font-size: 1.1rem;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 20;
+        gap: 4px; 
+    }
+
+    td, th {
+        padding: 8px 4px;
+        font-size: 0.85rem;
+    }
+    .nav-menu.active {
+        display: flex;
+    }
+    
+    .dropdown-menu {
+        position: relative; 
+        width: 100%;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.1);
+        box-shadow: none;
+    }
+
+    .dropdown-item {
+        text-align: center;
+        padding: 12px;
+    }
+    .linha-racas {
+        gap: 20px;
+    }
+    
+    .col-md-4 {
+        max-width: 100%;
+        scroll-margin-top: 110px;
+        flex: 0 1 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .tier-btn {
+        padding: 8px 15px; 
+        font-size: 0.9rem; 
+        flex: 1 1 auto;
+    }
+    
+    .tier-tabs {
+        gap: 5px; 
+    }
+}
+
+@media (max-width: 500px) {
+    .modal-content.dino-card-style {
+        width: 95%;
+        padding: 20px;
+        margin-top: 20px; 
+    }
+    
+    .stats-box {
+        gap: 15px 0;
+    }
+    
+    .dino-name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo span {
+        display: none; 
+    }
+    
+    .logo_imagem {
+        max-width: 50px;
+    }
+}
