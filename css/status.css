@@ -1,9 +1,6 @@
-/* Garante que o cabeçalho fixo não esconda a linha quando o link rolar a página */
 tr[id] {
-    scroll-margin-top: 150px; /* Ajuste conforme a altura do seu header */
+    scroll-margin-top: 150px; 
 }
-
-/* Animação de pulso para chamar atenção */
 @keyframes highlight-pulse {
     0% { background-color: rgba(67, 231, 231, 0.0); }
     50% { background-color: rgba(67, 231, 231, 0.4); }
@@ -19,7 +16,7 @@ tr:target td {
 }
 
 tr:target td:first-child::before {
-    content: "➤ ";
+    content: "* ";
     color: #43e7e7;
     margin-right: 5px;
 }
@@ -39,7 +36,7 @@ tr:target td {
 
 h2.tier-toggle {
     cursor: pointer;
-    user-select: none; /* Impede seleção de texto ao clicar rápido */
+    user-select: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,8 +51,18 @@ h2.tier-toggle:hover {
 }
 
 .arrow {
-    font-size: 0.8em;
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+    
+    /* Desenhando o triângulo apontando para baixo */
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #4aa8b8; /* Usando a cor var(--accent) do seu projeto */
+    
     transition: transform 0.3s ease;
+    transform-origin: 50% 50%; 
 }
 
 h2.tier-toggle.collapsed .arrow {
