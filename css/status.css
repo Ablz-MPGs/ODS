@@ -51,16 +51,13 @@ h2.tier-toggle:hover {
 }
 
 .arrow {
-
     display: inline-block;
     width: 0;
     height: 0;
     
-    /* Desenhando o triângulo apontando para baixo */
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 8px solid #4aa8b8; /* Usando a cor var(--accent) do seu projeto */
-    
+    border-top: 8px solid #4aa8b8; 
     transition: transform 0.3s ease;
     transform-origin: 50% 50%; 
 }
