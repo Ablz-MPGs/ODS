@@ -89,6 +89,10 @@
         scroll-margin-top: 110px;
         flex: 0 1 100%;
     }
+
+    .btn-paleo{
+        margin-left: 76px;
+    }
 }
 
 @media (max-width: 600px) {

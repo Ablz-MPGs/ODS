@@ -5,11 +5,14 @@ const modalName = document.getElementById("modal-dino-name");
 const modalDiet = document.getElementById("modal-diet-icon");
 
 const statGroup = document.getElementById("stat-group");
-const statAge = document.getElementById("stat-age");
 const statGrowth = document.getElementById("stat-growth");
 const statPrice = document.getElementById("stat-price");
 const statSkin1 = document.getElementById("stat-skin1");
 const statSkin2 = document.getElementById("stat-skin2");
+
+const statFotinha = document.getElementById("stat-fotinha");
+const statCorgema = document.getElementById("stat-corgema");
+const statCormoeda = document.getElementById("stat-cormoeda");
 
 const passivesContainer = document.getElementById("passives-container");
 const activesContainer = document.getElementById("actives-container");
@@ -30,7 +33,7 @@ const dinoDatabase = {
         fullName: "COELOPHYSIS<br>BAURI",
         image: "img/pict/coeloperfil.png",
         diet: "🥩",
-        stats: { group: "10 membros", age: 19, growth: "15 min", price: "N/A", skin1: "4.000", skin2: 40 },
+        stats: { group: "10 membros", growth: "15 min", price: "N/A", skin1: "4.000", skin2: 40, fotinha: "N/A", cormoeda: "500", corgema: "5" },
         passives: [
             { title: "Juntos somos fortes!", desc: "Recupera stamina mais rápido perto da matilha.", icon: "img/skill/rebanho.png" },
             { title: "Apetite louco", desc: "Seu dinossauo se torna mais rápido quando carega algo na boca.", icon: "img/skill/apetite.png" },
@@ -46,7 +49,7 @@ const dinoDatabase = {
         fullName: "CHANGYURAPTOR<br>YANGI",
         image: "img/pict/changperfil.png",
         diet: "🥩🦈",
-        stats: { group: "5 membros", age: 1, growth: "12 min", price: "550", skin1: "25.000", skin2: "150" },
+        stats: { group: "5 membros", growth: "12 min", price: "550", skin1: "25.000", skin2: "150", fotinha: "N/A", cormoeda: "8000", corgema: "50"},
         passives: [
             { title: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido (até 3 vezes: -35% consumo de vigor).", icon: "img/skill/rebanho.png" },
             { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% consumo de vigor).", icon: "img/skill/hora.png" }
@@ -54,7 +57,7 @@ const dinoDatabase = {
         actives: [
             { title: "Parkour", desc: "Capaz de escalar, ao precionar salto próximo a uma superfície adequada.", icon: "img/skill/park.png" },  
             { title: "Vento sob as asas", desc: "Quando no ar, precione o botão de salto para planar.", icon: "img/skill/planar.png" },      
-            { title: "Escalador", desc: "Quando no ar, precione o botão de salto para tentar prender-se a uma superfície.", icon: "img/skill/prender.png" },
+            { title: "Escalador", desc: "Quando no ar, precione o botão de salto para tentar prender-se a uma superfície.", icon: "img/skill/escalador.png" },
             { title: "Disparada", desc: "O dinossauro se impulsiona para a direção em que estiver olhando, funciona apenas no ar.", icon: "img/skill/impulso.png" },  
             { title: "Corrida alta", desc: "Seu dinossauro executa um grande salto.", icon: "img/skill/puloC.png" }
         ]
@@ -64,7 +67,7 @@ const dinoDatabase = {
         fullName: "ORNITHOMIMUS<br>VELOX",
         image: "img/pict/orniperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 21, growth: "17 min", price: "N/A", skin1: "5.500", skin2: 40 },
+        stats: { group: "-", growth: "17 min", price: "N/A", skin1: "5.500", skin2: 40, fotinha: "N/A", cormoeda: "1000", corgema: "10"},
         passives: [
             { title: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele (até 3 vezes: +15% dano).", icon: "img/skill/ninho.png" },
             { title: "Corredor de maratona", desc: "Quando há membros da matilha perto de você, sua recuperação de vigor acelera (até 2 vezzes: +15% regeneração de vigor).", icon: "img/skill/rebanhoH.png" },
@@ -80,7 +83,7 @@ const dinoDatabase = {
         fullName: "DEINONYCHUS<br>ANTIRHOPUS",
         image: "img/pict/deinoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 5, growth: "18 min", price: "N/A", skin1: "6.500", skin2: 50 },
+        stats: { group: "-", growth: "18 min", price: "N/A", skin1: "6.500", skin2: 50, fotinha: "N/A", cormoeda: "2000", corgema: "15"},
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanho.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.", icon: "img/skill/poucohp.png" }
@@ -95,7 +98,7 @@ const dinoDatabase = {
         fullName: "PACHYCEPHALO<br>SAURUS WYOMINGENSIS",
         image: "img/pict/pachyperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 21, growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80 },
+        stats: { group: "-", growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80, fotinha: "N/A", cormoeda: "2000", corgema: "20" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, a velociade e chance de quebrar aumentam (+5% velocidade, +5% chance de fratura).", icon: "img/skill/poucohpP.png" }
@@ -110,7 +113,7 @@ const dinoDatabase = {
         fullName: "GUANLONG<br>WUCAII",
         image: "img/pict/guanperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 19, growth: "28 min", price: "180", skin1: "8.000", skin2: 50 },
+        stats: { group: "-", growth: "28 min", price: "180", skin1: "8.000", skin2: 50, fotinha: "N/A", cormoeda: "2000", corgema: "15" },
         passives: [
             { title: "Poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta.", icon: "img/skill/rebanho.png" },
             { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% gasto de stamina).", icon: "img/skill/hora.png" }
@@ -125,7 +128,7 @@ const dinoDatabase = {
         fullName: "BARBARIDACTYLUS<br>GRANDIS",
         image: "img/pict/barbaperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 15, growth: "31 min", price: "600", skin1: "20.000", skin2: 200 },
+        stats: { group: "-", growth: "31 min", price: "600", skin1: "20.000", skin2: 200, fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.", icon: "img/skill/rebanho.png" },
             { title: "Presente das Profundezas", desc: "Seu dinossauro gasta menos stamina após se alimentar de um peixe.", icon: "img/skill/aquatico.png" }
@@ -139,7 +142,7 @@ const dinoDatabase = {
         fullName: "PSITTACOSAURUS<br>MONGOLIENSIS",
         image: "img/pict/psittaperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 10, growth: "20 min", price: "5.000", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "20 min", price: "5.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2000", corgema: "20"},
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, ele gasta menos stamina e sua velocidade aumenta.", icon: "img/skill/poucohp.png" },
             { title: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.", icon: "img/skill/ninho.png" }
@@ -153,7 +156,7 @@ const dinoDatabase = {
         fullName: "QUETZALCOATLUS<br>NORTHROPI",
         image: "img/pict/quetzalperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 14, growth: "41 min", price: "125.000", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "41 min", price: "125.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado.", icon: "img/skill/rebanho.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina diminui e sua velocidade aumenta.", icon: "img/skill/poucohp.png" }
@@ -167,7 +170,7 @@ const dinoDatabase = {
         fullName: "AUSTRORAPTOR<br>CABAZAI",
         image: "img/pict/austroperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 4, growth: "24 min", price: "28.000", skin1: "15.000", skin2: "195g" },
+        stats: { group: "-", growth: "24 min", price: "28.000", skin1: "15.000", skin2: "195g", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "Vampirismo", desc: "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o dano causado.", icon: "img/skill/vamp.png" },
             { title: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, o gasto de resistência é reduzido.", icon: "img/skill/rebanho.png" },
@@ -185,7 +188,7 @@ const dinoDatabase = {
         fullName: "DILOPHOSAURUS<br>WETHERILLI",
         image: "img/pict/diloperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 6, growth: "28 min", price: "32.000", skin1: "18.000", skin2: "180g" },
+        stats: { group: "-", growth: "28 min", price: "32.000", skin1: "18.000", skin2: "180g", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (+6% velocidade, +4.5% chance de sangramento).", icon: "img/skill/sedesangue.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, a recuperação de stamina acelera (Até +28% recuperação de stamina).", icon: "img/skill/rebanho.png" }
@@ -200,7 +203,7 @@ const dinoDatabase = {
         fullName: "CONCAVENATOR<br>CORCOVATUS",
         image: "img/pict/concaperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 12, growth: "-", price: "280g", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "-", price: "280g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão próximos, você recupera HP mais rápido.", icon: "img/skill/rebanho.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de stamina é reduzido.", icon: "img/skill/poucohp.png" }
@@ -214,7 +217,7 @@ const dinoDatabase = {
         fullName: "FASOLASUCHUS<br>TENAX",
         image: "img/pict/fasolaperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 9, growth: "29 min", price: "500g", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "29 min", price: "500g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "Surto de poder", desc: "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta (+5% velocidade, -25% consumo de stamina).", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta (até 3 vezes: +1% chance de fratura).", icon: "img/skill/rebanho.png" }
@@ -229,7 +232,7 @@ const dinoDatabase = {
         fullName: "KENTROSAURUS<br>AETHIOPICUS",
         image: "img/pict/kentroperfil.png",
         diet: "🌿",
-        stats: { group: "5 membros", age: 21, growth: "39 min", price: "30k", skin1: "12k", skin2: "120g" },
+        stats: { group: "5 membros", growth: "39 min", price: "30k", skin1: "12k", skin2: "120g", fotinha: "N/A", cormoeda: "2000", corgema: "20"},
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro tem pouca vida, o consumo de vigor diminui e a velocidade de movimento aumenta (+5% velocide, -20% consumo de vigor).", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (até +4% sangramento).", icon: "img/skill/rebanhoH.png" },
@@ -245,7 +248,7 @@ const dinoDatabase = {
         fullName: "MEGARAPTOR<br>NAMUNHUAIQUII",
         image: "img/pict/megaperfil.png",
         diet: "🥩",
-        stats: { group: "4 membros", age: 3, growth: "38 min", price: "600g", skin1: "-", skin2: "300g" },
+        stats: { group: "3 membros", growth: "56 min", price: "800g", skin1: "40k", skin2: "450g", fotinha: "N/A", cormoeda: "8000", corgema: "50" },
         passives: [
             { title: "Poder Acumulado", desc: "O primeiro ataque causa dano aumentado, há um tempo de recarga (+30% dano).", icon: "img/skill/poderacumulado.png" },
             { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de stamina diminui.", icon: "img/skill/devorador.png" },
@@ -261,7 +264,7 @@ const dinoDatabase = {
         fullName: "CERATOSAURUS<br>NASICORNIS",
         image: "img/pict/ceratoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 17, growth: "39 min", price: "120k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "39 min", price: "120k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.", icon: "img/skill/rebanho.png" }
@@ -275,7 +278,7 @@ const dinoDatabase = {
         fullName: "CARNOTAURUS<br>SASTREI",
         image: "img/pict/carnoperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 7, growth: "29 min", price: "100k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "29 min", price: "100k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2500", corgema: "25" },
         passives: [
             { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (até 10 vezes: +3,6% chance de sangramento, +6% velocidade).", icon: "img/skill/sedesangue.png" },
             { title: "O poder do bando", desc: "Quando há membros da matilha perto de você, seu gasto de resistência é reduzido.", icon: "img/skill/rebanho.png" }
@@ -290,7 +293,7 @@ const dinoDatabase = {
         fullName: "GIGANTORAPTOR<br>ERLIANENSIS",
         image: "img/pict/gigantoperfil.png",
         diet: "🥩🌿",
-        stats: { group: "-", age: 10, growth: "42 min", price: "50k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "42 min", price: "50k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30" },
         passives: [
             { title: "Instinto Materno", desc: "Quando seu dinossauro está perto do ninho, o dano aumenta para cada ovo (até 3 vezes: +18% dano).", icon: "img/skill/ninho.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano aumenta (até 2 vezes: +11% dano).", icon: "img/skill/rebanho.png" }
@@ -305,7 +308,7 @@ const dinoDatabase = {
         fullName: "ALLOSAURUS<br>FRAGILIS",
         image: "img/pict/alloperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 17, growth: "38 min", price: "650g", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "38 min", price: "650g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, resistência recupera mais rápido.", icon: "img/skill/rebanho.png" },
             { title: "Bom Sono", desc: "Quando seu dinossauro gasta menos stamina enquanto o cansaço estiver acima de 79%. (-15% gasto de stamina)", icon: "img/skill/sono.png" },
@@ -320,7 +323,7 @@ const dinoDatabase = {
         fullName: "STYRACOSAURUS<br>ALBERTENSIS",
         image: "img/pict/styraperfil.png",
         diet: "🌿",
-        stats: { group: "Tier 3", age: 7, growth: "39 min", price: "55k", skin1: "25k", skin2: "250g" },
+        stats: { group: "Tier 3", growth: "39 min", price: "55k", skin1: "25k", skin2: "250g", fotinha: "N/A", cormoeda: "3000", corgema: "30" },
         passives: [
             { title: "Fúria com Chifres", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina é reduzido e sua chance de sangrar aumenta.", icon: "img/skill/sangra.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
@@ -335,7 +338,7 @@ const dinoDatabase = {
         fullName: "PLATEOSAURUS<br>ENGELHARDTI",
         image: "img/pict/plateoperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 18, growth: "31 min", price: "20.5k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "31 min", price: "20.5k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2000", corgema: "20" },
         passives: [ 
             { title: "O poder do bando", desc: "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/poucohp.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP seu consumo de stamina diminui e a velocidade aumenta.", icon: "img/skill/rebanhoH.png" }
@@ -345,11 +348,11 @@ const dinoDatabase = {
         ]
     },
     "Tarchia":{
-        idStatus: "tachia",
+        idStatus: "tarchia",
         fullName: "TACHIA<br>KIELANAE",
         image: "img/pict/tarchiaperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 23, growth: "39 min", price: "35k", skin1: "12.000", skin2: "-" },
+        stats: { group: "-", growth: "39 min", price: "35k", skin1: "12.000", skin2: "-", fotinha: "N/A", cormoeda: "2500", corgema: "25" },
         passives: [
             {title: "Surto de poder", desc: "Quando seu dinossauro está com HP baixo, seu dano e chance de fraturar aumentam. (+15% dano, +7,5% fratura)", icon: "img/skill/poucohp.png" }
         ],
@@ -359,11 +362,11 @@ const dinoDatabase = {
         ]
     },
     "Parasaurolophus":{
-    idStatus: "parasaurolophus",
+    idStatus: "para",
     fullName: "PARASAUROLOPHUS<br>WALKERI",
     image: "img/pict/paraperfil.png",
     diet: "🌿",
-    stats: { group: "-", age: 18, growth: "29 min", price: "32k", skin1: "10k", skin2: "120g" },
+    stats: { group: "-", growth: "29 min", price: "32k", skin1: "10k", skin2: "120g", fotinha: "N/A", cormoeda: "3000", corgema: "30" },
     passives: [
         {title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de stamina é reduzido e a velocidade de movimento aumenta (-20% consumo de stamina, +5% velocidade).", icon: "img/skill/poucohp.png" }
     ],
@@ -377,7 +380,7 @@ const dinoDatabase = {
         fullName: "PACHYRHINOSAURUS",
         image: "img/pict/rhinoperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 20, growth: "36 min", price: "75k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "36 min", price: "75k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (+20% regeneração de HP).", icon: "img/skill/rebanhoH.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de stamina é reduzido e a velocidade de movimento aumenta.", icon: "img/skill/poucohp.png" }
@@ -392,7 +395,7 @@ const dinoDatabase = {
         fullName: "STEGOSAURUS<br>UNGULATUS",
         image: "img/pict/stegoperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 2, growth: "40 min", price: "80k", skin1: "-", skin2: "-" },
+        stats: { group: "-", growth: "40 min", price: "80k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40"},
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
             { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos stamina.", icon: "img/skill/hora.png" }
@@ -407,7 +410,7 @@ const dinoDatabase = {
         fullName: "THERIZINOSAURUS<br>CHELONIFORMIS",
         image: "img/pict/theriperfil.png",
         diet: "🌿",
-        stats: { group: "4 membros", age: 13, growth: "48 min", price: "150k", skin1: "-", skin2: "-" },
+        stats: { group: "4 membros", growth: "48 min", price: "150k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
             { title: "Surto de poder", desc: "quando seu dinossauro está com pouca vida, seu dano e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" },
             {title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
@@ -424,8 +427,7 @@ const dinoDatabase = {
         image: "img/pict/suchoperfil.png",
         diet: "🥩🦈",
         stats: { 
-            group: "-", age: 8, growth: "41 min", price: "110k",  skin1: "-", skin2: "-" 
-        },
+            group: "-", growth: "41 min", price: "110k",  skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2000", corgema: "20"},
         passives: [
             {
                 title: "O poder do bando", 
@@ -462,18 +464,10 @@ const dinoDatabase = {
         image: "img/pict/amargaperfil.png",
         diet: "🌿",
         stats: { 
-            group: "4 membros", age: 9, growth: "48 min", price: "120k", skin1: "-", skin2: "-" 
-        },
-        passives: [
-            {
-                title: "O poder do bando", 
-                desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (até 4 vezes: -12% consumo de stamina).", 
-                icon: "img/skill/rebanhoH.png" 
-            },
-            {
-                title: "Surto de poder", 
-                desc: "Quando seu dinossauro está com pouca vida, sua defesa e chance de sangrar aumentam (+12% defesa, +4.5% sangramento).", 
-                icon: "img/skill/poucohp.png" 
+            group: "4 membros", growth: "48 min", price: "120k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
+        passives: [ { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (até 4 vezes: -12% consumo de stamina).", icon: "img/skill/rebanhoH.png" 
+            }, {
+                title: "Surto de poder", desc: "Quando seu dinossauro está com pouca vida, sua defesa e chance de sangrar aumentam (+12% defesa, +4.5% sangramento).", icon: "img/skill/poucohp.png" 
             }
         ],
         actives: [
@@ -494,8 +488,7 @@ const dinoDatabase = {
         fullName: "SARCOSUCHUS<br>IMPERATOR",
         image: "img/pict/sarcoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", "age": 22, growth: "48 min", price: "650g", skin1: "-", skin2: "-" 
-        },
+        stats: { group: "-", growth: "48 min", price: "650g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "8000", corgema: "70"},
         passives: [
             {   title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta.", icon: "img/skill/rebanho.png" },
             ,
@@ -509,11 +502,11 @@ const dinoDatabase = {
         ]
     },
     "Spinosaurus": {
-    idStatus: "spinosaurus",
+    idStatus: "spino",
     fullName: "SPINOSAURUS<br>AEGYPTIACUS",
     image: "img/pict/spinoperfil.png",
     diet: "🥩🦈",
-    stats: { group: "3 membros", age: 16, growth: "-", price: "150k", skin1: "50k", skin2: "300g" },
+    stats: { group: "3 membros", growth: "-", price: "150k", skin1: "50k", skin2: "300g", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
     passives: [
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanho.png" },
         { title: "Elemento nativo", desc: "Quando seu dinossauro nada, a defesa aumenta.", icon: "img/skill/enativo.png" },
@@ -529,7 +522,7 @@ const dinoDatabase = {
     fullName: "DEINOCHEIRUS<br>MIRIFICUS",
     image: "img/pict/patoperfil.png",
     diet: "🌿🦈",
-    stats: { group: "3 membros", age: 11, growth: "48 min", price: "800g", skin1: "-", skin2: "225g" },
+    stats: { group: "3 membros", growth: "48 min", price: "800g", skin1: "-", skin2: "225g", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
     passives: [
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
         {
@@ -553,7 +546,7 @@ const dinoDatabase = {
     fullName: "TRICERATOPS<br>HORRIDUS",
     image: "img/pict/trikeperfil.png",
     diet: "🌿",
-    stats: { group: "3 membros", age: 16, growth: "48 min", price: "110k", skin1: "30k", skin2: "300g" },
+    stats: { group: "3 membros", growth: "48 min", price: "110k", skin1: "30k", skin2: "300g", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
     passives: [
         { title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, seu consumo de vigor diminui e sua velocidade de movimento aumenta (-20% consumo de stamina, + 5% velocidade).", icon: "img/skill/poucohp.png" },
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua regeneração de stamina aumenta (até 2 vezes: +8% regeneração de stamina).", icon: "img/skill/rebanhoH.png" }
@@ -568,7 +561,7 @@ const dinoDatabase = {
     fullName: "GIGANOTOSAURUS<br>CAROLINI",
     image: "img/pict/gigaperfil.png",
     diet: "🥩",
-    stats: { group: "3 membros", age: 17, growth: "48 min", price: "140k", skin1: "40k", skin2: "300g" },
+    stats: { group: "3 membros", growth: "48 min", price: "140k", skin1: "40k", skin2: "300g", fotinha: "N/A", cormoeda: "8000", corgema: "50"},
     passives: [
         { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento. (até +4% chance de sangramento)", icon: "img/skill/sedesangue.png" },
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta (+7% defesa).", icon: "img/skill/rebanho.png" },
@@ -584,7 +577,7 @@ const dinoDatabase = {
     fullName: "TYRANNOSAURUS<br>REX",
     image: "img/pict/trexperfil.png",
     diet: "🥩",
-    stats: { group: "3 membros", age: 16, growth: "56 min", price: "800g", skin1: "40k", skin2: "450g" },
+    stats: { group: "3 membros", growth: "56 min", price: "800g", skin1: "40k", skin2: "450g", fotinha: "N/A", cormoeda: "8000", corgema: "50"},
     passives: [
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (-10% gasto de stamina).", icon: "img/skill/rebanho.png" }
     ],
@@ -622,11 +615,14 @@ btns.forEach(btn => {
             modalDiet.innerText = data.diet;
 
             statGroup.innerText = data.stats.group;
-            statAge.innerText = data.stats.age;
             statGrowth.innerText = data.stats.growth;
             statPrice.innerText = data.stats.price;
             statSkin1.innerText = data.stats.skin1;
             statSkin2.innerText = data.stats.skin2;
+            statFotinha.innerText = data.stats.fotinha;
+            statCorgema.innerText = data.stats.corgema;
+            statCormoeda.innerText = data.stats.cormoeda;
+
 
             if (data.idStatus) {
                 btnStatusModal.href = `status.html#${data.idStatus}`;
