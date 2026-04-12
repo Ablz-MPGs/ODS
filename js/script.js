@@ -1,14 +1,3 @@
-// Salva a ordem original das linhas assim que a página carregar
-document.addEventListener("DOMContentLoaded", () => {
-    const tbody = document.querySelector("table tbody");
-    if (tbody) {
-        const linhas = Array.from(tbody.querySelectorAll("tr"));
-        linhas.forEach((linha, index) => {
-            linha.setAttribute("data-index-original", index);
-        });
-    }
-});
-
 function aplicarOrdenacao() {
     const selecao = document.getElementById("criterio").value;
     const ordemDecrescente = document.getElementById("toggleOrdem").checked;
@@ -70,5 +59,22 @@ function aplicarOrdenacao() {
         return !ordemDecrescente ? numA - numB : numB - numA;
     });
 
+    // 1. Reorganiza as linhas na tabela
     linhas.forEach(linha => tbody.appendChild(linha));
+
+    // --- NOVO CÓDIGO: LÓGICA DO BRILHO ---
+    
+    // 2. Remove o brilho de todas as células primeiro
+    linhas.forEach(linha => {
+        Array.from(linha.cells).forEach(celula => celula.classList.remove("coluna-brilho"));
+    });
+
+    // 3. Adiciona o brilho apenas na coluna ativa (se não for a ordem Padrão)
+    if (colunaIndex !== 7) {
+        linhas.forEach(linha => {
+            if (linha.cells[colunaIndex]) {
+                linha.cells[colunaIndex].classList.add("coluna-brilho");
+            }
+        });
+    }
 }
