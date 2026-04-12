@@ -73,6 +73,10 @@ table {
     background-color: rgba(26, 26, 26, 0.9);
 }
 
+table.tabela-simples {
+    min-width: 100%; 
+}
+
 th, td {
     padding: 12px;
     border: #2a575a 3px solid;
