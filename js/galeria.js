@@ -412,8 +412,8 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "2.5 slots", growth: "48 min", price: "150k", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
-            { title: "Surto de poder", desc: "quando seu dinossauro está com pouca vida, seu dano e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" },
-            {title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
+            { title: "Surto de poder", desc: "quando seu dinossauro está com pouca vida, seu dano e chance de sangrar aumentam (+15% dano e chance de sangramento).", icon: "img/skill/poucohp.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
         ],
         actives:
          [
