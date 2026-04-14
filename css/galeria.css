@@ -260,7 +260,7 @@
     height: 42px;
     border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, #3fa89cab, #012727 70%);
-    border: 2px solid #1F3A3A;
+    border: 2px solid #17a094;
     padding: 4px;
     object-fit: contain;
     flex-shrink: 0;
