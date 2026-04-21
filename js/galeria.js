@@ -41,7 +41,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Troféu de carne", desc: "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player.", icon: "img/skill/trofeu.png" },
-            { title: "Grito de guerra", desc: "O dinossauro grita, aumentando o seu dano (+20% dano).", icon: "img/skill/buffS.png" }
+            { title: "Grito de guerra", desc: "Seu dinossauro grita, aumentando o seu dano (+20% dano).", icon: "img/skill/buffS.png" }
         ]
     },
      "Changyuraptor": {
