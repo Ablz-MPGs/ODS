@@ -40,7 +40,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando com baixo HP, seu dinossauro corre mais rápido e gasta menos stamina.", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Troféu de carne", desc: "O dinossauro usa um golpe forte, retirando um pedaço de carne caso atinja outro.", icon: "img/skill/trofeu.png" },
+            { title: "Troféu de carne", desc: "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player.", icon: "img/skill/trofeu.png" },
             { title: "Grito de guerra", desc: "O dinossauro grita, aumentando o seu dano em 20%.", icon: "img/skill/buffS.png" }
         ]
     },
