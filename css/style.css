@@ -234,3 +234,32 @@ tbody tr:hover {
 
 input:checked + .slider { background-color: var(--panel); }
 input:checked + .slider:before { transform: translateX(18px); background-color: #fff; }
+
+/* --- Sugestões de Melhoria Visual --- */
+
+/* Scrollbar (Barra de rolagem) personalizada */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--panel);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+/* Efeito de hover nas imagens de dinossauros */
+.img-dino {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.img-dino:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(74, 168, 184, 0.4);
+    border-radius: 8px;
+}
