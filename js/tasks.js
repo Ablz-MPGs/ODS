@@ -9,13 +9,11 @@ function aplicarOrdenacao() {
 
     textoOrdem.textContent = ordemDecrescente ? "Decrescente" : "Crescente";
 
-    // Extrai o index da coluna e o sub-tipo (se houver g ou k)
     const partes = selecao.split('-');
     const colunaIndex = parseInt(partes[0]);
-    const subTipo = partes[1]; // 'g' ou 'k'
+    const subTipo = partes[1]; 
 
     linhas.sort((a, b) => {
-        // Lógica para a opção "Padrão" (valor 7)
         if (colunaIndex === 7) {
             const indexA = parseInt(a.getAttribute("data-index-original"));
             const indexB = parseInt(b.getAttribute("data-index-original"));
@@ -28,48 +26,36 @@ function aplicarOrdenacao() {
         if (valorA === "n/a") return 1;
         if (valorB === "n/a") return -1;
 
-        // Lógica específica para Recompensas (Ex: "5g / 1.65k")
         if (subTipo) {
-            // Divide a string na barra "/"
             const recompensaA = valorA.split('/');
             const recompensaB = valorB.split('/');
 
             let numA, numB;
 
             if (subTipo === 'g') {
-                // Pega a parte antes da barra e limpa o 'g'
                 numA = parseFloat(recompensaA[0].replace(/[^0-9.]/g, '')) || 0;
                 numB = parseFloat(recompensaB[0].replace(/[^0-9.]/g, '')) || 0;
             } else {
-                // Pega a parte depois da barra (se existir) e limpa o 'k'
                 numA = parseFloat((recompensaA[1] || "0").replace(/[^0-9.]/g, '')) || 0;
                 numB = parseFloat((recompensaB[1] || "0").replace(/[^0-9.]/g, '')) || 0;
             }
             return !ordemDecrescente ? numA - numB : numB - numA;
         }
 
-        // Lógica para Texto (Dinossauro)
         if (colunaIndex === 0) {
             return !ordemDecrescente ? valorA.localeCompare(valorB) : valorB.localeCompare(valorA);
         } 
         
-        // Lógica para Números Simples (Tempo e XP)
         const numA = parseFloat(valorA.replace(/[^0-9.]/g, '')) || 0;
         const numB = parseFloat(valorB.replace(/[^0-9.]/g, '')) || 0;
         return !ordemDecrescente ? numA - numB : numB - numA;
     });
 
-    // 1. Reorganiza as linhas na tabela
     linhas.forEach(linha => tbody.appendChild(linha));
-
-    // --- NOVO CÓDIGO: LÓGICA DO BRILHO ---
-    
-    // 2. Remove o brilho de todas as células primeiro
     linhas.forEach(linha => {
         Array.from(linha.cells).forEach(celula => celula.classList.remove("coluna-brilho"));
     });
 
-    // 3. Adiciona o brilho apenas na coluna ativa (se não for a ordem Padrão)
     if (colunaIndex !== 7) {
         linhas.forEach(linha => {
             if (linha.cells[colunaIndex]) {
