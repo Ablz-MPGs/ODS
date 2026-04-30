@@ -178,7 +178,7 @@ const dinoDatabase = {
             { title: "Frescor Marinho", desc: "Ao sair da água, sua velocidade de corrida e nado aumentam (+5% velocidade).", icon: "img/skill/enativo.png"}
         ],
         actives: [
-            { title: "Ataque do céu", desc: "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.", icon: "img/skill/mordida.png" },
+            { title: "Ataque do céu", desc: "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa (-15% defesa inimiga).", icon: "img/skill/mordida.png" },
             { title: "Disparada", desc: "Salte para alcançar o inimigo ou escapar velozmente, pode ser usado na água.", icon: "img/skill/dash.png" }
            
         ]
@@ -267,7 +267,7 @@ const dinoDatabase = {
         stats: { group: "2.5 slots", growth: "39 min", price: "120.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" },
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.", icon: "img/skill/rebanho.png" }
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (até 2 vezes: +20% recuperação de HP).", icon: "img/skill/rebanho.png" }
         ],
         actives: [
             { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.", icon: "img/skill/carregada.png" }
@@ -352,7 +352,7 @@ const dinoDatabase = {
         fullName: "TACHIA<br>KIELANAE",
         image: "img/pict/tarchiaperfil.png",
         diet: "🌿",
-        stats: { group: "2.5 slots", growth: "39 min", price: "35.000", skin1: "12.000", skin2: "-", fotinha: "N/A", cormoeda: "2500", corgema: "25" },
+        stats: { group: "2.5 slots", growth: "39 min", price: "35.000", skin1: "12.000", skin2: "-", fotinha: "8.000", cormoeda: "2500", corgema: "25" },
         passives: [
             {title: "Surto de poder", desc: "Quando seu dinossauro está com HP baixo, seu dano e chance de fraturar aumentam. (+15% dano, +7,5% fratura)", icon: "img/skill/poucohp.png" }
         ],
@@ -395,7 +395,7 @@ const dinoDatabase = {
         fullName: "STEGOSAURUS<br>UNGULATUS",
         image: "img/pict/stegoperfil.png",
         diet: "🌿",
-        stats: { group: "3 slots", growth: "40 min", price: "100.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40"},
+        stats: { group: "3 slots", growth: "40 min", price: "100.000", skin1: "-", skin2: "-", fotinha: "60g", cormoeda: "6000", corgema: "40"},
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
             { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos vigor.", icon: "img/skill/hora.png" }
@@ -413,7 +413,7 @@ const dinoDatabase = {
         stats: { group: "2.5 slots", growth: "48 min", price: "150.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
             { title: "Surto de poder", desc: "quando seu dinossauro está com pouco HP, seu dano e chance de sangrar aumentam (+15% dano e chance de sangramento).", icon: "img/skill/poucohp.png" },
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa).", icon: "img/skill/rebanhoH.png" }
         ],
         actives:
          [
