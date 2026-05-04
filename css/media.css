@@ -105,6 +105,10 @@
     .tier-tabs {
         gap: 5px; 
     }
+
+     .btn-paleo{
+        margin-left: 70px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -121,11 +125,19 @@
     .dino-name {
         font-size: 1rem;
     }
+
+     .btn-paleo{
+        margin-left: 64px;
+    }
 }
 
 @media (max-width: 480px) {
     .logo_imagem {
         max-width: 40px;
+    }
+
+     .btn-paleo{
+        margin-left: 56px;
     }
     
 }
