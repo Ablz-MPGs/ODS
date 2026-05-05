@@ -103,7 +103,9 @@ tbody tr:nth-child(even) {
 }
 
 tbody tr:hover {
-    background-color: rgba(74, 168, 184, 0.15);
+    background-color: rgba(66, 182, 202, 0.63);
+    color:#083838;
+    font-weight: bold;
 }
 
 .rodape {
@@ -187,7 +189,6 @@ tbody tr:hover {
     cursor: pointer;
 }
 
-/* Toggle Switch estilizado para o tema Dark/Cyan */
 .toggle-container {
     display: flex;
     align-items: center;
@@ -235,9 +236,6 @@ tbody tr:hover {
 input:checked + .slider { background-color: var(--panel); }
 input:checked + .slider:before { transform: translateX(18px); background-color: #fff; }
 
-/* --- Sugestões de Melhoria Visual --- */
-
-/* Scrollbar (Barra de rolagem) personalizada */
 ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -253,7 +251,6 @@ input:checked + .slider:before { transform: translateX(18px); background-color: 
     background: var(--accent);
 }
 
-/* Efeito de hover nas imagens de dinossauros */
 .img-dino {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;

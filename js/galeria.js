@@ -104,8 +104,8 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua velociade e chance de fraturar aumentam (+5% velocidade, +5% chance de fratura).", icon: "img/skill/poucohpP.png" }
         ],
         actives: [
-            { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade. Dano base máximo aproximado: 457", icon: "img/skill/investidaP.png" },
-            { title: "Ataque Carregado", desc: "Desfere um golpe poderoso com a cabeça, causando mais dano, aumentando a chance de fratura e podendo atordoar. Dano base máximo: 557.", icon: "img/skill/carregada.png" }
+            { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.                                                                                                                                Dano base máximo aproximado: 457", icon: "img/skill/investidaP.png" },
+            { title: "Ataque Carregado", desc: "Após algum tempo de carregameto, seu dinossauro desfere um golpe poderoso com a cabeça, causando dano aumentado, aumentando a chance de fratura e podendo atordoar. Dano base máximo: 557.", icon: "img/skill/carregada.png" }
         ]
     },
     "Guanlong": {
@@ -158,7 +158,7 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "3 slots", growth: "41 min", price: "125.000", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado (até 2 vezes: +11% dano).", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado (até 3 vezes: +11% dano).", icon: "img/skill/rebanho.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu consumo de vigor diminui e sua velocidade aumenta (+5% velocidade, -20% gasto de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
@@ -195,7 +195,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Arranhão", desc: "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos dano. Dano base: 100.", icon: "img/skill/garras.png" },
-            { title: "Chuva de Golpes", desc: "Seu dinossauro desfere três mordidas com maior chance de causar sangramento. Dano base:140 (por mordida).", icon: "img/skill/multbite.png" }
+            { title: "Chuva de Golpes", desc: "Seu dinossauro desfere três mordidas com maior chance de causar sangramento. Dano base: 140 (por mordida).", icon: "img/skill/multbite.png" }
         ]
     },
     "Concavenator": {
@@ -209,7 +209,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de vigor é reduzido (+15% dano, -20% consumo de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano e chance de sangrar aumentados. Dano base: -", icon: "img/skill/mordida.png" }
+            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano e chance de sangrar aumentados. Dano base: 200", icon: "img/skill/mordida.png" }
         ]
     },
     "Fasolasuchus": {
@@ -310,7 +310,7 @@ const dinoDatabase = {
         diet: "🥩",
         stats: { group: "2.5 slots", growth: "38 min", price: "650g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido.", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido (até 3 vezes: +9% regeneração de vigor).", icon: "img/skill/rebanho.png" },
             { title: "Bom Sono", desc: "Seu dinossauro gasta menos vigor enquanto o cansaço estiver acima de 79%. (-15% gasto de stamina)", icon: "img/skill/sono.png" },
             { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).", icon: "img/skill/instintop.png" }
         ],
