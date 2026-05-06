@@ -100,7 +100,7 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "2 slots", growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80, fotinha: "5.000", cormoeda: "2000", corgema: "20" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: +15% defesa).", icon: "img/skill/rebanhoH.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua velociade e chance de fraturar aumentam (+5% velocidade, +5% chance de fratura).", icon: "img/skill/poucohpP.png" }
         ],
         actives: [
@@ -173,7 +173,7 @@ const dinoDatabase = {
         stats: { group: "2 slots", growth: "24 min", price: "28.000", skin1: "15.000", skin2: "195g", fotinha: "12.000", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "Vampirismo", desc: "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o dano causado.", icon: "img/skill/vamp.png" },
-            { title: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, o gasto de vigor é reduzido.", icon: "img/skill/rebanho.png" },
+            { title: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, o gasto de vigor é reduzido (até 3 vezes: -15% gasto de vigor).", icon: "img/skill/rebanho.png" },
             {title: "Presente das Profundezas", desc: "Durante um tempo seu dinossauro gasta menos stamina após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png"},             
             { title: "Frescor Marinho", desc: "Ao sair da água, sua velocidade de corrida e nado aumentam (+5% velocidade).", icon: "img/skill/enativo.png"}
         ],
@@ -217,7 +217,7 @@ const dinoDatabase = {
         fullName: "FASOLASUCHUS<br>TENAX",
         image: "img/pict/fasolaperfil.png",
         diet: "🥩",
-        stats: { group: "2 slots", growth: "29 min", price: "500g", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "3000", corgema: "30"},
+        stats: { group: "2 slots", growth: "29 min", price: "500g", skin1: "-", skin2: "-", fotinha: "15.000", cormoeda: "3000", corgema: "30"},
         passives: [
             { title: "Surto de poder", desc: "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta (+5% velocidade, -25% consumo de stamina).", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta (até 3 vezes: +1% chance de fratura).", icon: "img/skill/rebanho.png" }
@@ -323,7 +323,7 @@ const dinoDatabase = {
         fullName: "STYRACOSAURUS<br>ALBERTENSIS",
         image: "img/pict/styraperfil.png",
         diet: "🌿",
-        stats: { group: "2 slots", growth: "39 min", price: "55.000", skin1: "25k", skin2: "250g", fotinha: "N/A", cormoeda: "3000", corgema: "30" },
+        stats: { group: "2 slots", growth: "39 min", price: "55.000", skin1: "25k", skin2: "250g", fotinha: "10.000", cormoeda: "3000", corgema: "30" },
         passives: [
             { title: "Fúria com Chifres", desc: "Quando seu dinossauro está com pouco HP, seu consumo de vigor é reduzido e sua chance de sangrar aumenta (-15% gasto de vigor, +7% chance de sangrar).", icon: "img/skill/sangra.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa).", icon: "img/skill/rebanhoH.png" }
@@ -397,8 +397,8 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "3 slots", growth: "40 min", price: "100.000", skin1: "-", skin2: "-", fotinha: "60g", cormoeda: "6000", corgema: "40"},
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
-            { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos vigor.", icon: "img/skill/hora.png" }
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (até 2x: +11% de sangramento).", icon: "img/skill/rebanhoH.png" },
+            { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos vigor (-20% gasto de vigor).", icon: "img/skill/hora.png" }
         ],
         actives: [
             { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo três movimentos de cauda em poucos segundos, aumenta a chance de infligir fratura e sangramento, pode causar atordoamento.", icon: "img/skill/tago.png" },
@@ -427,10 +427,10 @@ const dinoDatabase = {
         image: "img/pict/suchoperfil.png",
         diet: "🥩🦈",
         stats: { 
-            group: "2.5 slots", growth: "41 min", price: "110.000",  skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2000", corgema: "20"},
+            group: "2.5 slots", growth: "41 min", price: "110.000",  skin1: "-", skin2: "-", fotinha: "15.000", cormoeda: "2000", corgema: "20"},
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanho.png" },
-            { title: "Elemento nativo", desc: "Quando seu dinossauro nada, seu dano aumenta.", icon: "img/skill/enativo.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +8% defesa).", icon: "img/skill/rebanho.png" },
+            { title: "Elemento nativo", desc: "Quando seu dinossauro nada, seu dano aumenta (+15% dano).", icon: "img/skill/enativo.png" },
             { title: "Presente das Profundezas", desc: "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png"}
         ],
         actives: [
@@ -476,7 +476,7 @@ const dinoDatabase = {
     diet: "🥩🦈",
     stats: { group: "3 slots", growth: "48 min", price: "150.000", skin1: "50k", skin2: "300g", fotinha: "N/A", cormoeda: "6000", corgema: "40" },
     passives: [
-        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanho.png" },
+        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2.5% sangramento).", icon: "img/skill/rebanho.png" },
         { title: "Elemento nativo", desc: "Quando seu dinossauro nada, a defesa aumenta.", icon: "img/skill/enativo.png" },
         { title: "Presente das Profundezas", desc: "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png" }
     ],
@@ -492,8 +492,8 @@ const dinoDatabase = {
     diet: "🌿🦈",
     stats: { group: "3 slots", growth: "48 min", price: "800g", skin1: "-", skin2: "225g", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
     passives: [
-        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
-        { title: "Elemento nativo", desc: "Quando seu dinossauro nada, a defesa aumenta.", icon: "img/skill/enativo.png" },
+        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2% sangramento.", icon: "img/skill/rebanhoH.png" },
+        { title: "Elemento nativo", desc: "Quando seu dinossauro nada, a defesa aumenta (+15% defesa).", icon: "img/skill/enativo.png" },
         { title: "Presente das Profundezas", desc: ",Durante um tempo, seu dinossauro gasta menos stamina após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png" }
     ],
     actives: [
