@@ -40,7 +40,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando com baixo HP, seu dinossauro corre mais rápido e gasta menos vigor (-20% gasto de vigor, +5% velocidade).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Troféu de carne", desc: "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player.", icon: "img/skill/trofeu.png" },
+            { title: "Troféu de carne", desc: "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player dano base: 125.", icon: "img/skill/trofeu.png" },
             { title: "Grito de guerra", desc: "Seu dinossauro grita, aumentando o seu dano (+20% dano).", icon: "img/skill/buffS.png" }
         ]
     },
@@ -75,7 +75,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title:"Incentivo", desc: "Seu dinossauro emite um grito alto, reduzindo o consumo de vigor dos membros da matilha (-15% gasto de vigor).", icon: "img/skill/buffS.png" },
-            { title: "Chute", desc: "Seu dinossauro ataca com as patas traseiras, causando dano adicional, com chance de atordoar e repelir alguns dinossauros.", icon: "img/skill/chute.png" }
+            { title: "Chute", desc: "Seu dinossauro ataca com as patas traseiras, causando dano adicional, com chance de atordoar e repelir alguns dinossauros. Dano base: 150.", icon: "img/skill/chute.png" }
         ]
     },
     "Deinonychus": {
@@ -90,7 +90,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Grito de Guerra.", desc: "O dinossauro ruge, elevando seu moral e o da matilha, diminuindo seu consumo de vigor por um tempo (-20% gasto de vigor).", icon: "img/skill/buffS.png" },
-            { title: "Lâminas Afiadas", desc: "Desfere um golpe penetrantes com as garras, causando mais dano e podendo atordoar dinossauros menores.", icon: "img/skill/jump.png" }
+            { title: "Lâminas Afiadas", desc: "Desfere um golpe penetrantes com as garras, causando mais dano e podendo atordoar dinossauros menores. Dano base: 160.", icon: "img/skill/jump.png" }
         ]
     },
     "Pachycephalosaurus": {
@@ -100,7 +100,7 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "2 slots", growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80, fotinha: "5.000", cormoeda: "2000", corgema: "20" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: +15% defesa).", icon: "img/skill/rebanhoH.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: +13% defesa).", icon: "img/skill/rebanhoH.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua velociade e chance de fraturar aumentam (+5% velocidade, +5% chance de fratura).", icon: "img/skill/poucohpP.png" }
         ],
         actives: [
@@ -120,7 +120,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Grito de Guerra", desc: "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo (+15% chance de sangramento).", icon: "img/skill/sangra.png" },
-            { title: "Ataque Carregado", desc: "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.", icon: "img/skill/carregada.png" }
+            { title: "Ataque Carregado", desc: "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento. Bano base: 336.", icon: "img/skill/carregada.png" }
         ]
     },
     "Barbaridactylus": {
@@ -162,7 +162,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu consumo de vigor diminui e sua velocidade aumenta (+5% velocidade, -20% gasto de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Capturar", desc: "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.", icon: "img/skill/capturar.png" }
+            { title: "Capturar", desc: "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade (-5% velocidade). Dano base: 160.", icon: "img/skill/capturar.png" }
         ]
     },
     "Austroraptor": {
