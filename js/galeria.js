@@ -130,7 +130,7 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "2 slots", growth: "31 min", price: "600g", skin1: "20.000", skin2: 200, fotinha: "18.000", cormoeda: "4000", corgema: "40" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido .", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (-18% gasto de stamina).", icon: "img/skill/rebanho.png" },
             { title: "Presente das Profundezas", desc: "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png" }
         ],
         actives: [
@@ -459,10 +459,10 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "2.5 slots", growth: "48 min", price: "650g", skin1: "-", skin2: "-", fotinha: "250g", cormoeda: "8000", corgema: "70"},
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta.", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta (até 2 vezes: +1% chance de fratura).", icon: "img/skill/rebanho.png" },
             {   title: "Presente das Profundezas",desc: "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).",icon: "img/skill/aquatico.png"},
-            {   title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua defesa aumenta.", icon: "img/skill/poucohp.png" },
-            {   title: "Elemento nativo", desc: "quando seu dinossauro nada, sua defesa aumenta.", icon: "img/skill/enativo.png"  }
+            {   title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua defesa aumenta (+10% defesa).", icon: "img/skill/poucohp.png" },
+            {   title: "Elemento nativo", desc: "quando seu dinossauro nada, sua defesa aumenta (+10% defesa).", icon: "img/skill/enativo.png"  }
         ],
         actives: [
             { title: "Capturar", desc: "Seu dinossauro agarra uma presa com o boca podendo levá-la consigo, gastando stamina para tal. Funciona apenas com animais menores.", icon: "img/skill/capturarS.png"  },
