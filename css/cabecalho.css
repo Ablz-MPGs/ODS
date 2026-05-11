@@ -38,7 +38,7 @@
 }
 
 .nav-link:hover{
-    background-color:#083838; 
+    background-color: var(--ink); 
     color: var(--accent);   
 }
 
@@ -62,10 +62,10 @@
 }
 
 .nav-menu .active {
-    color:#d4d4d4;
+    color: var(--text-primary);
     font-weight: bold;
-    border-bottom: #161616 solid 2px;
-    background-color:#083838;
+    border-bottom: var(--bg) solid 2px;
+    background-color: var(--ink);
 }
 
 .hamburger {

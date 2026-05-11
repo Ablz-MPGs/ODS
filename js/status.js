@@ -3,7 +3,7 @@ console.log("O script status.js foi carregado com sucesso!");
 // Remove o hash da URL ao clicar fora de um link para "limpar" o destaque,
 // usando replaceState para não sujar o histórico de navegação do usuário.
 document.addEventListener('click', (e) => {
-    if (window.location.hash && !e.target.closest('a')) {
+    if (window.location.hash && e.target && !e.target.closest('a')) {
         history.replaceState(null, '', window.location.pathname + window.location.search);
     }
 });
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Lógica para abrir automaticamente o tier correspondente caso um dinossauro
     // seja acessado através de um link com âncora (hash)
-    if (hash) {
+    if (hash && /^#[a-zA-Z0-9_-]+$/.test(hash)) {
         try {
             const targetRow = document.querySelector(hash); 
             

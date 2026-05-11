@@ -3,9 +3,9 @@ tr[id] {
 }
 
 @keyframes highlight-pulse {
-    0% { background-color: rgba(67, 231, 231, 0.0); }
-    50% { background-color: rgba(67, 231, 231, 0.4); }
-    100% { background-color: rgba(67, 231, 231, 0.15); }
+    0% { background-color: transparent; }
+    50% { background-color: var(--hover-bg); }
+    100% { background-color: rgba(74, 168, 184, 0.15); }
 }
 
 tbody tr td {
@@ -14,16 +14,16 @@ tbody tr td {
 
 tr:target td {
     animation: highlight-pulse 1.5s ease-out forwards;
-    background-color: rgba(67, 231, 231, 0.15);
-    border-top: 1px solid #43e7e7;
-    border-bottom: 1px solid #43e7e7;
-    color: #fff;
+    background-color: rgba(74, 168, 184, 0.15);
+    border-top: 1px solid var(--text-highlight);
+    border-bottom: 1px solid var(--text-highlight);
+    color: var(--text-primary);
     font-weight: 700;
 }
 
 tr:target td:first-child::before {
     content: "* ";
-    color: #43e7e7;
+    color: var(--text-highlight);
     margin-right: 5px;
 }
 
@@ -40,7 +40,7 @@ h2.tier-toggle {
 }
 
 h2.tier-toggle:hover {
-    background-color: rgba(67, 231, 231, 0.1); 
+    background-color: rgba(74, 168, 184, 0.1); 
 }
 
 .arrow {
@@ -49,7 +49,7 @@ h2.tier-toggle:hover {
     height: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 8px solid #4aa8b8; 
+    border-top: 8px solid var(--accent); 
     transition: transform 0.3s ease;
     transform-origin: 50% 50%; 
 }
