@@ -1,4 +1,4 @@
-import { useDeferredValue, useMemo, useState } from "react"
+import { useMemo, useState } from "react"
 import { Link } from "react-router-dom"
 import tasksData from "../data/tasks.json"
 
@@ -21,13 +21,12 @@ function getValue(task, path) {
 
 export default function TasksPage() {
   const [query, setQuery] = useState("")
-  const deferredQuery = useDeferredValue(query)
   const [sortBy, setSortBy] = useState("default")
   const [descending, setDescending] = useState(false)
 
   const sortedTasks = useMemo(() => {
     const option = sortOptions.find((item) => item.value === sortBy)
-    const normalizedQuery = deferredQuery.trim().toLowerCase()
+    const normalizedQuery = query.trim().toLowerCase()
 
     return tasksData.tasks
       .map((task, index) => ({ ...task, originalIndex: index }))
@@ -40,25 +39,17 @@ export default function TasksPage() {
         const valueA = getValue(a, option.value)
         const valueB = getValue(b, option.value)
 
-        if (valueA == null && valueB == null) return 0
         if (valueA == null) return 1
         if (valueB == null) return -1
 
-        const numA = Number(valueA)
-        const numB = Number(valueB)
-        const isNumA = !isNaN(numA) && valueA !== ""
-        const isNumB = !isNaN(numB) && valueB !== ""
-
-        let result
-        if (isNumA && isNumB) {
-          result = numA - numB
-        } else {
-          result = String(valueA).localeCompare(String(valueB), "pt-BR", { numeric: true })
-        }
+        const result =
+          typeof valueA === "string"
+            ? valueA.localeCompare(String(valueB), "pt-BR")
+            : Number(valueA) - Number(valueB)
 
         return descending ? -result : result
       })
-  }, [descending, deferredQuery, sortBy])
+  }, [descending, query, sortBy])
 
   const activeColumn = sortOptions.find((item) => item.value === sortBy)?.column
 
@@ -125,19 +116,19 @@ export default function TasksPage() {
               <tr key={task.nome}>
                 <td>
                   {task.galeriaId ? (
-                    <Link className="dino-link" to={`/galeria/${task.galeriaId}`}>
+                    <a className="dino-link" href={`#/galeria/${task.galeriaId}`}>
                       {task.nome}
-                    </Link>
+                    </a>
                   ) : (
                     task.nome
                   )}
                 </td>
-                <td className={columnClass(1)}>{task.sobreviver.tempoMinutos ? task.sobreviver.tempoMinutos + "m" : "N/A"}</td>
-                <td className={columnClass(2)}>{task.sobreviver.recompensa.gemas}g / {task.sobreviver.recompensa.moedas}k</td>
-                <td className={columnClass(3)}>{task.sobreviver.xp}</td>
-                <td className={columnClass(4)}>{task.crescer.tempoMinutos ? task.crescer.tempoMinutos + "m" : "N/A"}</td>
-                <td className={columnClass(5)}>{task.crescer.recompensa.gemas}g / {task.crescer.recompensa.moedas}k</td>
-                <td className={columnClass(6)}>{task.crescer.xp}</td>
+                <td className={columnClass(1)}>{task.sobreviver.tempo}</td>
+                <td className={columnClass(2)}>{task.sobreviver.recompensa.texto}</td>
+                <td className={columnClass(3)}>{task.sobreviver.xp}xp</td>
+                <td className={columnClass(4)}>{task.crescer.tempo}</td>
+                <td className={columnClass(5)}>{task.crescer.recompensa.texto}</td>
+                <td className={columnClass(6)}>{task.crescer.xp}xp</td>
               </tr>
             ))}
           </tbody>

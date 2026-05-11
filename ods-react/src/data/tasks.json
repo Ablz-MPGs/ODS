@@ -4,22 +4,18 @@
       "nome": "Qualquer",
       "galeriaId": null,
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "N/A",
         "tempoMinutos": null,
         "recompensa": {
           "gemas": 0,
-          "moedas": 1,
-          "texto": "0g / 1k"
+          "moedas": 1
         },
         "xp": 25
       }
@@ -28,22 +24,18 @@
       "nome": "Coelophysis",
       "galeriaId": "coelo",
       "sobreviver": {
-        "tempo": "10m",
         "tempoMinutos": 10,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1,
-          "texto": "3g / 1k"
+          "moedas": 1
         },
         "xp": 10
       },
       "crescer": {
-        "tempo": "15m",
         "tempoMinutos": 15,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 15
       }
@@ -52,22 +44,18 @@
       "nome": "Ornithomimus",
       "galeriaId": "ornitho",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.5,
-          "texto": "3g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "16.4m",
-        "tempoMinutos": 16.4,
+        "tempoMinutos": 17,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.2,
-          "texto": "5g / 1.2k"
+          "moedas": 1.2
         },
         "xp": 10
       }
@@ -76,22 +64,18 @@
       "nome": "Deinonychus",
       "galeriaId": "deino",
       "sobreviver": {
-        "tempo": "15m",
         "tempoMinutos": 15,
         "recompensa": {
           "gemas": 3,
-          "moedas": 2,
-          "texto": "3g / 2k"
+          "moedas": 2
         },
         "xp": 25
       },
       "crescer": {
-        "tempo": "18m",
         "tempoMinutos": 18,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 15
       }
@@ -100,22 +84,18 @@
       "nome": "Psittacosaurus",
       "galeriaId": "psitta",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.65,
-          "texto": "4g / 1.65k"
+          "moedas": 1.65
         },
         "xp": 12
       },
       "crescer": {
-        "tempo": "26m",
         "tempoMinutos": 26,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 10
       }
@@ -124,22 +104,18 @@
       "nome": "Pachycephalosaurus",
       "galeriaId": "pachy",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "26*m",
         "tempoMinutos": 26,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 15
       }
@@ -148,22 +124,18 @@
       "nome": "Guanlong",
       "galeriaId": "guan",
       "sobreviver": {
-        "tempo": "15m",
         "tempoMinutos": 15,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "28m",
         "tempoMinutos": 28,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 18
       }
@@ -172,22 +144,18 @@
       "nome": "Austroraptor",
       "galeriaId": "austro",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 2,
-          "texto": "4g / 2k"
+          "moedas": 2
         },
         "xp": 25
       },
       "crescer": {
-        "tempo": "24m",
         "tempoMinutos": 24,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 15
       }
@@ -196,22 +164,18 @@
       "nome": "Dilophosaurus",
       "galeriaId": "dilo",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.75,
-          "texto": "5g / 1.75k"
+          "moedas": 1.75
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "28m",
         "tempoMinutos": 28,
         "recompensa": {
           "gemas": 6,
-          "moedas": 1.5,
-          "texto": "6g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 15
       }
@@ -220,22 +184,18 @@
       "nome": "Concavenator",
       "galeriaId": "conca",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.75,
-          "texto": "4g / 1.75k"
+          "moedas": 1.75
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "32m",
         "tempoMinutos": 32,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 14
       }
@@ -244,22 +204,18 @@
       "nome": "Plateosaurus",
       "galeriaId": "plateo",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.85,
-          "texto": "5g / 1.85k"
+          "moedas": 1.85
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "31m",
         "tempoMinutos": 31,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.5,
-          "texto": "4g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 12
       }
@@ -268,22 +224,18 @@
       "nome": "Tarchia",
       "galeriaId": "tarchia",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "39m",
         "tempoMinutos": 39,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.75,
-          "texto": "4g / 1.75k"
+          "moedas": 1.75
         },
         "xp": 15
       }
@@ -292,22 +244,18 @@
       "nome": "Kentrosaurus",
       "galeriaId": "kentro",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 2,
-          "texto": "4g / 2k"
+          "moedas": 2
         },
         "xp": 25
       },
       "crescer": {
-        "tempo": "38m",
         "tempoMinutos": 38,
         "recompensa": {
           "gemas": 4,
-          "moedas": 2.2,
-          "texto": "4g / 2.2k"
+          "moedas": 2.2
         },
         "xp": 20
       }
@@ -316,22 +264,18 @@
       "nome": "Gigantoraptor",
       "galeriaId": "giganto",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.8,
-          "texto": "3g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "42m",
         "tempoMinutos": 42,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.5,
-          "texto": "4g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 14
       }
@@ -340,22 +284,18 @@
       "nome": "Fasolasuchus",
       "galeriaId": "fasola",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.85,
-          "texto": "5g / 1.85k"
+          "moedas": 1.85
         },
         "xp": 12
       },
       "crescer": {
-        "tempo": "29m",
         "tempoMinutos": 29,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.9,
-          "texto": "3g / 1.9k"
+          "moedas": 1.9
         },
         "xp": 13
       }
@@ -364,22 +304,18 @@
       "nome": "Parasaurolophus",
       "galeriaId": "para",
       "sobreviver": {
-        "tempo": "15m",
         "tempoMinutos": 15,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.2,
-          "texto": "3g / 1.2k"
+          "moedas": 1.2
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "28m",
         "tempoMinutos": 28,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 20
       }
@@ -388,22 +324,18 @@
       "nome": "Styracosaurus",
       "galeriaId": "styra",
       "sobreviver": {
-        "tempo": "15m",
         "tempoMinutos": 15,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "39m",
         "tempoMinutos": 39,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.7,
-          "texto": "4g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 20
       }
@@ -412,22 +344,18 @@
       "nome": "Pachyrhinosaurus",
       "galeriaId": "rhino",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.7,
-          "texto": "4g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "36m",
         "tempoMinutos": 36,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 15
       }
@@ -436,22 +364,18 @@
       "nome": "Stegosaurus",
       "galeriaId": "stego",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.7,
-          "texto": "4g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "40m",
         "tempoMinutos": 40,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.9,
-          "texto": "5g / 1.9k"
+          "moedas": 1.9
         },
         "xp": 19
       }
@@ -460,22 +384,18 @@
       "nome": "Triceratops",
       "galeriaId": "trike",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.65,
-          "texto": "5g / 1.65k"
+          "moedas": 1.65
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 30
       }
@@ -484,22 +404,18 @@
       "nome": "Therizinosaurus",
       "galeriaId": "theri",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.55,
-          "texto": "3g / 1.55k"
+          "moedas": 1.55
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.7,
-          "texto": "4g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 17
       }
@@ -508,22 +424,18 @@
       "nome": "Deinocheirus",
       "galeriaId": "pato",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.7,
-          "texto": "5g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.9,
-          "texto": "3g / 1.9k"
+          "moedas": 1.9
         },
         "xp": 17
       }
@@ -532,22 +444,18 @@
       "nome": "Carnotaurus",
       "galeriaId": "carno",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 10
       },
       "crescer": {
-        "tempo": "29m",
         "tempoMinutos": 29,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 35
       }
@@ -556,22 +464,18 @@
       "nome": "Ceratosaurus",
       "galeriaId": "cerato",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.5,
-          "texto": "4g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "39m",
         "tempoMinutos": 39,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.75,
-          "texto": "3g / 1.75k"
+          "moedas": 1.75
         },
         "xp": 13
       }
@@ -580,22 +484,18 @@
       "nome": "Suchomimus",
       "galeriaId": "sucho",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.7,
-          "texto": "5g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "41m",
         "tempoMinutos": 41,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 15
       }
@@ -604,22 +504,18 @@
       "nome": "Megaraptor",
       "galeriaId": "mega",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 20
       },
       "crescer": {
-        "tempo": "38m",
         "tempoMinutos": 38,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 15
       }
@@ -628,22 +524,18 @@
       "nome": "Allosaurus",
       "galeriaId": "allo",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.8,
-          "texto": "4g / 1.8k"
+          "moedas": 1.8
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "38m",
         "tempoMinutos": 38,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.7,
-          "texto": "3g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 13
       }
@@ -652,22 +544,18 @@
       "nome": "Spinosaurus",
       "galeriaId": "spino",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2.5,
-          "texto": "5g / 2.5k"
+          "moedas": 2.5
         },
         "xp": 30
       }
@@ -676,22 +564,18 @@
       "nome": "Giganotosaurus",
       "galeriaId": "giga",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 10
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.75,
-          "texto": "4g / 1.75k"
+          "moedas": 1.75
         },
         "xp": 20
       }
@@ -700,22 +584,18 @@
       "nome": "T. rex",
       "galeriaId": "trex",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 15
       },
       "crescer": {
-        "tempo": "56m",
         "tempoMinutos": 56,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2.5,
-          "texto": "5g / 2.5k"
+          "moedas": 2.5
         },
         "xp": 40
       }
@@ -724,22 +604,18 @@
       "nome": "Amargasaurus",
       "galeriaId": "amarga",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 4,
-          "moedas": 2.15,
-          "texto": "4g / 2.15k"
+          "moedas": 2.15
         },
         "xp": 18
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.9,
-          "texto": "4g / 1.9k"
+          "moedas": 1.9
         },
         "xp": 15
       }
@@ -748,22 +624,18 @@
       "nome": "Barbaridatylus",
       "galeriaId": "barba",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.5,
-          "texto": "3g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "31*m",
         "tempoMinutos": 31,
         "recompensa": {
           "gemas": 4,
-          "moedas": 1.5,
-          "texto": "4g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 10
       }
@@ -772,22 +644,18 @@
       "nome": "Quetzalcoatlus",
       "galeriaId": "quetzal",
       "sobreviver": {
-        "tempo": "30m",
         "tempoMinutos": 30,
         "recompensa": {
           "gemas": 5,
-          "moedas": 2,
-          "texto": "5g / 2k"
+          "moedas": 2
         },
         "xp": 14
       },
       "crescer": {
-        "tempo": "41m",
         "tempoMinutos": 41,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 12
       }
@@ -796,22 +664,18 @@
       "nome": "Changyuraptor",
       "galeriaId": "chang",
       "sobreviver": {
-        "tempo": "20m",
         "tempoMinutos": 20,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.55,
-          "texto": "5g / 1.55k"
+          "moedas": 1.55
         },
         "xp": 13
       },
       "crescer": {
-        "tempo": "12m",
         "tempoMinutos": 12,
         "recompensa": {
           "gemas": 3,
-          "moedas": 1.7,
-          "texto": "3g / 1.7k"
+          "moedas": 1.7
         },
         "xp": 14
       }
@@ -820,22 +684,18 @@
       "nome": "Sarcosuchus",
       "galeriaId": "sarco",
       "sobreviver": {
-        "tempo": "25m",
         "tempoMinutos": 25,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 10
       },
       "crescer": {
-        "tempo": "48m",
         "tempoMinutos": 48,
         "recompensa": {
           "gemas": 5,
-          "moedas": 1.5,
-          "texto": "5g / 1.5k"
+          "moedas": 1.5
         },
         "xp": 10
       }

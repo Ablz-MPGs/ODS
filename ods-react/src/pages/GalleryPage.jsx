@@ -1,7 +1,26 @@
 import { useEffect, useMemo, useState } from "react"
+import { Link } from "react-router-dom"
 import { creaturesById, galleryTiers } from "../data/gallery"
 import dinoDatabase from "../data/dinoDatabase.json"
 import { repairText } from "../utils/text"
+
+function SafeImage({ src, alt, className, fallback = "/img/logo.png" }) {
+  const [imgSrc, setImgSrc] = useState(src || fallback);
+
+  return (
+    <img
+      src={imgSrc}
+      alt={alt || "Imagem"}
+      className={className}
+      loading="lazy"
+      onError={() => {
+        if (imgSrc !== fallback) {
+          setImgSrc(fallback);
+        }
+      }}
+    />
+  );
+}
 
 function SkillList({ title, items }) {
   return (
@@ -10,7 +29,7 @@ function SkillList({ title, items }) {
       <div className="skills-container">
         {items.map((skill) => (
           <article className="skill-item" key={`${title}-${skill.title}`}>
-            <img className="skill-icon" src={skill.icon || "/img/logo.png"} alt="" />
+            <SafeImage className="skill-icon" src={skill.icon} alt="" />
             <div className="skill-text">
               <h5>{repairText(skill.title)}</h5>
               <p>{repairText(skill.desc)}</p>
@@ -25,7 +44,7 @@ function SkillList({ title, items }) {
 function DinoModal({ dino, onClose }) {
   if (!dino) return null
 
-  const stats = dino.stats
+  const stats = dino.stats || {}
 
   return (
     <div className="modal active-modal" role="dialog" aria-modal="true" onClick={onClose}>
@@ -37,49 +56,50 @@ function DinoModal({ dino, onClose }) {
         <div className="header">
           <div className="header-left">
             <div className="dino-avatar">
-              <img src={dino.image} alt={repairText(dino.fullName).replace(/<br>/g, " ")} />
+              <SafeImage src={dino.image} alt={repairText(dino.fullName || "Dinossauro").replace(/<br>/g, " ")} />
             </div>
-            <div className="dino-name">{repairText(dino.fullName).replace(/<br>/g, " ")}</div>
+            <div className="dino-name">{repairText(dino.fullName || "Desconhecido").replace(/<br>/g, " ")}</div>
           </div>
-          <div className="diet-icon">{repairText(dino.diet)}</div>
+          <div className="diet-icon">{repairText(dino.diet || "")}</div>
         </div>
 
         <div className="stats-box">
           <div className="stat-header">
             <div className="stat-item">
               <h4>Espaços ocupados</h4>
-              <p>{stats.group}</p>
+              <p>{stats.group ? `${stats.group} slot(s)` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Crescimento</h4>
-              <p>{stats.growth}</p>
+              <p>{stats.growth ? `${stats.growth} min` : "-"}</p>
             </div>
+
           </div>
 
           <div className="stat-body">
             <div className="stat-item">
               <h4>Preço</h4>
-              <p>{stats.price}</p>
+              <p>{stats.price ? `${stats.price}` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Skin 1</h4>
-              <p>{stats.skin1}</p>
+              <p>{stats.skin1 ? `${stats.skin1}` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Skin 2</h4>
-              <p>{stats.skin2}</p>
+              <p>{stats.skin2 ? `${stats.skin2}` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Avatar</h4>
-              <p>{stats.fotinha}</p>
+              <p>{stats.fotinha ? `${stats.fotinha}` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Coloração gema</h4>
-              <p>{stats.corgema}</p>
+              <p>{stats.corgema ? `${stats.corgema}` : "-"}</p>
             </div>
             <div className="stat-item">
               <h4>Coloração moeda</h4>
-              <p>{stats.cormoeda}</p>
+              <p>{stats.cormoeda ? `${stats.cormoeda}` : "-"}</p>
             </div>
           </div>
         </div>
@@ -95,16 +115,33 @@ function DinoModal({ dino, onClose }) {
         </div>
 
         <div className="modal-actions">
-          <a className="btn-status" href={`#/status/${dino.idStatus}`}>
-            Status
-          </a>
-          <a className="btn-paleo" href="#/galeria">
+          {dino.idStatus && (
+            <Link className="btn-status" to={`/status/${dino.idStatus}`}>
+              Status
+            </Link>
+          )}
+          <Link className="btn-paleo" to="/galeria">
             Paleontologia
-          </a>
+          </Link>
         </div>
       </div>
     </div>
   )
+}
+
+function validateCreature(creatureArray) {
+  if (!Array.isArray(creatureArray) || creatureArray.length < 5) return null;
+  const [id, key, name, description, image] = creatureArray;
+  
+  if (!id || !key) return null; // Identificadores obrigatórios
+  
+  return {
+    id,
+    key,
+    name: name || "Desconhecido",
+    description: description || "Descrição não disponível.",
+    image: image || "/img/logo.png"
+  };
 }
 
 export default function GalleryPage({ targetId }) {
@@ -154,10 +191,13 @@ export default function GalleryPage({ targetId }) {
           {galleryTiers.map((tier) => (
             <div className={`tier-indicator ${activeTier === tier.id ? "active-content" : ""}`} key={tier.id}>
               <div className="linha-racas">
-                {tier.creatures.map(([id, key, name, description, image]) => (
+                {tier.creatures
+                  .map(validateCreature)
+                  .filter(Boolean)
+                  .map(({ id, key, name, description, image }) => (
                   <article className="col-md-4" id={id} key={id}>
                     <div className="card-raca">
-                      <img className="img-dino" src={image} alt={name} />
+                      <SafeImage className="img-dino" src={image} alt={name} />
                       <div className="card-body-custom">
                         <h3>{name}</h3>
                         <p>{description}</p>

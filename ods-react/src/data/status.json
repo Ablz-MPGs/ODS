@@ -17,67 +17,102 @@
         {
           "id": "trike",
           "nome": "Triceratops horridus",
-          "hp": 4875,
-          "danoBase": "270",
-          "fratura": "5%",
-          "sangramento": "22%",
           "velocidade": {
-            "terra": "1265-1328 / 1581-1644",
-            "agua": "450-472 / 562-585",
-            "ar": "N/A"
-          }
+            "terraMin": 1265,
+            "terraMax": 1644,
+            "aguaMin": 450,
+            "aguaMax": 585,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4875,
+          "hpMax": 4875,
+          "danoBaseMin": 270,
+          "danoBaseMax": 270,
+          "fraturaMin": 5,
+          "fraturaMax": 5,
+          "sangramentoMin": 22,
+          "sangramentoMax": 22
         },
         {
           "id": "trex",
           "nome": "Tyrannosaurus rex",
-          "hp": 4500,
-          "danoBase": "340",
-          "fratura": "22%",
-          "sangramento": "4%",
           "velocidade": {
-            "terra": "1285",
-            "agua": "450",
-            "ar": "N/A"
-          }
+            "terraMin": 1285,
+            "terraMax": 1285,
+            "aguaMin": 450,
+            "aguaMax": 450,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4500,
+          "hpMax": 4500,
+          "danoBaseMin": 340,
+          "danoBaseMax": 340,
+          "fraturaMin": 22,
+          "fraturaMax": 22,
+          "sangramentoMin": 4,
+          "sangramentoMax": 4
         },
         {
           "id": "giga",
           "nome": "Giganotosaurus carolini",
-          "hp": 4450,
-          "danoBase": "280-309",
-          "fratura": "3%",
-          "sangramento": "34-47%",
           "velocidade": {
-            "terra": "1335",
-            "agua": "520",
-            "ar": "N/A"
-          }
+            "terraMin": 1335,
+            "terraMax": 1335,
+            "aguaMin": 520,
+            "aguaMax": 520,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4450,
+          "hpMax": 4450,
+          "danoBaseMin": 280,
+          "danoBaseMax": 309,
+          "fraturaMin": 3,
+          "fraturaMax": 3,
+          "sangramentoMin": 34,
+          "sangramentoMax": 47
         },
         {
           "id": "spino",
           "nome": "Spinosaurus aegyptiacus",
-          "hp": 4440,
-          "danoBase": "265",
-          "fratura": "2%",
-          "sangramento": "25-27.5%",
           "velocidade": {
-            "terra": "1250",
-            "agua": "1250",
-            "ar": "N/A"
-          }
+            "terraMin": 1250,
+            "terraMax": 1250,
+            "aguaMin": 1250,
+            "aguaMax": 1250,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4440,
+          "hpMax": 4440,
+          "danoBaseMin": 265,
+          "danoBaseMax": 265,
+          "fraturaMin": 2,
+          "fraturaMax": 2,
+          "sangramentoMin": 25,
+          "sangramentoMax": 27.5
         },
         {
           "id": "pato",
           "nome": "Deinocheirus mirificus",
-          "hp": 4375,
-          "danoBase": "250",
-          "fratura": "4%",
-          "sangramento": "28-30%",
           "velocidade": {
-            "terra": "1310-1349",
-            "agua": "800-824",
-            "ar": "N/A"
-          }
+            "terraMin": 1310,
+            "terraMax": 1349,
+            "aguaMin": 800,
+            "aguaMax": 824,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4375,
+          "hpMax": 4375,
+          "danoBaseMin": 250,
+          "danoBaseMax": 250,
+          "fraturaMin": 4,
+          "fraturaMax": 4,
+          "sangramentoMin": 28,
+          "sangramentoMax": 30
         }
       ]
     },
@@ -88,119 +123,182 @@
         {
           "id": "stego",
           "nome": "Stegosaurus ugulatos",
-          "hp": 3900,
-          "danoBase": "300",
-          "fratura": "6%",
-          "sangramento": "18-20%",
           "velocidade": {
-            "terra": "1310",
-            "agua": "450",
-            "ar": "N/A"
-          }
+            "terraMin": 1310,
+            "terraMax": 1310,
+            "aguaMin": 450,
+            "aguaMax": 450,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3900,
+          "hpMax": 3900,
+          "danoBaseMin": 300,
+          "danoBaseMax": 300,
+          "fraturaMin": 6,
+          "fraturaMax": 6,
+          "sangramentoMin": 18,
+          "sangramentoMax": 20
         },
         {
           "id": "theri",
           "nome": "Therizinosaurus cheloniformis",
-          "hp": 3700,
-          "danoBase": "305-350",
-          "fratura": "0%",
-          "sangramento": "19-22%",
           "velocidade": {
-            "terra": "1365",
-            "agua": "450",
-            "ar": "N/A"
-          }
+            "terraMin": 1365,
+            "terraMax": 1365,
+            "aguaMin": 450,
+            "aguaMax": 450,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3700,
+          "hpMax": 3700,
+          "danoBaseMin": 305,
+          "danoBaseMax": 350,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 19,
+          "sangramentoMax": 22
         },
         {
           "id": "para",
           "nome": "Parasaurolophus walkeri",
-          "hp": 3600,
-          "danoBase": "200",
-          "fratura": "7%",
-          "sangramento": "0%",
           "velocidade": {
-            "terra": "1500-1544",
-            "agua": "500-525",
-            "ar": "N/A"
-          }
+            "terraMin": 1500,
+            "terraMax": 1544,
+            "aguaMin": 500,
+            "aguaMax": 525,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3600,
+          "hpMax": 3600,
+          "danoBaseMin": 200,
+          "danoBaseMax": 200,
+          "fraturaMin": 7,
+          "fraturaMax": 7,
+          "sangramentoMin": 0,
+          "sangramentoMax": 0
         },
         {
           "id": "sucho",
           "nome": "Suchomimus tenerensis",
-          "hp": 3700,
-          "danoBase": "210-241",
-          "fratura": "2%",
-          "sangramento": "25%",
           "velocidade": {
-            "terra": "1425",
-            "agua": "850",
-            "ar": "N/A"
-          }
+            "terraMin": 1425,
+            "terraMax": 1425,
+            "aguaMin": 850,
+            "aguaMax": 850,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3700,
+          "hpMax": 3700,
+          "danoBaseMin": 210,
+          "danoBaseMax": 241,
+          "fraturaMin": 2,
+          "fraturaMax": 2,
+          "sangramentoMin": 25,
+          "sangramentoMax": 25
         },
         {
           "id": "sarco",
           "nome": "Sarcosuchus imperator",
-          "hp": 3650,
-          "danoBase": "300",
-          "fratura": "11-12%",
-          "sangramento": "21%",
           "velocidade": {
-            "terra": "1100",
-            "agua": "2100",
-            "ar": "N/A"
-          }
+            "terraMin": 1100,
+            "terraMax": 1100,
+            "aguaMin": 2100,
+            "aguaMax": 2100,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3650,
+          "hpMax": 3650,
+          "danoBaseMin": 300,
+          "danoBaseMax": 300,
+          "fraturaMin": 11,
+          "fraturaMax": 12,
+          "sangramentoMin": 21,
+          "sangramentoMax": 21
         },
         {
           "id": "amarga",
           "nome": "Amargasaurus cazaui",
-          "hp": 4000,
-          "danoBase": "250",
-          "fratura": "5%",
-          "sangramento": "20-25%",
           "velocidade": {
-            "terra": "1390",
-            "agua": "500",
-            "ar": "N/A"
-          }
+            "terraMin": 1390,
+            "terraMax": 1390,
+            "aguaMin": 500,
+            "aguaMax": 500,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 4000,
+          "hpMax": 4000,
+          "danoBaseMin": 250,
+          "danoBaseMax": 250,
+          "fraturaMin": 5,
+          "fraturaMax": 5,
+          "sangramentoMin": 20,
+          "sangramentoMax": 25
         },
         {
           "id": "rhino",
           "nome": "Pachyrhinosaurus canadensis",
-          "hp": 3600,
-          "danoBase": "250",
-          "fratura": "13%",
-          "sangramento": "0%",
           "velocidade": {
-            "terra": "1370-14 / 1712-1780",
-            "agua": "500-525 / 625-650",
-            "ar": "N/A"
-          }
+            "terraMin": 1400,
+            "terraMax": 1780,
+            "aguaMin": 500,
+            "aguaMax": 650,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3600,
+          "hpMax": 3600,
+          "danoBaseMin": 250,
+          "danoBaseMax": 250,
+          "fraturaMin": 13,
+          "fraturaMax": 13,
+          "sangramentoMin": 0,
+          "sangramentoMax": 0
         },
         {
           "id": "plateo",
           "nome": "Plateosaurus trossingensis",
-          "hp": 3450,
-          "danoBase": "180",
-          "fratura": "0%",
-          "sangramento": "10%",
           "velocidade": {
-            "terra": "1500-15",
-            "agua": "700",
-            "ar": "N/A"
-          }
+            "terraMin": 1500,
+            "terraMax": 1500,
+            "aguaMin": 700,
+            "aguaMax": 700,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3450,
+          "hpMax": 3450,
+          "danoBaseMin": 180,
+          "danoBaseMax": 180,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 10,
+          "sangramentoMax": 10
         },
         {
           "id": "tarchia",
           "nome": "Tarchia kielanae",
-          "hp": 3735,
-          "danoBase": "325-373",
-          "fratura": "25-32%",
-          "sangramento": "0%",
           "velocidade": {
-            "terra": "1215-1069",
-            "agua": "400-352",
-            "ar": "N/A"
-          }
+            "terraMin": 1069,
+            "terraMax": 1215,
+            "aguaMin": 352,
+            "aguaMax": 400,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3735,
+          "hpMax": 3735,
+          "danoBaseMin": 325,
+          "danoBaseMax": 373,
+          "fraturaMin": 25,
+          "fraturaMax": 32,
+          "sangramentoMin": 0,
+          "sangramentoMax": 0
         }
       ]
     },
@@ -211,106 +309,162 @@
         {
           "id": "styra",
           "nome": "Styracosaurus albertensis",
-          "hp": 3000,
-          "danoBase": "22",
-          "fratura": "0%",
-          "sangramento": "23-30%",
           "velocidade": {
-            "terra": "1450",
-            "agua": "500",
-            "ar": "N/A"
-          }
+            "terraMin": 1450,
+            "terraMax": 1450,
+            "aguaMin": 500,
+            "aguaMax": 500,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3000,
+          "hpMax": 3000,
+          "danoBaseMin": 22,
+          "danoBaseMax": 22,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 23,
+          "sangramentoMax": 30
         },
         {
           "id": "allo",
           "nome": "Allosaurus fragilis",
-          "hp": 3300,
-          "danoBase": "240",
-          "fratura": "0%",
-          "sangramento": "29-37.5%",
           "velocidade": {
-            "terra": "1500",
-            "agua": "550",
-            "ar": "N/A"
-          }
+            "terraMin": 1500,
+            "terraMax": 1500,
+            "aguaMin": 550,
+            "aguaMax": 550,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3300,
+          "hpMax": 3300,
+          "danoBaseMin": 240,
+          "danoBaseMax": 240,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 29,
+          "sangramentoMax": 37.5
         },
         {
           "id": "fasola",
           "nome": "Fasolasuchus tenax",
-          "hp": 3000,
-          "danoBase": "245",
-          "fratura": "15-16%",
-          "sangramento": "12%",
           "velocidade": {
-            "terra": "1500-1574",
-            "agua": "625-656",
-            "ar": "N/A"
-          }
+            "terraMin": 1500,
+            "terraMax": 1574,
+            "aguaMin": 625,
+            "aguaMax": 656,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3000,
+          "hpMax": 3000,
+          "danoBaseMin": 245,
+          "danoBaseMax": 245,
+          "fraturaMin": 15,
+          "fraturaMax": 16,
+          "sangramentoMin": 12,
+          "sangramentoMax": 12
         },
         {
           "id": "giganto",
           "nome": "Gigantoraptor erlianensis",
-          "hp": 3100,
-          "danoBase": "180-198-212/231",
-          "fratura": "0%",
-          "sangramento": "15%",
           "velocidade": {
-            "terra": "1700",
-            "agua": "480",
-            "ar": "N/A"
-          }
+            "terraMin": 1700,
+            "terraMax": 1700,
+            "aguaMin": 480,
+            "aguaMax": 480,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3100,
+          "hpMax": 3100,
+          "danoBaseMin": 180,
+          "danoBaseMax": 231,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 15,
+          "sangramentoMax": 15
         },
         {
           "id": "carno",
           "nome": "Carnotaurus satrei",
-          "hp": 3000,
-          "danoBase": "200",
-          "fratura": "0%",
-          "sangramento": "24-27%",
           "velocidade": {
-            "terra": "1800-1908",
-            "agua": "500",
-            "ar": "N/A"
-          }
+            "terraMin": 1800,
+            "terraMax": 1908,
+            "aguaMin": 500,
+            "aguaMax": 500,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 3000,
+          "hpMax": 3000,
+          "danoBaseMin": 200,
+          "danoBaseMax": 200,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 24,
+          "sangramentoMax": 27
         },
         {
           "id": "kentro",
           "nome": "Kentrosaurus aethiopicus",
-          "hp": 2700,
-          "danoBase": "250",
-          "fratura": "0%",
-          "sangramento": "30-43%",
           "velocidade": {
-            "terra": "1480-1553",
-            "agua": "500-525",
-            "ar": "N/A"
-          }
+            "terraMin": 1480,
+            "terraMax": 1553,
+            "aguaMin": 500,
+            "aguaMax": 525,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 2700,
+          "hpMax": 2700,
+          "danoBaseMin": 250,
+          "danoBaseMax": 250,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 30,
+          "sangramentoMax": 43
         },
         {
           "id": "cerato",
           "nome": "Ceratosaurus nasicorns",
-          "hp": 2650,
-          "danoBase": "220",
-          "fratura": "0%",
-          "sangramento": "24-28%",
           "velocidade": {
-            "terra": "1700",
-            "agua": "650",
-            "ar": "N/A"
-          }
+            "terraMin": 1700,
+            "terraMax": 1700,
+            "aguaMin": 650,
+            "aguaMax": 650,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 2650,
+          "hpMax": 2650,
+          "danoBaseMin": 220,
+          "danoBaseMax": 220,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 24,
+          "sangramentoMax": 28
         },
         {
           "id": "mega",
           "nome": "Megaraptor namunhuaiquii",
-          "hp": 2845,
-          "danoBase": "245-318",
-          "fratura": "0%",
-          "sangramento": "25%",
           "velocidade": {
-            "terra": "1660",
-            "agua": "550",
-            "ar": "N/A"
-          }
+            "terraMin": 1660,
+            "terraMax": 1660,
+            "aguaMin": 550,
+            "aguaMax": 550,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 2845,
+          "hpMax": 2845,
+          "danoBaseMin": 245,
+          "danoBaseMax": 318,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 25,
+          "sangramentoMax": 25
         }
       ]
     },
@@ -321,67 +475,102 @@
         {
           "id": "dilo",
           "nome": "Dilophosaurus wetherilli",
-          "hp": 1800,
-          "danoBase": "160",
-          "fratura": "0%",
-          "sangramento": "33-38%",
           "velocidade": {
-            "terra": "1750-1852",
-            "agua": "550-580",
-            "ar": "N/A"
-          }
+            "terraMin": 1750,
+            "terraMax": 1852,
+            "aguaMin": 550,
+            "aguaMax": 580,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 1800,
+          "hpMax": 1800,
+          "danoBaseMin": 160,
+          "danoBaseMax": 160,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 33,
+          "sangramentoMax": 38
         },
         {
           "id": "conca",
           "nome": "Concavenator corcovatus",
-          "hp": 2200,
-          "danoBase": "140-160",
-          "fratura": "0%",
-          "sangramento": "25%",
           "velocidade": {
-            "terra": "1720",
-            "agua": "630",
-            "ar": "N/A"
-          }
+            "terraMin": 1720,
+            "terraMax": 1720,
+            "aguaMin": 630,
+            "aguaMax": 630,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 2200,
+          "hpMax": 2200,
+          "danoBaseMin": 140,
+          "danoBaseMax": 160,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 25,
+          "sangramentoMax": 25
         },
         {
           "id": "pachy",
           "nome": "Pachycephalosaurus wyomingensis",
-          "hp": 2000,
-          "danoBase": "185",
-          "fratura": "14-19%",
-          "sangramento": "0%",
           "velocidade": {
-            "terra": "1650-1732 / 2062-2145",
-            "agua": "400-420 / 500-520",
-            "ar": "N/A"
-          }
+            "terraMin": 1650,
+            "terraMax": 2145,
+            "aguaMin": 400,
+            "aguaMax": 520,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 2000,
+          "hpMax": 2000,
+          "danoBaseMin": 185,
+          "danoBaseMax": 185,
+          "fraturaMin": 14,
+          "fraturaMax": 19,
+          "sangramentoMin": 0,
+          "sangramentoMax": 0
         },
         {
           "id": "austro",
           "nome": "Austroraptor cabazai",
-          "hp": 1550,
-          "danoBase": "150",
-          "fratura": "0%",
-          "sangramento": "18%",
           "velocidade": {
-            "terra": "1820-1910",
-            "agua": "780-818",
-            "ar": "N/A"
-          }
+            "terraMin": 1820,
+            "terraMax": 1910,
+            "aguaMin": 780,
+            "aguaMax": 818,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 1550,
+          "hpMax": 1550,
+          "danoBaseMin": 150,
+          "danoBaseMax": 150,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 18,
+          "sangramentoMax": 18
         },
         {
           "id": "quetzal",
           "nome": "Quetzalcoatlus northropi",
-          "hp": 1800,
-          "danoBase": "160-177",
-          "fratura": "0%",
-          "sangramento": "9%",
           "velocidade": {
-            "terra": "1400-1190-1469",
-            "agua": "600-510-630",
-            "ar": "2200-1870-2310"
-          }
+            "terraMin": 1190,
+            "terraMax": 1469,
+            "aguaMin": 510,
+            "aguaMax": 630,
+            "arMin": 1870,
+            "arMax": 2310
+          },
+          "hpMin": 1800,
+          "hpMax": 1800,
+          "danoBaseMin": 160,
+          "danoBaseMax": 177,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 9,
+          "sangramentoMax": 9
         }
       ]
     },
@@ -392,93 +581,142 @@
         {
           "id": "ornitho",
           "nome": "Ornithomimus velox",
-          "hp": 1200,
-          "danoBase": "100-114",
-          "fratura": "0%",
-          "sangramento": "11%",
           "velocidade": {
-            "terra": "2000",
-            "agua": "450",
-            "ar": "N/A"
-          }
+            "terraMin": 2000,
+            "terraMax": 2000,
+            "aguaMin": 450,
+            "aguaMax": 450,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 1200,
+          "hpMax": 1200,
+          "danoBaseMin": 100,
+          "danoBaseMax": 114,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 11,
+          "sangramentoMax": 11
         },
         {
           "id": "guan",
           "nome": "Guanlong wucaii",
-          "hp": 1150,
-          "danoBase": "120",
-          "fratura": "0%",
-          "sangramento": "24-%",
           "velocidade": {
-            "terra": "1880",
-            "agua": "500",
-            "ar": "N/A"
-          }
+            "terraMin": 1880,
+            "terraMax": 1880,
+            "aguaMin": 500,
+            "aguaMax": 500,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 1150,
+          "hpMax": 1150,
+          "danoBaseMin": 120,
+          "danoBaseMax": 120,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 24,
+          "sangramentoMax": 24
         },
         {
           "id": "deino",
           "nome": "Deinonychus antirrhopus",
-          "hp": 850,
-          "danoBase": "120-144",
-          "fratura": "0%",
-          "sangramento": "21-25%",
           "velocidade": {
-            "terra": "1900",
-            "agua": "400",
-            "ar": "N/A"
-          }
+            "terraMin": 1900,
+            "terraMax": 1900,
+            "aguaMin": 400,
+            "aguaMax": 400,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 850,
+          "hpMax": 850,
+          "danoBaseMin": 120,
+          "danoBaseMax": 144,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 21,
+          "sangramentoMax": 25
         },
         {
           "id": "psitta",
           "nome": "Psittacosaurus mongoliensis",
-          "hp": 980,
-          "danoBase": "110-130",
-          "fratura": "0%",
-          "sangramento": "14%",
           "velocidade": {
-            "terra": "1880-1973",
-            "agua": "400-419",
-            "ar": "N/A"
-          }
+            "terraMin": 1880,
+            "terraMax": 1973,
+            "aguaMin": 400,
+            "aguaMax": 419,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 980,
+          "hpMax": 980,
+          "danoBaseMin": 110,
+          "danoBaseMax": 130,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 14,
+          "sangramentoMax": 14
         },
         {
           "id": "coelo",
           "nome": "Coelophysis bauri",
-          "hp": 550,
-          "danoBase": "80-96",
-          "fratura": "0%",
-          "sangramento": "28%",
           "velocidade": {
-            "terra": "2050-2152-2255 / 2357",
-            "agua": "350-367-385 / 402",
-            "ar": "N/A"
-          }
+            "terraMin": 2050,
+            "terraMax": 2357,
+            "aguaMin": 350,
+            "aguaMax": 402,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 550,
+          "hpMax": 550,
+          "danoBaseMin": 80,
+          "danoBaseMax": 96,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 28,
+          "sangramentoMax": 28
         },
         {
           "id": "chang",
           "nome": "Changyuraptor yangi",
-          "hp": 400,
-          "danoBase": "60",
-          "fratura": "0%",
-          "sangramento": "25%",
           "velocidade": {
-            "terra": "2050",
-            "agua": "280",
-            "ar": "???"
-          }
+            "terraMin": 2050,
+            "terraMax": 2050,
+            "aguaMin": 280,
+            "aguaMax": 280,
+            "arMin": null,
+            "arMax": null
+          },
+          "hpMin": 400,
+          "hpMax": 400,
+          "danoBaseMin": 60,
+          "danoBaseMax": 60,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 25,
+          "sangramentoMax": 25
         },
         {
           "id": "barba",
           "nome": "Barbaridactylus grandis",
-          "hp": 1000,
-          "danoBase": "120",
-          "fratura": "0%",
-          "sangramento": "8-9%",
           "velocidade": {
-            "terra": "1200",
-            "agua": "600",
-            "ar": "2800"
-          }
+            "terraMin": 1200,
+            "terraMax": 1200,
+            "aguaMin": 600,
+            "aguaMax": 600,
+            "arMin": 2800,
+            "arMax": 2800
+          },
+          "hpMin": 1000,
+          "hpMax": 1000,
+          "danoBaseMin": 120,
+          "danoBaseMax": 120,
+          "fraturaMin": 0,
+          "fraturaMax": 0,
+          "sangramentoMin": 8,
+          "sangramentoMax": 9
         }
       ]
     }

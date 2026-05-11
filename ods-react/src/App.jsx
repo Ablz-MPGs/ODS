@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { Routes, Route, Navigate, useParams } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import HomePage from "./pages/HomePage"
@@ -6,37 +6,32 @@ import GalleryPage from "./pages/GalleryPage"
 import TasksPage from "./pages/TasksPage"
 import StatusPage from "./pages/StatusPage"
 
-function readRoute() {
-  const hash = window.location.hash.replace(/^#\/?/, "")
-  const [page = "inicio", target = ""] = hash.split("/")
-  return { page: page || "inicio", target }
+function GalleryWrapper() {
+  const { targetId } = useParams()
+  return <GalleryPage key={targetId || "galeria"} targetId={targetId} />
+}
+
+function StatusWrapper() {
+  const { targetId } = useParams()
+  return <StatusPage key={targetId || "status"} targetId={targetId} />
 }
 
 export default function App() {
-  const [route, setRoute] = useState(readRoute)
-
-  useEffect(() => {
-    const onHashChange = () => setRoute(readRoute())
-    window.addEventListener("hashchange", onHashChange)
-
-    if (!window.location.hash) {
-      window.history.replaceState(null, "", "#/inicio")
-    }
-
-    return () => window.removeEventListener("hashchange", onHashChange)
-  }, [])
-
-  const page = useMemo(() => {
-    if (route.page === "galeria") return <GalleryPage key={route.target || "galeria"} targetId={route.target} />
-    if (route.page === "tasks") return <TasksPage />
-    if (route.page === "status") return <StatusPage key={route.target || "status"} targetId={route.target} />
-    return <HomePage />
-  }, [route])
-
   return (
     <>
-      <Header activePage={route.page} />
-      <main>{page}</main>
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Navigate to="/inicio" replace />} />
+          <Route path="/inicio" element={<HomePage />} />
+          <Route path="/galeria" element={<GalleryWrapper />} />
+          <Route path="/galeria/:targetId" element={<GalleryWrapper />} />
+          <Route path="/status" element={<StatusWrapper />} />
+          <Route path="/status/:targetId" element={<StatusWrapper />} />
+          <Route path="/tasks" element={<TasksPage />} />
+          <Route path="*" element={<Navigate to="/inicio" replace />} />
+        </Routes>
+      </main>
       <Footer />
     </>
   )
