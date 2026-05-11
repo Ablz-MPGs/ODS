@@ -551,14 +551,13 @@ const dinoDatabase = {
     }
 };
 
-function createSkillHTML(skill) {
-    const iconSrc = skill.icon ? skill.icon : 'img/logo.png';
+function createSkillHTML({ icon = 'img/logo.png', title, desc }) {
     return `
         <div class="skill-item">
-            <img src="${iconSrc}" class="skill-icon" alt="${skill.title}">
+            <img src="${icon}" class="skill-icon" alt="${title}">
             <div class="skill-text">
-                <h5>${skill.title}</h5>
-                <p>${skill.desc}</p>
+                <h5>${title}</h5>
+                <p>${desc}</p>
             </div>
         </div>`;
 }
@@ -572,44 +571,37 @@ btns.forEach(btn => {
         const dinoKey = this.getAttribute("data-dino");
         const data = dinoDatabase[dinoKey];
 
-        if (data) {
-            modalName.innerHTML = data.fullName;
-            modalImg.src = data.image;
-            modalDiet.innerText = data.diet;
+        if (!data) return;
 
-            statGroup.innerText = data.stats.group;
-            statGrowth.innerText = data.stats.growth;
-            statPrice.innerText = data.stats.price;
-            statSkin1.innerText = data.stats.skin1;
-            statSkin2.innerText = data.stats.skin2;
-            statFotinha.innerText = data.stats.fotinha;
-            statCorgema.innerText = data.stats.corgema;
-            statCormoeda.innerText = data.stats.cormoeda;
+        modalName.innerHTML = data.fullName;
+        modalImg.src = data.image;
+        modalDiet.innerText = data.diet;
+
+        statGroup.innerText = data.stats.group;
+        statGrowth.innerText = data.stats.growth;
+        statPrice.innerText = data.stats.price;
+        statSkin1.innerText = data.stats.skin1;
+        statSkin2.innerText = data.stats.skin2;
+        statFotinha.innerText = data.stats.fotinha;
+        statCorgema.innerText = data.stats.corgema;
+        statCormoeda.innerText = data.stats.cormoeda;
 
 
-            if (data.idStatus) {
-                btnStatusModal.href = `status.html#${data.idStatus}`;
-                btnStatusModal.style.display = "inline-block"; 
-            } else {
-                btnStatusModal.style.display = "none"; 
-            }
-
-            passivesContainer.innerHTML = "";
-            data.passives.forEach(skill => {
-                passivesContainer.innerHTML += createSkillHTML(skill);
-            });
-
-            activesContainer.innerHTML = "";
-            data.actives.forEach(skill => {
-                activesContainer.innerHTML += createSkillHTML(skill);
-            });
-
-            modal.style.display = "block";
+        if (data.idStatus) {
+            btnStatusModal.href = `status.html#${data.idStatus}`;
+            btnStatusModal.style.display = "inline-block"; 
+        } else {
+            btnStatusModal.style.display = "none"; 
         }
+
+        passivesContainer.innerHTML = data.passives.map(createSkillHTML).join('');
+        activesContainer.innerHTML = data.actives.map(createSkillHTML).join('');
+
+        modal.style.display = "block";
     });
 });
 
-closeBtn.onclick = fecharModal;
+closeBtn.addEventListener("click", fecharModal);
 
 modal.addEventListener("click", (e) => {
     if (e.target === modal) {
@@ -674,7 +666,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* Permite fechar os modais pressionando a tecla Escape */
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', (event) => {
     if (event.key === "Escape") {
         if (modal.style.display === "block") fecharModal();
         if (imgModal.style.display === "flex") imgModal.style.display = "none";
