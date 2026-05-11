@@ -349,7 +349,7 @@ const dinoDatabase = {
     },
     "Tarchia":{
         idStatus: "tarchia",
-        fullName: "TACHIA<br>KIELANAE",
+        fullName: "TARCHIA<br>KIELANAE",
         image: "img/pict/tarchiaperfil.png",
         diet: "🌿",
         stats: { group: "2.5 slots", growth: "39 min", price: "35.000", skin1: "12.000", skin2: "-", fotinha: "8.000", cormoeda: "2500", corgema: "25" },
