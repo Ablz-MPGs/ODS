@@ -492,7 +492,7 @@ const dinoDatabase = {
     diet: "🌿🦈",
     stats: { group: "3 slots", growth: "48 min", price: "800g", skin1: "-", skin2: "225g", fotinha: "N/A", cormoeda: "4000", corgema: "40" },
     passives: [
-        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2% sangramento.", icon: "img/skill/rebanhoH.png" },
+        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2% sangramento).", icon: "img/skill/rebanhoH.png" },
         { title: "Elemento nativo", desc: "Quando seu dinossauro nada, a defesa aumenta (+15% defesa).", icon: "img/skill/enativo.png" },
         { title: "Presente das Profundezas", desc: ",Durante um tempo, seu dinossauro gasta menos stamina após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png" }
     ],
