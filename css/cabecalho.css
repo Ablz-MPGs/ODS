@@ -39,7 +39,8 @@
 
 .nav-link:hover{
     background-color: var(--ink); 
-    color: var(--accent);   
+    color: var(--accent); 
+    font-weight: bold;
 }
 
 .topnav{
