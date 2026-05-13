@@ -209,7 +209,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de vigor é reduzido (+15% dano, -20% consumo de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano e chance de sangrar aumentados. Dano base: 200", icon: "img/skill/mordida.png" }
+            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano e chance de sangrar aumentados. Dano base: 200.", icon: "img/skill/mordida.png" }
         ]
     },
     "Fasolasuchus": {
