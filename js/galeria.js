@@ -341,7 +341,7 @@ const dinoDatabase = {
         stats: { group: "2 slots", growth: "31 min", price: "20.500", skin1: "-", skin2: "-", fotinha: "N/A", cormoeda: "2000", corgema: "20" },
         passives: [ 
             { title: "O poder do bando", desc: "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/poucohp.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP seu consumo de vigora diminui e a velocidade aumenta.", icon: "img/skill/rebanhoH.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP seu consumo de vigor diminui e a velocidade aumenta (+5% velocidade, -20% gasto de vigor).", icon: "img/skill/rebanhoH.png" }
         ],
         actives: [
             { title: "Chicote de cauda", desc: "Um golpe de cauda em área, que causa repulsão (5 segundos).", icon: "img/skill/cauda.png" }
