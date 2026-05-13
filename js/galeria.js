@@ -383,7 +383,7 @@ const dinoDatabase = {
         stats: { group: "2 slots", growth: "36 min", price: "75.000", skin1: "-", skin2: "-", fotinha: "7.000", cormoeda: "3000", corgema: "30" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (+20% regeneração de HP).", icon: "img/skill/rebanhoH.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta.", icon: "img/skill/poucohp.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta (+5% velocidade, -20% gasto de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
             { title: "Bater", desc: "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.", icon: "img/skill/investida.png" },
