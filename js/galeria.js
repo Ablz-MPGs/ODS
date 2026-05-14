@@ -130,7 +130,7 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "2 slots", growth: "31 min", price: "600g", skin1: "20.000", skin2: 200, fotinha: "18.000", cormoeda: "4000", corgema: "40" },
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (-18% gasto de stamina).", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (até 3 vezes: -18% gasto de stamina).", icon: "img/skill/rebanho.png" },
             { title: "Presente das Profundezas", desc: "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).", icon: "img/skill/aquatico.png" }
         ],
         actives: [
@@ -248,11 +248,7 @@ const dinoDatabase = {
         fullName: "MEGARAPTOR<br>NAMUNHUAIQUII",
         image: "img/pict/megaperfil.png",
         diet: "🥩",
-<<<<<<< Updated upstream
-        stats: { group: "2.5 slots", growth: "38 min", price: "600g", skin1: "40.000", skin2: "450g", fotinha: "N/A", cormoeda: "8.000", corgema: "50" },
-=======
         stats: { group: "2.5 slots", growth: "38 min", price: "600g", skin1: "40.000", skin2: "450g", fotinha: "N/A", cormoeda: "8000", corgema: "50" },
->>>>>>> Stashed changes
         passives: [
             { title: "Poder Acumulado", desc: "Seu primeiro ataque causa dano aumentado, há um tempo de recarga (+30% dano).", icon: "img/skill/poderacumulado.png" },
             { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de vigor diminui (+20% chance de sangramento, -15% gasto de vigor).", icon: "img/skill/devorador.png" },

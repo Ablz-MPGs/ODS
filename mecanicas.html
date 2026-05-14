@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mecanicas.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
@@ -42,106 +43,148 @@
     <main>
         <div class="ingamemec">
             <section class="texto-info">
-                <h1>Mecânicas</h1>
+                <h1>Mecânicas do Jogo</h1>
                 <p>Esta página é dedicada a apresentar as diversas mecânicas presentes no jogo, acompanhadas de uma breve descrição de como funcionam e o que fazem.</p>
             </section>
             
-            <section class="texto-info">
-                <h1>Crescimento</h1>
-                <p>Uma das primeiras mecânicas notadas em sua gameplay, mesmo antes de você entrar em um servidor, é a de crescimento. O crescimento no TDCI é progressivo e variável, mas pode ser perdido através de alguns meios, como a morte ou sair de um servidor sem esperar o tempo necessário.</p>   
-                <p>Assim que uma nova conta é criada todos os animais, mesmo os que ainda não foram adquiridos, se encontrarão na fase filhote.</p>
-                <p>Crescer traz inúmeras vantagens nos mais diversos âmbitos. Seus status de saúde, dano, velocidade, natação, assim como as chances de causar sangramento e fraturas aumentam conforme você cresce. Porém, sua reserva e regeneração de stamina, assim como a recuperação de vida diminuem, ao passo que suas necessidades de sono, água e comida se tornam maiores.</p>      
-                
-                <h2>Filhote / Hatchling</h2>
-                <p>Um filhote que acabou de nascer, e não obteve quaisquer buffs de ninho, possui 30% do HP, 30% do dano, 40% da velocidade de corrida e 40% da velocidade de nado que um espécime adulto possui.</p>
-                
-                <h2>Juvenil / Juv</h2>
-                <p>Aos 25% de crescimento você entra no estágio juvenil, os status sobem para 50% do HP, 47% do dano, 62% da velocidade em terra e 62% da natação em relação a um adulto.</p>
-                
-                <h2>Sub-adulto</h2>
-                <p>O estágio sub-adulto é o último estágio antes de conquistar os 100%. Nesta fase, atingida aos 40% de crescimento, seu personagem possui 60% do HP, 57% do dano, 77% da velocidade em terra e 77% da natação de um adulto.</p>
-                <p>Ao atingir 65% de crescimento, sua velocidade de corrida e nado serão idênticas à quando adulto, continuando a aumentar até os 74% de crescimento, onde a velocidade atinge aproximadamente 102% da velocidade de um adulto, passando então a decair, até chegar aos 100% quando atingir a fase adulta.</p>
-                <p>Se o limite de grupo de seu rebanho já estiver preenchido, os filhotes serão expulsos ao atingir este estágio.</p>
-                
-                <h2>Adulto</h2>
-                <p>O estágio adulto é o estágio final do crescimento, onde o personagem atinge 100% dos seus status. Só é possível desbloquear algumas habilidades, assim como posicionar um ninho, quando seu dinossauro atingir este estágio.</p>
-            </section>
+            <div class="mecanicas-container">
+                <!-- Crescimento -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Crescimento</button>
+                    <div class="accordion-content">
+                        <p>Uma das primeiras mecânicas notadas em sua gameplay, mesmo antes de você entrar em um servidor, é a de crescimento. O crescimento no TDCI é progressivo e variável, mas pode ser perdido através de alguns meios, como a morte ou sair de um servidor sem esperar o tempo necessário.</p>   
+                        <p>Assim que uma nova conta é criada todos os animais, mesmo os que ainda não foram adquiridos, se encontrarão na fase filhote.</p>
+                        <p>Crescer traz inúmeras vantagens nos mais diversos âmbitos. Seus status de saúde, dano, velocidade, natação, assim como as chances de causar sangramento e fraturas aumentam conforme você cresce. Porém, sua reserva e regeneração de stamina, assim como a recuperação de vida diminuem, ao passo que suas necessidades de sono, água e comida se tornam maiores.</p>      
+                        
+                        <h2>Filhote / Hatchling</h2>
+                        <p>Um filhote que acabou de nascer, e não obteve quaisquer buffs de ninho, possui 30% do HP, 30% do dano, 40% da velocidade de corrida e 40% da velocidade de nado que um espécime adulto possui.</p>
+                        
+                        <h2>Juvenil / Juv</h2>
+                        <p>Aos 25% de crescimento você entra no estágio juvenil, os status sobem para 50% do HP, 47% do dano, 62% da velocidade em terra e 62% da natação em relação a um adulto.</p>
+                        
+                        <h2>Sub-adulto</h2>
+                        <p>O estágio sub-adulto é o último estágio antes de conquistar os 100%. Nesta fase, atingida aos 40% de crescimento, seu personagem possui 60% do HP, 57% do dano, 77% da velocidade em terra e 77% da natação de um adulto.</p>
+                        <p>Ao atingir 65% de crescimento, sua velocidade de corrida e nado serão idênticas à quando adulto, continuando a aumentar até os 74% de crescimento, onde a velocidade atinge aproximadamente 102% da velocidade de um adulto, passando então a decair, até chegar aos 100% quando atingir a fase adulta.</p>
+                        <p>Se o limite de grupo de seu rebanho já estiver preenchido, os filhotes serão expulsos ao atingir este estágio.</p>
+                        
+                        <h2>Adulto</h2>
+                        <p>O estágio adulto é o estágio final do crescimento, onde o personagem atinge 100% dos seus status. Só é possível desbloquear algumas habilidades, assim como posicionar um ninho, quando seu dinossauro atingir este estágio.</p>
+                    </div>
+                </div>
 
-            <section class="texto-info">
-                <h1>Locomoção</h1>
-                <h2>Trote</h2>
-                <p>O trote é a forma mais básica de locomoção, onde o personagem se move a uma velocidade relativamente baixa, mas sem gastar stamina, recuperando-a na verdade. Tanto a velocidade quanto a recuperação de vigor variam de acordo com a espécie e fase de crescimento. Utilize o analógico para trotar.</p>
-                
-                <h2>Salto</h2>
-                <p>Uma capacidade disponível apenas para animais de pequeno e alguns de médio porte. Ao pressionar o botão de salto, seu personagem se lançará para cima, gastando stamina para tal.</p>
-                
-                <h2>Corrida</h2>
-                <p>A corrida é uma forma mais rápida de locomoção, na qual o personagem se move com 100% de sua velocidade atual. A velocidade e a stamina gasta variam de acordo com a espécie de seu dinossauro e crescimento atual. Pressione o botão de corrida para ativá-la.</p>
-                
-                <h2>Boost</h2> 
-                <p>O boost aumenta a velocidade de locomoção de seu personagem. Apenas herbívoros de pequeno e médio porte, além de todos os carnívoros podem usá-lo. Com este buff aplicado, seu personagem se move com 120% de sua velocidade total; em contrapartida, o gasto de stamina é aumentado em 50%. Para ativá-lo, seu dinossauro deve manter-se agachado por 8 segundos. Após isso, pressione o botão que surgirá ao lado do botão de corrida para ativá-lo.</p>   
-                
-                <h2>Nado</h2>
-                <p>O nado é a forma de locomoção utilizada para se mover na água, onde o personagem se move com toda sua velocidade de natação. A stamina é gasta de acordo com a espécie de seu dinossauro e crescimento atual. Animais semi-aquáticos perdem vigor em proporções menores, já os voadores recuperam stamina enquanto nadam. Este método de locomoção ativa-se imediatamente ao entrar na água.</p>
-                
-                <h2>Voo</h2>
-                <p>O voo é a forma de locomoção utilizada para se mover no ar, onde o personagem se move com toda sua velocidade de voo. A stamina é gasta de acordo com a espécie de seu dinossauro e crescimento atual. A velocidade é alterada de acordo com a direção do voo, acelerando enquanto cai e desacelerando enquanto sobe. Para alçar voo é necessário lançar-se de um lugar alto enquanto corre, ou correr até pegar velocidade suficiente e então saltar, ou mesmo ao pressionar o botão de salto enquanto estiver na água.</p>
-                
-                <h2>Queda</h2>
-                <p>Seu personagem sofre dano ao cair. Este dano é proporcional à altura da queda, à espécie e ao estágio de crescimento atual. Cair pode ou não causar fratura a depender da altura da queda, sendo adquiridos no mínimo 4x de fratura caso ocorra. Se a queda for grande o suficiente para causar fratura, seu dinossauro sofrerá o efeito atordoado, onde ele não consegue realizar qualquer ação enquanto não erguer-se.</p>
-            </section>
+                <!-- Locomoção -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Locomoção</button>
+                    <div class="accordion-content">
+                        <h2>Trote</h2>
+                        <p>O trote é a forma mais básica de locomoção, onde o personagem se move a uma velocidade relativamente baixa, mas sem gastar stamina, recuperando-a na verdade. Tanto a velocidade quanto a recuperação de vigor variam de acordo com a espécie e fase de crescimento. Utilize o analógico para trotar.</p>
+                        
+                        <h2>Salto</h2>
+                        <p>Uma capacidade disponível apenas para animais de pequeno e alguns de médio porte. Ao pressionar o botão de salto, seu personagem se lançará para cima, gastando stamina para tal.</p>
+                        
+                        <h2>Corrida</h2>
+                        <p>A corrida é uma forma mais rápida de locomoção, na qual o personagem se move com 100% de sua velocidade atual. A velocidade e a stamina gasta variam de acordo com a espécie de seu dinossauro e crescimento atual. Pressione o botão de corrida para ativá-la.</p>
+                        
+                        <h2>Boost</h2> 
+                        <p>O boost aumenta a velocidade de locomoção de seu personagem. Apenas herbívoros de pequeno e médio porte, além de todos os carnívoros podem usá-lo. Com este buff aplicado, seu personagem se move com 120% de sua velocidade total; em contrapartida, o gasto de stamina é aumentado em 50%. Para ativá-lo, seu dinossauro deve manter-se agachado por 8 segundos. Após isso, pressione o botão que surgirá ao lado do botão de corrida para ativá-lo.</p>   
+                        
+                        <h2>Nado</h2>
+                        <p>O nado é a forma de locomoção utilizada para se mover na água, onde o personagem se move com toda sua velocidade de natação. A stamina é gasta de acordo com a espécie de seu dinossauro e crescimento atual. Animais semi-aquáticos perdem vigor em proporções menores, já os voadores recuperam stamina enquanto nadam. Este método de locomoção ativa-se imediatamente ao entrar na água.</p>
+                        
+                        <h2>Voo</h2>
+                        <p>O voo é a forma de locomoção utilizada para se mover no ar, onde o personagem se move com toda sua velocidade de voo. A stamina é gasta de acordo com a espécie de seu dinossauro e crescimento atual. A velocidade é alterada de acordo com a direção do voo, acelerando enquanto cai e desacelerando enquanto sobe. Para alçar voo é necessário lançar-se de um lugar alto enquanto corre, ou correr até pegar velocidade suficiente e então saltar, ou mesmo ao pressionar o botão de salto enquanto estiver na água.</p>
+                        
+                        <h2>Queda</h2>
+                        <p>Seu personagem sofre dano ao cair. Este dano é proporcional à altura da queda, à espécie e ao estágio de crescimento atual. Cair pode ou não causar fratura a depender da altura da queda, sendo adquiridos no mínimo 4x de fratura caso ocorra. Se a queda for grande o suficiente para causar fratura, seu dinossauro sofrerá o efeito atordoado, onde ele não consegue realizar qualquer ação enquanto não erguer-se.</p>
+                    </div>
+                </div>
 
-            <section class="texto-info">
-                <h1>Conforto</h1>
-                <p>O conforto é uma mecânica implementada para evitar manadas mistas entre carnívoros e herbívoros, e carnívoros de diferentes espécies.</p>
-                <p>O conforto é determinado por uma série de fatores como a espécie, a fase de crescimento atual e o número de jogadores próximos que não estão em seu rebanho. Este efeito é ativado assim que o outro player adentra determinado perímetro de distância de seu personagem; no entanto, os debuffs não são aplicados de imediato, sendo necessária a redução de 100% para 30% do conforto.</p>
-                <p>Dentre os debuffs estão: redução do dano causado (-40%), aumento no gasto de vigor (+100%), redução na defesa (-30%), impossibilidade de deitar-se e aceleração na redução de fome e sede.</p>
-                <p>Caso seu personagem seja significativamente mais forte que o de um player próximo a ti, apenas ele sofrerá o desconforto. Porém, ambos sofrerão o debuff caso possuam níveis de força semelhantes.</p>
-            </section>
+                <!-- Conforto -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Conforto</button>
+                    <div class="accordion-content">
+                        <p>O conforto é uma mecânica implementada para evitar manadas mistas entre carnívoros e herbívoros, e carnívoros de diferentes espécies.</p>
+                        <p>O conforto é determinado por uma série de fatores como a espécie, a fase de crescimento atual e o número de jogadores próximos que não estão em seu rebanho. Este efeito é ativado assim que o outro player adentra determinado perímetro de distância de seu personagem; no entanto, os debuffs não são aplicados de imediato, sendo necessária a redução de 100% para 30% do conforto.</p>
+                        <p>Dentre os debuffs estão: redução do dano causado (-40%), aumento no gasto de vigor (+100%), redução na defesa (-30%), impossibilidade de deitar-se e aceleração na redução de fome e sede.</p>
+                        <p>Caso seu personagem seja significativamente mais forte que o de um player próximo a ti, apenas ele sofrerá o desconforto. Porém, ambos sofrerão o debuff caso possuam níveis de força semelhantes.</p>
+                    </div>
+                </div>
 
-            <section class="texto-info">
-                <h1>Rebanho</h1>
-                <h1>Cansaço</h1>
-                <p>Sua fadiga aumenta continuamente conforme o tempo que você passa sem deitar-se. Este efeito reduz 20% de sua velocidade de movimento ao atingir 30% de sua barra de cansaço total.</p>
-            </section>
+                <!-- Rebanho e Cansaço -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Rebanho e Cansaço</button>
+                    <div class="accordion-content">
+                        <h2>Rebanho</h2>
+                        <p>O jogo permite que jogadores formem grupos para cooperar e sobreviver juntos. O tamanho e a composição do rebanho afetam o conforto e as dinâmicas de crescimento dos membros do grupo.</p>
+                        
+                        <h2>Cansaço</h2>
+                        <p>Sua fadiga aumenta continuamente conforme o tempo que você passa sem deitar-se. Este efeito reduz 20% de sua velocidade de movimento ao atingir 30% de sua barra de cansaço total.</p>
+                    </div>
+                </div>
 
-            <section class="texto-info">                
-                <h1>Status</h1>
-                <h2>Vigor</h2>
-                <h2>Sede</h2>
-                <h2>Fome</h2>
-            </section>
+                <!-- Status de Sobrevivência -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Status de Sobrevivência</button>
+                    <div class="accordion-content">
+                        <h2>Vigor</h2>
+                        <p>O vigor (stamina) é consumido ao realizar ações intensas como correr, saltar, nadar rapidamente e voar. Deitar-se ou trotar ajuda na recuperação.</p>
+                        
+                        <h2>Sede</h2>
+                        <p>A sede dita o quão hidratado seu dinossauro está. Beber água de fontes naturais repõe esse status. A desidratação pode levar à morte.</p>
+                        
+                        <h2>Fome</h2>
+                        <p>A fome deve ser saciada consumindo alimentos apropriados para a sua dieta (plantas para herbívoros, carne para carnívoros). A fome prolongada causa perda contínua de HP.</p>
+                        
+                        <h2>Saúde</h2>
+                        <p>Os pontos de vida do seu dinossauro. Eles diminuem ao receber dano de quedas, ataques, fome, sede ou sangramento. Descansar e manter bons níveis de fome e sede aumenta a regeneração.</p>
+                    </div>
+                </div>
 
-            <section class="texto-info">
-                <h2>Habilidades</h2>
-                <h2>Saúde</h2>
-                <h2>Dano</h2>
-                    <p>O dano básico varia de acordo com a epécie.</p>
-                    <p>Seu dano base causado pode aumentar ou diminuir de acordo com diversos fatores. Os quais:</p>
-                    <ul>
-                        <li> * Fase de crescimento</li>
-                        <p>O dano aumenta continuadamente enquanto você cresce, saindo de 30% aos 0%, até chegar 100%, ao atingir a maturidade.</p>
-                        <li> * Buffs de ninho</li>
-                        <p>Caso seu dinossauro nasça com este buff, seu dano será 4% maior que o dano base.</p>
-                        <li> * Conforto</li>
-                        <p>Caso seu desconforto esteja alto, seu dano será reduzido em 40%.</p>                        
-                        <li>* Habilidades</li>
-                        <p>Algumas habilidades podem aumentar seu dano, podendo ser passivas, como a "surto de poder" do tarchia e therizinosaurus, onde o dano é aumentado em 15% se seu HP estiver igual ou abaixo de 30% do HP total. E ativas, tal qual a "grito de guerra", do coelophysis, cujo efeito é aumentar o dano base em 20%.</p>
-                        <li>* Peso de combate</li>
-                        <li>* Ponto de acerto</li>
-                    </ul>
-                    
-                <h2>Defesa</h2>
-                <h2>Fratura</h2>
-                <h2>Sangramento</h2>
-            </section>
+                <!-- Combate e Dano -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Combate e Dano</button>
+                    <div class="accordion-content">
+                        <h2>Dano</h2>
+                        <p>O dano básico varia de acordo com a espécie.</p>
+                        <p>Seu dano base causado pode aumentar ou diminuir de acordo com diversos fatores:</p>
+                        <ul>
+                            <li><strong>Fase de crescimento:</strong> O dano aumenta continuadamente enquanto você cresce, saindo de 30% aos 0%, até chegar 100%, ao atingir a maturidade.</li>
+                            <li><strong>Buffs de ninho:</strong> Caso seu dinossauro nasça com este buff, seu dano será 4% maior que o dano base.</li>
+                            <li><strong>Conforto:</strong> Caso seu desconforto esteja alto, seu dano será reduzido em 40%.</li>                        
+                            <li><strong>Habilidades:</strong> Algumas habilidades podem aumentar seu dano, podendo ser passivas, como a "surto de poder" do tarchia e therizinosaurus, onde o dano é aumentado em 15% se seu HP estiver igual ou abaixo de 30% do HP total. E ativas, tal qual a "grito de guerra", do coelophysis, cujo efeito é aumentar o dano base em 20%.</li>
+                            <li><strong>Peso de combate:</strong> O peso de combate influencia diretamente no dano que você causa, podendo aumentar ou diminuir de acordo. A fórmula para calcular o dano causado é <code>DC (dano causado) = DB (Dano Base) * (Peso do atacante / peso do atacado)</code>. DC = DB * (PAE / PAO)</li>
+                            <li><strong>Ponto de acerto:</strong> O ponto de acerto é a parte do corpo do oponente onde o ataque é desferido. Acertar em pontos mais frágeis, como a cabeça, causa mais dano (120% do dano base), enquanto acertar em partes mais resistentes, como a cauda, causa menos dano (-16% do dano base).</li>
+                        </ul>
+                        
+                        <h2>Defesa</h2>
+                        <p>A defesa mitiga parte do dano recebido. Varia por espécie e pode ser afetada por buffs e nível de conforto.</p>
+                        
+                        <h2>Fratura</h2>
+                        <p>Ao sofrer grande impacto (como quedas altas ou ataques pesados), o dinossauro pode sofrer fratura. Fraturas reduzem a velocidade de locomoção severamente e precisam de tempo (descanso) para curar.</p>
 
-            <section class="texto-info">
-                <h1>Ninho</h1>
-                <p>Só é possível posicionar o ninho em locais específicos, estando com 100% de crescimento e com nível de conta igual ou superior a 5.</p>
-                <p>Os ninhos possuem 3 ovos, que podem ser afanados por terceiros. Você deve doar comida de seu estômago para que os ovos vinguem. Cada espécie possui sua própria quantidade de comida e tempo necessário para que os ovos se tornem férteis e você possa convidar outros jogadores. Nascer em um ninho te coloca no rebanho dos pais de forma automática.</p>
-                <p>Nascer em ninhos lhe trará um dos seguintes buffs: +5% de regeneração de vigor, +5% de velocidade de crescimento ou +4% de dano.</p>
-            </section>
+                        <h2>Sangramento</h2>
+                        <p>Ataques perfurantes ou cortantes causam sangramento. Sangrar faz com que o dinossauro perca HP continuamente até que o efeito acabe. Deitar-se remove o debuff ao passo em que o dano sofrido por ele.</p>
+                    </div>
+                </div>
+
+                <!-- Habilidades -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Habilidades</button>
+                    <div class="accordion-content">
+                        <p>Algumas espécies possuem habilidades únicas (passivas ou ativas) que as auxiliam na sobrevivência, combate ou movimentação. Estas habilidades podem ser liberadas à medida que a espécie cresce ou já estarem presentes desde a fase filhote.</p>
+                    </div>
+                </div>
+
+                <!-- Ninho -->
+                <div class="accordion-item">
+                    <button class="accordion-header">Ninho</button>
+                    <div class="accordion-content">
+                        <p>Só é possível posicionar o ninho em locais específicos, estando com 100% de crescimento e com nível de conta igual ou superior a 5.</p>
+                        <p>Os ninhos possuem 3 ovos, que podem ser afanados por terceiros. Você deve doar comida de seu estômago para que os ovos vinguem. Cada espécie possui sua própria quantidade de comida e tempo necessário para que os ovos se tornem férteis e você possa convidar outros jogadores. Nascer em um ninho te coloca no rebanho dos pais de forma automática.</p>
+                        <p>Nascer em ninhos lhe trará um dos seguintes buffs: +5% de regeneração de vigor, +5% de velocidade de crescimento ou +4% de dano.</p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="outgamemec"></div>
     </main>
@@ -151,6 +194,6 @@
     </footer>
 
     <script src="js/index.js"></script>
-    <script src="js/status.js"></script>
+    <script src="js/mecanicas.js"></script>
 </body>
 </html>

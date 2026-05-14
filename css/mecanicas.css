@@ -1,0 +1,85 @@
+.mecanicas-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.accordion-item {
+    margin-bottom: 15px;
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    background-color: rgba(8, 56, 56, 0.4);
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: var(--panel);
+    color: var(--text-highlight);
+    cursor: pointer;
+    padding: 18px 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.accordion-header:hover, .accordion-header.active {
+    background-color: var(--hover-bg);
+}
+
+.accordion-header::after {
+    content: '\002B';
+    font-size: 1.8rem;
+    color: var(--text-highlight);
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.accordion-header.active::after {
+    content: '\2212';
+}
+
+.accordion-content {
+    padding: 0 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+}
+
+.accordion-content p {
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.accordion-content h2 {
+    color: var(--text-secondary);
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border-bottom: 1px dashed var(--ink);
+    padding-bottom: 5px;
+}
+
+.accordion-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    color: var(--text-primary);
+}
+
+.accordion-content ul li {
+    margin-bottom: 10px;
+}
+
+.accordion-content ul li strong {
+    color: var(--accent);
+}
