@@ -55,7 +55,7 @@ const dinoDatabase = {
             { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% consumo de vigor).", icon: "img/skill/hora.png" }
         ],
         actives: [
-            { title: "Parkour", desc: "Capaz de escalar, ao precionar salto próximo a uma superfície adequada.", icon: "img/skill/park.png" },  
+            { title: "Parkour", desc: "Capaz de escalar ao precionar salto próximo a uma superfície adequada.", icon: "img/skill/park.png" },  
             { title: "Vento sob as asas", desc: "Quando no ar, precione o botão de salto para planar.", icon: "img/skill/planar.png" },      
             { title: "Escalador", desc: "Quando no ar, precione o botão de salto para tentar prender-se a uma superfície.", icon: "img/skill/escalador.png" },
             { title: "Disparada", desc: "O dinossauro se impulsiona para a direção em que estiver olhando, funciona apenas no ar.", icon: "img/skill/impulso.png" },  
@@ -85,7 +85,7 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "1.5 slots", growth: "18 min", price: "N/A", skin1: "6.500", skin2: 50, fotinha: "N/A", cormoeda: "2000", corgema: "15"},
         passives: [
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanho.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: + 9% defesa).", icon: "img/skill/rebanho.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam (+20% dano e sangramento).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
