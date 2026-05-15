@@ -481,7 +481,7 @@ const dinoDatabase = {
     ],
     actives: [
         { title: "Chuva de Golpes", desc: "Seu dinossauro desfere três golpes com suas garras. Aumenta a chance de infligir sangramento. Dano base: 180 (por ataque).", icon: "img/skill/garras.png" },
-        { title: "Chicote de Cauda", desc: "Um golpe de cauda em área, causa repulsão.", icon: "img/skill/cauda.png" }
+        { title: "Chicote de Cauda", desc: "Um golpe de cauda em área, causa repulsão. Dano base 265.", icon: "img/skill/cauda.png" }
     ]
     },
     "Deinocheirus": {
