@@ -104,7 +104,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua velociade e chance de fraturar aumentam (+5% velocidade e chance de fratura).", icon: "img/skill/poucohpP.png" }
         ],
         actives: [
-            { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.                                                                                                                                Dano base máximo aproximado: 457", icon: "img/skill/investidaP.png" },
+            { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor). Dano base máximo aproximado: 457", icon: "img/skill/investidaP.png" },
             { title: "Ataque Carregado", desc: "Após algum tempo de carregameto, seu dinossauro desfere um golpe poderoso com a cabeça, causando dano aumentado, aumentando a chance de fratura e podendo atordoar. Dano base máximo: 557.", icon: "img/skill/carregada.png" }
         ]
     },
@@ -386,7 +386,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta (+5% velocidade, -20% gasto de vigor).", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Bater", desc: "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.", icon: "img/skill/investida.png" },
+            { title: "Bater", desc: "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor).", icon: "img/skill/investida.png" },
             { title: "Terremoto", desc: "Seu dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa dano em área, com chance de atordoar e empurrar inimigos, mas o dano é baixo.", icon: "img/skill/terra.png" }
         ]
     },
@@ -511,7 +511,7 @@ const dinoDatabase = {
         { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua regeneração de vigor aumenta (até 2 vezes: +8% regeneração de stamina).", icon: "img/skill/rebanhoH.png" }
     ],
     actives: [
-        { title: "Bater", desc: "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+20% velocidade, +15% consumo de vigor). Dano base máximo: 668.", icon: "img/skill/investida.png" },
+        { title: "Bater", desc: "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor). Dano base máximo: 668.", icon: "img/skill/investida.png" },
         { title: "Golpe Esmagador", desc: "Seu dinossauro desfere um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros. Dano base: 350.", icon: "img/skill/cranio.png" }
     ]
     },
