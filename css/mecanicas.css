@@ -83,3 +83,7 @@
 .accordion-content ul li strong {
     color: var(--accent);
 }
+
+.outgamemec{
+    display: none;
+}
