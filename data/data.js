@@ -12,12 +12,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🌿",
         slots: 3,
-        preco: 110000,
-        skin1: 30000,
-        skin2: 300,
-        fotinha: 20000,
-        cormoeda: 4000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, seu consumo de vigor diminui e sua velocidade de movimento aumenta (-20% consumo de stamina, + 5% velocidade)." },
@@ -42,12 +36,6 @@ const dinosData = [
         crescimento: 56,
         dieta: "🥩",
         slots: 3,
-        preco: 800,
-        skin1: 40000,
-        skin2: 450,
-        fotinha: 200,
-        cormoeda: 8000,
-        corgema: 50,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (-10% gasto de stamina)." }
@@ -71,12 +59,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🥩",
         slots: 3,
-        preco: 140000,
-        skin1: 40000,
-        skin2: 300,
-        fotinha: null,
-        cormoeda: 8000,
-        corgema: 50,
         habilidades: {
             passivas: [
                 { titulo: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento. (até +4% chance de sangramento)" },
@@ -104,12 +86,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🥩🦈",
         slots: 3,
-        preco: 150000,
-        skin1: 50000,
-        skin2: 300,
-        fotinha: 22000,
-        cormoeda: 6000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2.5% sangramento)." },
@@ -135,12 +111,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🌿🦈",
         slots: 3,
-        preco: 800,
-        skin1: null,
-        skin2: 225,
-        fotinha: null,
-        cormoeda: 4000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2% sangramento)." },
@@ -166,12 +136,6 @@ const dinosData = [
         crescimento: 40,
         dieta: "🌿",
         slots: 3,
-        preco: 100000,
-        skin1: null,
-        skin2: null,
-        fotinha: 60,
-        cormoeda: 6000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (até 2x: +11% de sangramento)." },
@@ -196,12 +160,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🌿",
         slots: 2.5,
-        preco: 150000,
-        skin1: null,
-        skin2: null,
-        fotinha: null,
-        cormoeda: 4000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "quando seu dinossauro está com pouco HP, seu dano e chance de sangrar aumentam (+15% dano e chance de sangramento)." },
@@ -226,12 +184,6 @@ const dinosData = [
         crescimento: 29,
         dieta: "🌿",
         slots: 2,
-        preco: 32000,
-        skin1: 10000,
-        skin2: 120,
-        fotinha: null,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta (-20% consumo de stamina, +5% velocidade)." }
@@ -255,12 +207,6 @@ const dinosData = [
         crescimento: 41,
         dieta: "🥩🦈",
         slots: 2.5,
-        preco: 110000,
-        skin1: null,
-        skin2: null,
-        fotinha: 15000,
-        cormoeda: 2000,
-        corgema: 20,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +8% defesa)." },
@@ -286,12 +232,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🥩🦈",
         slots: 2.5,
-        preco: 650,
-        skin1: null,
-        skin2: null,
-        fotinha: 250,
-        cormoeda: 8000,
-        corgema: 70,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta (até 2 vezes: +1% chance de fratura)." },
@@ -318,12 +258,6 @@ const dinosData = [
         crescimento: 48,
         dieta: "🌿",
         slots: 2.5,
-        preco: 120000,
-        skin1: null,
-        skin2: null,
-        fotinha: null,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (até 4 vezes: -12% consumo de stamina)." },
@@ -348,12 +282,6 @@ const dinosData = [
         crescimento: 36,
         dieta: "🌿",
         slots: 2,
-        preco: 75000,
-        skin1: null,
-        skin2: null,
-        fotinha: 7000,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (+20% regeneração de HP)." },
@@ -378,12 +306,6 @@ const dinosData = [
         crescimento: 31,
         dieta: "🌿",
         slots: 2,
-        preco: 20500,
-        skin1: null,
-        skin2: null,
-        fotinha: null,
-        cormoeda: 2000,
-        corgema: 20,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa)." },
@@ -407,12 +329,6 @@ const dinosData = [
         crescimento: 39,
         dieta: "🌿",
         slots: 2.5,
-        preco: 35000,
-        skin1: 12000,
-        skin2: null,
-        fotinha: 8000,
-        cormoeda: 2500,
-        corgema: 25,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu dinossauro está com HP baixo, seu dano e chance de fraturar aumentam. (+15% dano, +7,5% fratura)" }
@@ -436,12 +352,6 @@ const dinosData = [
         crescimento: 39,
         dieta: "🌿",
         slots: 2,
-        preco: 55000,
-        skin1: 25000,
-        skin2: 250,
-        fotinha: 10000,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Fúria com Chifres", desc: "Quando seu dinossauro está com pouco HP, seu consumo de vigor é reduzido e sua chance de sangrar aumenta (-15% gasto de vigor, +7% chance de sangrar)." },
@@ -466,12 +376,6 @@ const dinosData = [
         crescimento: 38,
         dieta: "🥩",
         slots: 2.5,
-        preco: 650,
-        skin1: null,
-        skin2: null,
-        fotinha: null,
-        cormoeda: 6000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido (até 3 vezes: +9% regeneração de vigor)." },
@@ -496,12 +400,6 @@ const dinosData = [
         crescimento: 29,
         dieta: "🥩",
         slots: 2,
-        preco: 500,
-        skin1: null,
-        skin2: null,
-        fotinha: 15000,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta (+5% velocidade, -25% consumo de stamina)." },
@@ -526,12 +424,6 @@ const dinosData = [
         crescimento: 42,
         dieta: "🥩🌿",
         slots: 2,
-        preco: 55000,
-        skin1: null,
-        skin2: null,
-        fotinha: 15000,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Instinto Materno", desc: "Quando seu dinossauro está perto do ninho, o dano aumenta para cada ovo (até 3 vezes: +18% dano)." },
@@ -556,12 +448,6 @@ const dinosData = [
         crescimento: 29,
         dieta: "🥩",
         slots: 2.5,
-        preco: 100000,
-        skin1: null,
-        skin2: null,
-        fotinha: 150,
-        cormoeda: 2500,
-        corgema: 25,
         habilidades: {
             passivas: [
                 { titulo: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (até 10 vezes: +3,6% chance de sangramento, +6% velocidade)." },
@@ -586,12 +472,6 @@ const dinosData = [
         crescimento: 39,
         dieta: "🌿",
         slots: 2,
-        preco: 30000,
-        skin1: 12000,
-        skin2: 120,
-        fotinha: 10000,
-        cormoeda: 2000,
-        corgema: 20,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o consumo de vigor diminui e a velocidade de movimento aumenta (+5% velocidade, -20% consumo de vigor)." },
@@ -617,12 +497,6 @@ const dinosData = [
         crescimento: 39,
         dieta: "🥩🦈",
         slots: 2.5,
-        preco: 120000,
-        skin1: null,
-        skin2: null,
-        fotinha: 30000,
-        cormoeda: 6000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, sua defesa e chance de sangrar aumentam (+12% defesa, +3.6% chance de sangramento)." },
@@ -646,12 +520,6 @@ const dinosData = [
         crescimento: 38,
         dieta: "🥩",
         slots: 2.5,
-        preco: 600,
-        skin1: 40000,
-        skin2: 450,
-        fotinha: null,
-        cormoeda: 8000,
-        corgema: 50,
         habilidades: {
             passivas: [
                 { titulo: "Poder Acumulado", desc: "Seu primeiro ataque causa dano aumentado, há um tempo de recarga (+30% dano)." },
@@ -677,12 +545,6 @@ const dinosData = [
         crescimento: 28,
         dieta: "🥩🦈",
         slots: 2,
-        preco: 32000,
-        skin1: 18000,
-        skin2: 180,
-        fotinha: 120,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (até 10 vezes: +6% velocidade, 5% chance de sangramento)." },
@@ -707,12 +569,6 @@ const dinosData = [
         crescimento: 32,
         dieta: "🥩🦈",
         slots: 2,
-        preco: 280,
-        skin1: null,
-        skin2: null,
-        fotinha: 150,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão próximos, você recupera HP mais rápido (até 3 vezes: +20% recuperação de HP)." },
@@ -736,12 +592,6 @@ const dinosData = [
         crescimento: 28,
         dieta: "🌿",
         slots: 2,
-        preco: 8000,
-        skin1: 6000,
-        skin2: 80,
-        fotinha: 5000,
-        cormoeda: 2000,
-        corgema: 20,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: +13% defesa)." },
@@ -766,12 +616,6 @@ const dinosData = [
         crescimento: 24,
         dieta: "🥩🦈",
         slots: 2,
-        preco: 28000,
-        skin1: 15000,
-        skin2: 195,
-        fotinha: 12000,
-        cormoeda: 3000,
-        corgema: 30,
         habilidades: {
             passivas: [
                 { titulo: "Vampirismo", desc: "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o dano causado." },
@@ -798,12 +642,6 @@ const dinosData = [
         crescimento: 41,
         dieta: "🥩🦈",
         slots: 3,
-        preco: 125000,
-        skin1: null,
-        skin2: null,
-        fotinha: 15000,
-        cormoeda: 4000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado (até 3 vezes: +11% dano)." },
@@ -827,12 +665,6 @@ const dinosData = [
         crescimento: 17,
         dieta: "🌿",
         slots: 1,
-        preco: null,
-        skin1: 5500,
-        skin2: 40,
-        fotinha: null,
-        cormoeda: 1000,
-        corgema: 10,
         habilidades: {
             passivas: [
                 { titulo: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele (até 3 vezes: +15% dano)." },
@@ -858,12 +690,6 @@ const dinosData = [
         crescimento: 28,
         dieta: "🥩🦈",
         slots: 1.5,
-        preco: 180,
-        skin1: 8000,
-        skin2: 50,
-        fotinha: 3000,
-        cormoeda: 2000,
-        corgema: 15,
         habilidades: {
             passivas: [
                 { titulo: "Poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta (até 3 vezes: +13% defesa)." },
@@ -888,12 +714,6 @@ const dinosData = [
         crescimento: 18,
         dieta: "🥩🦈",
         slots: 1.5,
-        preco: null,
-        skin1: 6500,
-        skin2: 50,
-        fotinha: null,
-        cormoeda: 2000,
-        corgema: 15,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: + 9% defesa)." },
@@ -918,12 +738,6 @@ const dinosData = [
         crescimento: 20,
         dieta: "🌿",
         slots: 1,
-        preco: 5000,
-        skin1: 8500,
-        skin2: 70,
-        fotinha: 70,
-        cormoeda: 2000,
-        corgema: 20,
         habilidades: {
             passivas: [
                 { titulo: "Surto de poder", desc: "Seu dinossauro gasta menos stamina e sua velocidade aumenta quando está com HP baixo (+5% velocidade, -20% gasto de vigor)." },
@@ -947,12 +761,6 @@ const dinosData = [
         crescimento: 15,
         dieta: "🥩",
         slots: 1,
-        preco: null,
-        skin1: 4000,
-        skin2: 40,
-        fotinha: null,
-        cormoeda: 500,
-        corgema: 5,
         habilidades: {
             passivas: [
                 { titulo: "Juntos somos fortes!", desc: "Recupera stamina mais rápido perto da matilha." },
@@ -978,12 +786,6 @@ const dinosData = [
         crescimento: 12,
         dieta: "🥩🦈",
         slots: 1,
-        preco: 550,
-        skin1: 25000,
-        skin2: 150,
-        fotinha: null,
-        cormoeda: 8000,
-        corgema: 50,
         habilidades: {
             passivas: [
                 { titulo: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido (até 3 vezes: -35% consumo de vigor)." },
@@ -1011,12 +813,6 @@ const dinosData = [
         crescimento: 31,
         dieta: "🥩🦈",
         slots: 2,
-        preco: 600,
-        skin1: 20000,
-        skin2: 200,
-        fotinha: 18000,
-        cormoeda: 4000,
-        corgema: 40,
         habilidades: {
             passivas: [
                 { titulo: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (até 3 vezes: -18% gasto de stamina)." },
