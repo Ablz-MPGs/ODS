@@ -68,6 +68,7 @@
     }
     
     .dropdown-menu {
+        display: block;
         position: relative; 
         width: 100%;
         border: none;

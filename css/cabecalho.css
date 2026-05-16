@@ -82,3 +82,42 @@
     margin: 2px 0;
     transition: 0.4s;
 }
+
+/* Estilos do Dropdown para Desktop */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--panel);
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    z-index: 1001;
+    border-radius: 4px;
+    padding: 0;
+    list-style: none;
+    border-top: 3px solid var(--accent);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 12px 20px;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: var(--ink);
+    color: white;
+    font-weight: bold;
+}

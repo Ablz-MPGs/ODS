@@ -51,10 +51,9 @@
     justify-content: center;
     min-width: 52px;
     height: 52px;
-    border: 2px solid var(--accent);
     border-radius: 50%;
-    color: var(--text-highlight);
-    background-color: var(--ink);
+    color: white;
+    background-color: rgba(74, 168, 184, 0.4);
     font-weight: 900;
 }
 
