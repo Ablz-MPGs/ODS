@@ -5,11 +5,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    box-sizing: border-box;
-    background-color: var(--panel);
-    border-bottom: 5px solid var(--accent);
+    background-color:rgba(0, 0, 0, 0.801);
     position: fixed;
     z-index: 1000;
+    border-bottom: rgb(1, 179, 179) solid 3px;
 }
 
 .logo {
@@ -17,7 +16,7 @@
     align-items: center;
     gap: 10px;
     font-size: clamp(1rem, 3vw, 1.5rem);
-    color: var(--ink);
+    color: rgb(20, 190, 212);
     text-decoration: none;
     font-weight: bold;
 }
@@ -31,14 +30,14 @@
 .nav-link {
     font-weight: 500;
     text-decoration: none;
-    color: var(--ink);
+    color:aqua;
     padding: 5px 10px;
     transition: 0.3s, color 0.3s;
     border-radius: 4px;
 }
 
 .nav-link:hover{
-    background-color: var(--ink); 
+    background-color:rgba(0, 255, 255, 0.699); 
     color: white; 
     font-weight: bold;
 }
@@ -59,14 +58,14 @@
     display: flex;
     gap: 20px;
     list-style: none;
-    color: var(--ink);
+    color:rgb(224, 224, 224);
 }
 
 .nav-menu .active {
-    color: var(--text-primary);
+    color:rgb(223, 223, 223);
     font-weight: bold;
-    border-bottom: var(--bg) solid 2px;
-    background-color: var(--ink);
+    border-bottom:  aqua solid 2px;
+    background-color:rgb(9, 97, 97);
 }
 
 .hamburger {
@@ -93,7 +92,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: var(--panel);
+    background-color:rgb(32, 32, 32);
     min-width: 200px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     z-index: 1001;
@@ -103,14 +102,15 @@
     border-top: 3px solid var(--accent);
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
     display: block;
 }
 
 .dropdown-item {
     display: block;
     padding: 12px 20px;
-    color: var(--ink);
+    color:aqua;
     text-decoration: none;
     font-weight: 500;
     transition: 0.3s, color 0.3s;

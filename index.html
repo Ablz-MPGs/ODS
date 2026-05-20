@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/status.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -24,11 +24,11 @@
                 <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Início</a></li>
                 <li class="nav-item"><a href="galeria.html" class="nav-link">Galeria</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" role="button">Info</a>
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" role="button">Mais</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="tasks.html">Tasks</a></li>
+                        <li><a class="dropdown-item" href="info.html">Info</a></li>
                         <li><a class="dropdown-item" href="status.html">Status</a></li>
-                        <li><a class="dropdown-item" href="compare.html">Comparar</a></li>
+                         
                         <li><a class="dropdown-item" href="mecanicas.html">Mecânicas</a></li>
                     </ul>
                 </li>
@@ -42,70 +42,102 @@
     </header>
 
     <main>
-        <h1>The Cursed Dinosaur Isle</h1>
-        <section id="sobre" class="info-jogo">
-            <h2>O Que é The Cursed Dinosaur Isle?</h2>
-            <div class="texto-info">
-                <p>The Cursed Dinosaur Isle, Online Dinosaur Simulator ou simplesmente TCI é um simulador de sobrevivência com uma proposta realista focado em dispositivos móveis, onde os jogadores assumem o papel de criaturas pré-históricas em um ecossistema online.</p>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>The Cursed Dinosaur Isle</h1>
+                <p>Sobreviva, cresça e domine em um ecossistema pré-histórico online realista focado em dispositivos móveis.</p>
+                <div class="hero-buttons">
+                    <a href="galeria.html" class="btn-primary">Ver Galeria</a>
+                    <a href="mecanicas.html" class="btn-secondary">Como Jogar</a>
+                </div>
             </div>
         </section>
 
-        <section class="texto-info">
-            <h2 class="tier-toggle collapsed" tabindex="0" role="button" aria-expanded="false">Ordem de lançamento<span class="arrow"></span></h2>
-            <div class="table-container hidden">
-                <table class="tabela-simples">
-                    <thead>
-                        <tr>
-                            <th>Personagem</th>
-                            <th>Lançamento</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr><td>Giganotosaurus</td><td>13 / 04 / 2026</td></tr>
-                        <tr><td>Changyuraptor</td><td>12 / 02 / 2026</td></tr>
-                        <tr><td>Stegosaurus</td><td>25 / 12 / 2025</td></tr>
-                        <tr><td>Megaraptor</td><td>12 / 11 / 2025</td></tr>
-                        <tr><td>Austroraptor</td><td>09 / 10 / 2025</td></tr>
-                        <tr><td>Deinonychus</td><td>12 / 08 / 2025</td></tr>
-                        <tr><td>Dilophosaurus</td><td>27 / 06 / 2025</td></tr>
-                        <tr><td>Carnotaurus</td><td>08 / 05 / 2025</td></tr>
-                        <tr><td>Styracosaurus</td><td>08 / 05 / 2025</td></tr>
-                        <tr><td>Suchomimus</td><td>02 / 04 / 2025</td></tr>
-                        <tr><td>Fasolasuchus</td><td>03 / 02 / 2025</td></tr>
-                        <tr><td>Amargasaurus</td><td>03 / 02 / 2025</td></tr>
-                        <tr><td>Deinocheirus</td><td>20 / 11 / 2024</td></tr>
-                        <tr><td>Psittacosaurus</td><td>04 / 11 / 2024</td></tr>
-                        <tr><td>Gigantoraptor</td><td>04 / 11 / 2024</td></tr>
-                        <tr><td>Concavenator</td><td>27 / 09 / 2024</td></tr>
-                        <tr><td>Therizinosaurus</td><td>14 / 09 / 2024</td></tr>
-                        <tr><td>Quetzalcoatlus</td><td>01 / 06 / 2024</td></tr>
-                        <tr><td>Barbaridactylus</td><td>22 / 05 / 2024</td></tr>
-                        <tr><td>Spinosaurus</td><td>30 / 03 / 2024</td></tr>
-                        <tr><td>Triceratops</td><td>30 / 03 / 2024</td></tr>
-                        <tr><td>Tyrannosaurus</td><td>30 / 03 / 2024</td></tr>
-                        <tr><td>Ceratosaurus</td><td>06 / 03 / 2024</td></tr>
-                        <tr><td>Allosaurus</td><td>06 / 03 / 2024</td></tr>
-                        <tr><td>Plateosaurus</td><td>14 / 02 / 2024</td></tr>
-                        <tr><td>Parasaurolophus</td><td>14 / 02 / 2024</td></tr>
-                        <tr><td>Coelophysis</td><td>25 / 01 / 2024</td></tr>
-                        <tr><td>Guanlong</td><td>25 / 01 / 2024</td></tr>
-                        <tr><td>Pachyrhinosaurus</td><td>13 / 01 / 2024</td></tr>
-                        <tr><td>Ornithomimus</td><td>21 / 12 / 2023</td></tr>
-                        <tr><td>Pachycephalosaurus</td><td>21 / 12 / 2023</td></tr>
-                        <tr><td>Kentrosaurus</td><td>21 / 12 / 2023</td></tr>
-                        <tr><td>Sarcosuchus</td><td>30 / 11 / 2023</td></tr>
-                        <tr><td>Tarchia</td><td>10 / 10 / 2023</td></tr>
-                    </tbody>
-                </table>
+        <!--<section class="intro">
+            <div class="intro-content">
+                <h2>Um mundo de sobrevivência pré-histórica</h2>
+                <p>Explore dinossauros reais, descubra como cada espécie se comporta e use a galeria, os status e as mecânicas para planejar sua evolução.</p>
+                <div class="intro-points">
+                    <div class="intro-point">
+                        <h3>Imersão rápida</h3>
+                        <p>Textos diretos e visual de alto contraste ajudam você a entender rapidamente o objetivo do jogo.</p>
+                    </div>
+                    <div class="intro-point">
+                        <h3>Decisões estratégicas</h3>
+                        <p>Compare atributos e escolha a criatura que melhor combina com seu estilo de sobrevivência.</p>
+                    </div>
+                    <div class="intro-point">
+                        <h3>Jogue com propósito</h3>
+                        <p>Veja como cada escolha impacta seu progresso em um ecossistema online dinâmico.</p>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <section class="features">
+            <div class="section-description">
+                <p>Comece por estas três áreas principais para conhecer as espécies, comparar status e dominar as mecânicas do jogo.</p>
+            </div>
+            <div class="cards-grid">
+                <a href="galeria.html" class="feature-card">
+                    <h3>Galeria de Espécies</h3>
+                    <p>Conheça os dinossauros, seus tiers, dietas e habilidades únicas.</p>
+                </a>
+                <a href="status.html" class="feature-card">
+                    <h3>Comparar Status</h3>
+                    <p>Analise e compare os atributos vitais de diferentes predadores e presas.</p>
+                </a>
+                <a href="mecanicas.html" class="feature-card">
+                    <h3>Mecânicas</h3>
+                    <p>Entenda o crescimento, combate, grupos e os sistemas de sobrevivência do jogo.</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-grid">
+            <div class="about-text">
+                <h2>O Que é The Cursed Dinosaur Isle?</h2>
+                <p>The Cursed Dinosaur Isle, Online Dinosaur Simulator ou simplesmente TCI é um simulador de sobrevivência com uma proposta realista focado em dispositivos móveis, onde os jogadores assumem o papel de criaturas pré-históricas em um ecossistema online.</p>
+                
+            </div>
+            <div class="about-image">
+                <img src="img/logo.png" alt="Logo The Cursed Dinosaur Isle" loading="lazy">
             </div>
         </section>
     </main>
 
     <footer class="rodape">
-        <span>&copy; 2026, Ablaze</span>
+        <div class="rodape-conteudo">
+            <div class="rodape-logo">
+                 <img src="img/logo.png" alt="Logo The Cursed Dinosaur Isle" loading="lazy">
+                <h3>The Cursed Dinosaur Isle</h3>
+                 
+            </div>
+            <div class="rodape-links">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="status.html">Status</a></li>
+                    <li><a href="mecanicas.html">Mecânicas</a></li>
+                </ul>
+            </div>
+            <div class="rodape-sociais">
+                <h4>Comunidade</h4>
+                <div class="sociais-icones">
+                    <a href="https://discord.com/invite/dreamdustofficial" target="_blank" rel="noopener noreferrer">Discord</a>
+                    <a href="https://youtube.com/@dreamdustgames?si=ociapI6gkQNDoi-J" target="_blank" rel="noopener noreferrer">YouTube</a>
+                </div>
+            </div>
+        </div>
+        <div class="rodape-bottom">
+            <span>&copy; 2026, Ablaze. Todos os direitos reservados.</span>
+        </div>
     </footer>
 
     <script src="js/index.js"></script>
     <script src="js/status.js"></script>
+    <script src="js/info.js"></script>
 </body>
 </html>

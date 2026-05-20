@@ -36,15 +36,27 @@ fetch("data/dinoDataBase.json")
     })
     .catch(error => console.error("Erro ao carregar a base de dados dos dinossauros:", error));
 
-function createSkillHTML({ icon = 'img/logo.png', title, desc }) {
+function createSkillHTML({ icon = 'img/logo.png', title, desc, effect }) {
+    if(effect != null) {
     return `
         <div class="skill-item">
             <img src="${icon}" class="skill-icon" alt="${title}">
             <div class="skill-text">
                 <h5>${title}</h5>
                 <p>${desc}</p>
-            </div>
+            </div>            
+        </div>
+        <div class="skill-effect"><strong></strong> ${effect}</div>`;
+    } else {
+        return `
+        <div class="skill-item">
+            <img src="${icon}" class="skill-icon" alt="${title}">
+            <div class="skill-text">
+                <h5>${title}</h5>
+                <p>${desc}</p>
+            </div>            
         </div>`;
+    }
 }
 
 function fecharModal() {
@@ -150,7 +162,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-/* Permite fechar os modais pressionando a tecla Escape */
 document.addEventListener('keydown', (event) => {
     if (event.key === "Escape") {
         if (modal.style.display === "block") fecharModal();

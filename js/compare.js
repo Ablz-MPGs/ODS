@@ -8,6 +8,7 @@ const tableSpeciesB = document.getElementById("table-species-b");
 
 const attributes = [
     { key: "tier", label: "Tier" },
+    { key: "peso", label: "Peso de combate" },
     { key: "hp", label: "HP" },
     { key: "dano_base", label: "Dano base" },
     { key: "fratura", label: "Fratura", suffix: "%" },

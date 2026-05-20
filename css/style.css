@@ -12,10 +12,12 @@
     --header-height: 90px; 
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 html, body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg);
+    background-color:#181818;
     color: var(--text-primary);
     display: flex;
     flex-direction: column;
@@ -27,7 +29,6 @@ html, body {
 main {
     flex: 1;
     padding: 2rem 5%;
-    box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
     margin-top: var(--header-height);
@@ -114,17 +115,90 @@ tbody tr:hover {
     font-weight: bold;
 }
 
+/* Rodapé Moderno */
 .rodape {
+    background-color: rgba(8, 20, 20, 0.95);
+    color: var(--text-primary);
+    border-top: 4px solid var(--accent);
+    padding: 40px 5% 20px 5%;
+    margin-top: auto;
     display: flex;
-    background-color: var(--panel); 
-    color: var(--ink);
+    flex-direction: column;
+    gap: 30px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
     width: 100%;
-    height: 70px;
-    align-items: center;
-    box-sizing: border-box;
-    border-top: 5px solid var(--accent); 
-    justify-content: center;
-    margin-top: auto; 
+}
+
+.rodape-logo {
+    flex: 1 1 300px;
+}
+
+.rodape-logo img {
+    width: 60px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.rodape-logo h3 {
+    color: var(--accent);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.rodape-logo p {
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+.rodape-links, .rodape-sociais {
+    flex: 1 1 150px;
+}
+
+.rodape-links h4, .rodape-sociais h4 {
+    color: var(--text-highlight);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.rodape-links ul, .sociais-icones {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-links a, .sociais-icones a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.rodape-links a:hover, .sociais-icones a:hover {
+    color: var(--accent);
+    transform: translateX(5px);
+}
+
+.rodape-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    font-size: 0.85rem;
+    color: var(--muted);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .texto-info {
@@ -140,6 +214,22 @@ tbody tr:hover {
     background-color: rgba(8, 56, 56, 0.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+.section-note {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    color: var(--text-primary);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.dino-link {
+    color: #b4faff;
+    text-decoration: underline;
+    transition: color 0.25s ease;
+}
+.dino-link:hover {
+    color: #ffffff;
+}
 .search-wrapper {
     width: 100%;
     max-width: 600px; 
@@ -150,7 +240,6 @@ tbody tr:hover {
 #searchInput {
     width: 100%;
     padding: 12px 20px;
-    box-sizing: border-box;
     border: 2px solid var(--accent);
     border-radius: 8px;
     background-color: rgba(26, 26, 26, 0.5); 

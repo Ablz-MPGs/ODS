@@ -43,3 +43,5 @@ Psittacosaurus mongoliensis: HP: 980, Dano base: 110-130, Fratura: 0%, Sangramen
 Coelophysis bauri: HP: 550, Dano base: 80-96, Fratura: 0%, Sangramento: 28%, Vel. terra: 2050-2152-2255 / 2357, Vel. água: 350-367-385 / 402, Vel. ar: N/A
 Changyuraptor yangi: HP: 400, Dano base: 60, Fratura: 0%, Sangramento: 25%, Vel. terra: 2050, Vel. água: 280, Vel. ar: -
 Barbaridactylus grandis: HP: 1000, Dano base: 120, Fratura: 0%, Sangramento: 8-9%, Vel. terra: 1200, Vel. água: 600, Vel. ar: 2800
+
+

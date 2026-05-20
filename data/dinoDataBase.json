@@ -18,29 +18,34 @@
       {
         "title": "Juntos somos fortes!",
         "desc": "Recupera stamina mais rápido perto da matilha.",
-        "icon": "img/skill/rebanho.png"
+        "icon": "img/skill/rebanho.png",
+        "effect": "Indefinido"
       },
       {
         "title": "Apetite louco",
-        "desc": "Seu dinossauro se torna mais rápido quando carrega algo na boca (+10% velocidade).",
-        "icon": "img/skill/apetite.png"
+        "desc": "Seu dinossauro se torna mais rápido quando carrega algo na boca.",
+        "icon": "img/skill/apetite.png",
+        "effect": "+10% velocidade"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando com baixo HP, seu dinossauro corre mais rápido e gasta menos vigor (-20% gasto de vigor, +5% velocidade).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando com baixo HP, seu dinossauro corre mais rápido e gasta menos vigor.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% gasto de vigor, +5% velocidade"
       }
     ],
     "actives": [
       {
         "title": "Troféu de carne",
-        "desc": "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player dano base: 125.",
-        "icon": "img/skill/trofeu.png"
+        "desc": "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player.",
+        "icon": "img/skill/trofeu.png",
+        "effect": "Dano base: 125"
       },
       {
         "title": "Grito de guerra",
-        "desc": "Seu dinossauro grita, aumentando o seu dano (+20% dano).",
-        "icon": "img/skill/buffS.png"
+        "desc": "Seu dinossauro grita, aumentando o seu dano.",
+        "icon": "img/skill/buffS.png",
+        "effect": "+16 dano"
       }
     ]
   },
@@ -62,40 +67,47 @@
     "passives": [
       {
         "title": "Juntos somos fortes!",
-        "desc": "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido (até 3 vezes: -35% consumo de vigor).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -35% consumo de vigor"
       },
       {
         "title": "Força das Trevas",
-        "desc": "Seu dinossauro gasta menos stamina à noite (-20% consumo de vigor).",
-        "icon": "img/skill/hora.png"
+        "desc": "Seu dinossauro gasta menos stamina à noite.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% consumo de vigor"
       }
     ],
     "actives": [
       {
         "title": "Parkour",
         "desc": "Capaz de escalar ao precionar salto próximo a uma superfície adequada.",
-        "icon": "img/skill/park.png"
+        "icon": "img/skill/park.png",
+        "effect": null
       },
       {
         "title": "Vento sob as asas",
-        "desc": "Quando no ar, pressione o botão de salto para planar.",
-        "icon": "img/skill/planar.png"
+        "desc": "Quando no ar, pressione o botão de salto para planar. Recupera vigor enquanto planando.",
+        "icon": "img/skill/planar.png",
+        "effect": null
       },
       {
         "title": "Escalador",
         "desc": "Quando no ar, pressione o botão de salto para tentar prender-se a uma superfície.",
-        "icon": "img/skill/escalador.png"
+        "icon": "img/skill/escalador.png",
+        "effect": null
       },
       {
         "title": "Disparada",
         "desc": "O dinossauro se impulsiona para a direção em que estiver olhando, funciona apenas no ar.",
-        "icon": "img/skill/impulso.png"
+        "icon": "img/skill/impulso.png",
+        "effect": null
       },
       {
         "title": "Corrida alta",
         "desc": "Seu dinossauro executa um grande salto.",
-        "icon": "img/skill/puloC.png"
+        "icon": "img/skill/puloC.png",
+        "effect": null
       }
     ]
   },
@@ -117,30 +129,35 @@
     "passives": [
       {
         "title": "Instinto materno",
-        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele (até 3 vezes: +15% dano).",
-        "icon": "img/skill/ninho.png"
+        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até 3 vezes: +14 dano"
       },
       {
         "title": "Corredor de maratona",
-        "desc": "Quando há membros da matilha perto de você, sua recuperação de vigor acelera (até 2 vezes: +15% regeneração de vigor).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando há membros da matilha perto de você, sua recuperação de vigor acelera.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +15% regeneração de vigor"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouca saúde, sua defesa aumenta (+15% defesa).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+15% defesa"
       }
     ],
     "actives": [
       {
         "title": "Incentivo",
-        "desc": "Seu dinossauro emite um grito alto, reduzindo o consumo de vigor dos membros da matilha (-15% gasto de vigor).",
-        "icon": "img/skill/buffS.png"
+        "desc": "Seu dinossauro emite um grito alto, reduzindo o consumo de vigor dos membros da matilha.",
+        "icon": "img/skill/buffS.png",
+        "effect": "-15% gasto de vigor"
       },
       {
         "title": "Chute",
-        "desc": "Seu dinossauro ataca com as patas traseiras, causando dano adicional, com chance de atordoar e repelir alguns dinossauros. Dano base: 150.",
-        "icon": "img/skill/chute.png"
+        "desc": "Seu dinossauro ataca com as patas traseiras, causando dano adicional, com chance de atordoar e repelir alguns dinossauros.",
+        "icon": "img/skill/chute.png",
+        "effect": "dano base: 150"
       }
     ]
   },
@@ -162,25 +179,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: + 9% defesa).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: + 9% defesa"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam (+20% dano e sangramento).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+24 dano, 4% chance de sangramento"
       }
     ],
     "actives": [
       {
         "title": "Grito de Guerra.",
-        "desc": "O dinossauro ruge, elevando seu moral e o da matilha, diminuindo seu consumo de vigor por um tempo (-20% gasto de vigor).",
-        "icon": "img/skill/buffS.png"
+        "desc": "O dinossauro ruge, elevando seu moral e o da matilha, diminuindo seu consumo de vigor por um tempo.",
+        "icon": "img/skill/buffS.png",
+        "effect": "-20% gasto de vigor"
       },
       {
         "title": "Lâminas Afiadas",
-        "desc": "Desfiere um golpe penetrantes com as garras, causando mais dano e podendo atordoar dinossauros menores. Dano base: 160.",
-        "icon": "img/skill/jump.png"
+        "desc": "Desfiere um golpe penetrantes com as garras, causando mais effect e podendo atordoar dinossauros menores.",
+        "icon": "img/skill/jump.png",
+        "effect": "dano base: 160"
       }
     ]
   },
@@ -202,25 +223,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 3 vezes: +13% defesa).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 3 vezes: +13% defesa"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, sua velociade e chance de fraturar aumentam (+5% velocidade e chance de fratura).",
-        "icon": "img/skill/poucohpP.png"
+        "desc": "Quando seu dinossauro está com pouco HP, sua velocidade e chance de fraturar aumentam.",
+        "icon": "img/skill/poucohpP.png",
+        "effect": "+5% velocidade e chance de fratura"
       }
     ],
     "actives": [
       {
         "title": "Bater",
-        "desc": "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor). Dano base máximo aproximado: 457",
-        "icon": "img/skill/investidaP.png"
+        "desc": "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investidaP.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 457"
       },
       {
         "title": "Ataque Carregado",
-        "desc": "Após algum tempo de carregameto, seu dinossauro desfiere um golpe poderoso com a cabeça, causando dano aumentado, aumentando a chance de fratura e podendo atordoar. Dano base máximo: 557.",
-        "icon": "img/skill/carregada.png"
+        "desc": "Após algum tempo de carregamento, seu dinossauro desfiere um golpe poderoso com a cabeça, causando dano aumentado, aumentando a chance de fratura e podendo atordoar.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 557"
       }
     ]
   },
@@ -242,25 +267,29 @@
     "passives": [
       {
         "title": "Poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta (até 3 vezes: +13% defesa).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +13% defesa"
       },
       {
         "title": "Força das Trevas",
-        "desc": "Seu dinossauro gasta menos stamina à noite (-20% gasto de stamina).",
-        "icon": "img/skill/hora.png"
+        "desc": "Seu dinossauro gasta menos stamina à noite.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Grito de Guerra",
-        "desc": "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo (+15% chance de sangramento).",
-        "icon": "img/skill/sangra.png"
+        "desc": "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo.",
+        "icon": "img/skill/sangra.png",
+        "effect": "+15% chance de sangramento"
       },
       {
         "title": "Ataque Carregado",
-        "desc": "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento. Bano base: 336.",
-        "icon": "img/skill/carregada.png"
+        "desc": "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base: 336"
       }
     ]
   },
@@ -282,20 +311,23 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (até 3 vezes: -18% gasto de stamina).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -18% gasto de stamina"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Enxame Barulhento",
-        "desc": "O pterossauro emite um grito estridente, aumentando a sua capacidade de infligir sangramento e a de aliados próximos por um curto período (+15% chance de sangramento).",
-        "icon": "img/skill/sangra.png"
+        "desc": "O pterossauro emite um grito estridente, aumentando a sua capacidade de infligir sangramento e a de aliados próximos por um curto período.",
+        "icon": "img/skill/sangra.png",
+        "effect": "+15% chance de sangramento"
       }
     ]
   },
@@ -317,20 +349,23 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Seu dinossauro gasta menos stamina e sua velocidade aumenta quando está com HP baixo (+5% velocidade, -20% gasto de vigor).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Seu dinossauro gasta menos stamina e sua velocidade aumenta quando está com HP baixo.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
       },
       {
         "title": "Instinto materno",
-        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele (até +18% dano).",
-        "icon": "img/skill/ninho.png"
+        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até: +30 dano"
       }
     ],
     "actives": [
       {
         "title": "Grito de Cura",
-        "desc": "Seu dinossauro emite um grito que acelera a própria regeneração de HP e dos membros da matilha próximos (+20% regeneração de HP).",
-        "icon": "img/skill/buffR.png"
+        "desc": "Seu dinossauro emite um grito que acelera a própria regeneração de HP e dos membros da matilha próximos.",
+        "icon": "img/skill/buffR.png",
+        "effect": "+20% regeneração de HP"
       }
     ]
   },
@@ -352,20 +387,23 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu dano é aumentado (até 3 vezes: +11% dano).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu effect é aumentado.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +17 dano"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor diminui e sua velocidade aumenta (+5% velocidade, -20% gasto de vigor).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor diminui e sua velocidade aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Capturar",
-        "desc": "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade (-15% velocidade). Dano base: 160.",
-        "icon": "img/skill/capturar.png"
+        "desc": "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.",
+        "icon": "img/skill/capturar.png",
+        "effect": "-15% velocidade. Dano base: 160"
       }
     ]
   },
@@ -387,35 +425,41 @@
     "passives": [
       {
         "title": "Vampirismo",
-        "desc": "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o dano causado.",
-        "icon": "img/skill/vamp.png"
+        "desc": "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o effect causado.",
+        "icon": "img/skill/vamp.png",
+        "effect": "HP +25% do dano causado"
       },
       {
         "title": "Juntos somos fortes!",
-        "desc": "Quando os membros da matilha estão perto de você, o gasto de vigor é reduzido (até 3 vezes: -15% gasto de vigor).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, o gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -15% gasto de vigor"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo seu dinossauro gasta menos stamina após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de vigor"
       },
       {
         "title": "Frescor Marinho",
-        "desc": "Ao sair da água, sua velocidade de corrida e nado aumentam (+5% velocidade).",
-        "icon": "img/skill/enativo.png"
+        "desc": "Ao sair da água, sua velocidade de corrida e nado aumentam.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+5% velocidade"
       }
     ],
     "actives": [
       {
         "title": "Ataque do céu",
-        "desc": "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa (-15% defesa inimiga). Dano base: 200.",
-        "icon": "img/skill/mordida.png"
+        "desc": "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.",
+        "icon": "img/skill/mordida.png",
+        "effect": "-15% defesa inimiga. Dano base: 200"
       },
       {
         "title": "Disparada",
         "desc": "Salte para alcançar o inimigo ou escapar velozmente, pode ser usado na água.",
-        "icon": "img/skill/dash.png"
+        "icon": "img/skill/dash.png",
+        "effect": null
       }
     ]
   },
@@ -437,25 +481,29 @@
     "passives": [
       {
         "title": "Sede de Sangue",
-        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (até 10 vezes: +6% velocidade, 5% chance de sangramento).",
-        "icon": "img/skill/sedesangue.png"
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até 10 vezes: +6% velocidade, +5% chance de sangramento"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, a recuperação de vigor acelera (até 5 vezes: +28% recuperação de vigor).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, a recuperação de vigor acelera.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 5 vezes: +28% recuperação de vigor"
       }
     ],
     "actives": [
       {
         "title": "Arranhão",
-        "desc": "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos dano. Dano base: 100.",
-        "icon": "img/skill/garras.png"
+        "desc": "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos effect.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 100"
       },
       {
         "title": "Chuva de Golpes",
-        "desc": "Seu dinossauro desfiere três mordidas com maior chance de causar sangramento. Dano base: 140 (por mordida).",
-        "icon": "img/skill/multbite.png"
+        "desc": "Seu dinossauro desfiere três mordidas com maior chance de causar sangramento.",
+        "icon": "img/skill/multbite.png",
+        "effect": "Dano base: 140 (por mordida)"
       }
     ]
   },
@@ -477,20 +525,23 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão próximos, você recupera HP mais rápido (até 3 vezes: +20% recuperação de HP).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão próximos, você recupera HP mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +20% recuperação de HP"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de vigor é reduzido (+15% dano, -20% consumo de vigor).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de vigor é reduzido.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+20 dano, -20% consumo de vigor"
       }
     ],
     "actives": [
       {
         "title": "Golpe Esmagador",
-        "desc": "O dinossauro causa um golpe devastador com dano e chance de sangrar aumentados. Dano base: 200.",
-        "icon": "img/skill/mordida.png"
+        "desc": "O dinossauro causa um golpe devastador comdano e chance de sangrar aumentados.",
+        "icon": "img/skill/mordida.png",
+        "effect": "Dano base: 200"
       }
     ]
   },
@@ -512,25 +563,29 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta (+5% velocidade, -25% consumo de stamina).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu pseudosuchio está com baixo HP, o consumo de vigor diminui e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -25% consumo de vigor"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta (até 3 vezes: +1% chance de fratura).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +1% chance de fratura"
       }
     ],
     "actives": [
       {
         "title": "Capturar",
         "desc": "Seu dinossauro agarra uma presa com o boca podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.",
-        "icon": "img/skill/capturarf.png"
+        "icon": "img/skill/capturarf.png",
+        "effect": "-15% velocidade. Dano base: 245"
       },
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 670"
       }
     ]
   },
@@ -552,30 +607,35 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, o consumo de vigor diminui e a velocidade de movimento aumenta (+5% velocidade, -20% consumo de vigor).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, o consumo de vigor diminui e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% consumo de vigor"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (até +4% sangramento).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até +4% sangramento"
       },
       {
         "title": "Instinto Primordial",
-        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).",
-        "icon": "img/skill/instintop.png"
+        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.",
+        "icon": "img/skill/instintop.png",
+        "effect": "+9% sangramento"
       }
     ],
     "actives": [
       {
         "title": "Chuva de Golpes",
-        "desc": "Seu dinossauro bate a cauda várias vezes, causando dano várias vezes ao mesmo alvo.",
-        "icon": "img/skill/tago.png"
+        "desc": "Seu dinossauro bate a cauda três vezes, causando dano várias vezes ao mesmo alvo.",
+        "icon": "img/skill/tago.png",
+        "effect": "Dano base: 230 (por golpe)"
       },
       {
         "title": "Armadura",
-        "desc": "Seu dinossauro se levanta, ganha força e então cai bruscamente. Suas placas se movem, aumentando temporariamente a defesa (+25% defesa).",
-        "icon": "img/skill/defesa.png"
+        "desc": "Seu dinossauro se levanta, ganha força e então cai. Suas placas se movem, aumentando temporariamente a defesa.",
+        "icon": "img/skill/defesa.png",
+        "effect": "+25% defesa"
       }
     ]
   },
@@ -597,30 +657,35 @@
     "passives": [
       {
         "title": "Poder Acumulado",
-        "desc": "Seu primeiro ataque causa dano aumentado, há um tempo de recarga (+30% dano).",
-        "icon": "img/skill/poderacumulado.png"
+        "desc": "Seu primeiro ataque causa dano aumentado, há um tempo de recarga.",
+        "icon": "img/skill/poderacumulado.png",
+        "effect": "+70 dano"
       },
       {
         "title": "Devorador da Noite",
-        "desc": "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de vigor diminui (+20% chance de sangramento, -15% gasto de vigor).",
-        "icon": "img/skill/devorador.png"
+        "desc": "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de vigor diminui.",
+        "icon": "img/skill/devorador.png",
+        "effect": "+20% chance de sangramento, -15% gasto de vigor"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (até 2 vezes, -10% gasto de vigor).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: -10% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Rugido Aterrorizante",
-        "desc": "Seu dinossauro ruge, fazendo com que os jogadores próximos fiquem com medo e percam parte do conforto, manter-se próximo fará com que o efeito se torne continuo (-30% conforto imediato, podendo escalar).",
-        "icon": "img/skill/rugido.png"
+        "desc": "Seu dinossauro ruge, fazendo com que os jogadores próximos fiquem com medo e percam parte do conforto, manter-se próximo fará com que o efeito se torne continuo.",
+        "icon": "img/skill/rugido.png",
+        "effect": "-30% conforto imediato, podendo escalar"
       },
       {
         "title": "Garras Afiadas",
-        "desc": "O dinossauro faz dois movimentos com suas garras. O ataque causa dano aumentado e aumenta as chances de infligir sangramento.",
-        "icon": "img/skill/garras.png"
+        "desc": "O dinossauro faz dois movimentos com suas garras. O ataque tem maiores chances de infligir sangramento.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: - (por ataque)"
       }
     ]
   },
@@ -642,20 +707,23 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, sua defesa e chance de sangrar aumentam (+12% defesa, +3.6% chance de sangramento).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, sua defesa e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+12% defesa, +3.6% chance de sangramento"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (até 2 vezes: +20% recuperação de HP).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +20% recuperação de HP"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 600"
       }
     ]
   },
@@ -677,25 +745,29 @@
     "passives": [
       {
         "title": "Sede de Sangue",
-        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (até 10 vezes: +3,6% chance de sangramento, +6% velocidade).",
-        "icon": "img/skill/sedesangue.png"
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até 10 vezes: +3,6% chance de sangramento, +6% velocidade"
       },
       {
         "title": "O poder do bando",
         "desc": "Quando há membros da matilha perto de você, seu gasto de vigor é reduzido.",
-        "icon": "img/skill/rebanho.png"
+        "icon": "img/skill/rebanho.png",
+        "effect": "--% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 560"
       },
       {
         "title": "Crânio de Ferro",
         "desc": "Seu dinossauro causa um golpe devastador com dano aumentado, podendo atordoar inimigos.",
-        "icon": "img/skill/cranio.png"
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base 245"
       }
     ]
   },
@@ -717,25 +789,29 @@
     "passives": [
       {
         "title": "Instinto Materno",
-        "desc": "Quando seu dinossauro está perto do ninho, o dano aumenta para cada ovo (até 3 vezes: +18% dano).",
-        "icon": "img/skill/ninho.png"
+        "desc": "Quando seu dinossauro está perto do ninho, o dano aumenta para cada ovo.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até 3 vezes: +32 dano"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu dano aumenta (até 2 vezes: +11% dano).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu dano aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +18 dano"
       }
     ],
     "actives": [
       {
         "title": "Chute",
         "desc": "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.",
-        "icon": "img/skill/chute.png"
+        "icon": "img/skill/chute.png",
+        "effect": "Dano base 250"
       },
       {
         "title": "Chuva de Golpes",
-        "desc": "Seu dinossauro desfiere múltiplas bicadas com maior chance de causar sangramento. Ataques causam menos dano",
-        "icon": "img/skill/chuvagolpes.png"
+        "desc": "Seu dinossauro desfiere múltiplas bicadas com maior chance de causar sangramento. Ataques causam menos dano.",
+        "icon": "img/skill/chuvagolpes.png",
+        "effect": "Dano base 110"
       }
     ]
   },
@@ -757,25 +833,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido (até 3 vezes: +9% regeneração de vigor).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +9% regeneração de vigor"
       },
       {
         "title": "Bom Sono",
-        "desc": "Seu dinossauro gasta menos vigor enquanto o cansaço estiver acima de 79%. (-15% gasto de stamina)",
-        "icon": "img/skill/sono.png"
+        "desc": "Seu dinossauro gasta menos vigor enquanto o cansaço estiver acima de 79%.",
+        "icon": "img/skill/sono.png",
+        "effect": "-15% gasto de stamina"
       },
       {
         "title": "Instinto Primordial",
-        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).",
-        "icon": "img/skill/instintop.png"
+        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.",
+        "icon": "img/skill/instintop.png",
+        "effect": "+9% sangramento"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 672"
       }
     ]
   },
@@ -797,25 +877,29 @@
     "passives": [
       {
         "title": "Fúria com Chifres",
-        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor é reduzido e sua chance de sangrar aumenta (-15% gasto de vigor, +7% chance de sangrar).",
-        "icon": "img/skill/sangra.png"
+        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor é reduzido e sua chance de sangrar aumenta.",
+        "icon": "img/skill/sangra.png",
+        "effect": "-15% gasto de vigor, +7% chance de sangrar"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% defesa"
       }
     ],
     "actives": [
       {
         "title": "Chute",
         "desc": "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.",
-        "icon": "img/skill/coice.png"
+        "icon": "img/skill/coice.png",
+        "effect": "Dano base: 270"
       },
       {
         "title": "Golpe Esmagador",
-        "desc": "O dinossauro golpeia com seu chifre, causa dano aumentado, podendo atordoar e repelir os dinossauros",
-        "icon": "img/skill/cranio.png"
+        "desc": "O dinossauro golpeia com seu chifre, causa dano aumentado, podendo atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 300"
       }
     ]
   },
@@ -837,20 +921,23 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "Até 2 vezes: +11% defesa"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP seu consumo de vigor diminui e a velocidade aumenta (+5% velocidade, -20% gasto de vigor).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando seu dinossauro está com pouco HP seu consumo de vigor diminui e a velocidade aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Chicote de cauda",
-        "desc": "Um golpe de cauda em área, que causa repulsão (5 segundos).",
-        "icon": "img/skill/cauda.png"
+        "desc": "Um golpe de cauda em área, que causa repulsão.",
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 220, recarga em 5 segundos "
       }
     ]
   },
@@ -872,20 +959,23 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com HP baixo, seu dano e chance de fraturar aumentam. (+15% dano, +7,5% fratura)",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com HP baixo, seu effect e chance de fraturar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+48 dano, +7,5% fratura"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir fratura, pode causar repulsão e atordoamento.",
-        "icon": "img/skill/carregadaT.png"
+        "icon": "img/skill/carregadaT.png",
+        "effect": "Dano base máximo 767"
       },
       {
         "title": "Armadura Resistente",
-        "desc": "Seu dinossauro chacoalha o corpo por alguns segundos, após isso, ganha defesa e perde velocidade. (+30% defesa, -12% velocidade)",
-        "icon": "img/skill/defesa.png"
+        "desc": "Seu dinossauro chacoalha o corpo por alguns segundos, após isso, ganha defesa e perde velocidade.",
+        "icon": "img/skill/defesa.png",
+        "effect": "+30% defesa, -12% velocidade"
       }
     ]
   },
@@ -907,20 +997,23 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta (-20% consumo de stamina, +5% velocidade).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% consumo de stamina, +5% velocidade"
       }
     ],
     "actives": [
       {
         "title": "Chute",
         "desc": "Ataca com as patas traseiras, causando dano adicional e tendo chance de atordoar e repelir outros dinossauros. Não pode ser usada enquanto estiver correndo.",
-        "icon": "img/skill/coice.png"
+        "icon": "img/skill/coice.png",
+        "effect": "Dano base: 350, recarga em 5 segundos"
       },
       {
         "title": "Um rugido aterrorizante",
         "desc": "Solta um rugido que causa medo nos dinossauros, reduzindo sua defesa.",
-        "icon": "img/skill/rugido.png"
+        "icon": "img/skill/rugido.png",
+        "effect": "-20% defesa inimiga"
       }
     ]
   },
@@ -942,25 +1035,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido (+20% regeneração de HP).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+20% regeneração de HP"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta (+5% velocidade, -20% gasto de vigor).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Bater",
-        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor).",
-        "icon": "img/skill/investida.png"
+        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investida.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 618"
       },
       {
         "title": "Terremoto",
-        "desc": "Seu dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa dano em área, com chance de atordoar e empurrar inimigos, mas o dano é baixo.",
-        "icon": "img/skill/terra.png"
+        "desc": "Seu dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa effect em área, com chance de atordoar e empurrar inimigos, mas o effect é baixo.",
+        "icon": "img/skill/terra.png",
+        "effect": "Dano base: indefinido"
       }
     ]
   },
@@ -982,25 +1079,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (até 2x: +11% de sangramento).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% de sangramento"
       },
       {
         "title": "Energia solar",
-        "desc": "Durante o dia, seu dinossauro consome menos vigor (-20% gasto de vigor).",
-        "icon": "img/skill/hora.png"
+        "desc": "Durante o dia, seu dinossauro consome menos vigor.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% gasto de vigor"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo três movimentos de cauda em poucos segundos, aumenta a chance de infligir fratura e sangramento, pode causar atordoamento.",
-        "icon": "img/skill/tago.png"
+        "icon": "img/skill/tago.png",
+        "effect": "Dano base máximo: 488 (por golpe)"
       },
       {
         "title": "Golpe Esmagador",
         "desc": "Seu dinossauro causa um golpe devastador com dano aumentado, pode atordoar inimigos.",
-        "icon": "img/skill/esmaga.png"
+        "icon": "img/skill/esmaga.png",
+        "effect": "Dano base: 350"
       }
     ]
   },
@@ -1022,25 +1123,29 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "quando seu dinossauro está com pouco HP, seu dano e chance de sangrar aumentam (+15% dano e chance de sangramento).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "quando seu dinossauro está com pouco HP, seu dano e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+45 dano, +15% chance de sangramento"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +11% defesa).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% defesa"
       }
     ],
     "actives": [
       {
         "title": "Chuva de Golpes",
         "desc": "Seu dinossauro faz dois movimentos com suas garras, aumenta a chance de infligir sangramento.",
-        "icon": "img/skill/garras.png"
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 150 (por ataque)"
       },
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "dano base máximo: 873"
       }
     ]
   },
@@ -1062,30 +1167,35 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada (até 2 vezes: +8% defesa).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +8% defesa"
       },
       {
         "title": "Elemento nativo",
-        "desc": "Quando seu dinossauro nada, seu dano aumenta (+15% dano).",
-        "icon": "img/skill/enativo.png"
+        "desc": "Quando seu dinossauro nada, seu dano aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+31 dano"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Ataque Carregado",
         "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
-        "icon": "img/skill/carregada.png"
+        "icon": "img/skill/carregada.png",
+        "effect": "null"
       },
       {
         "title": "Garras Afiadas",
         "desc": "O dinossauro faz dois movimentos com suas garras aumentando as chances de infligir sangramento e fratura.",
-        "icon": "img/skill/garras.png"
+        "icon": "img/skill/garras.png",
+        "effect": "null"
       }
     ]
   },
@@ -1107,25 +1217,29 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (até 4 vezes: -12% consumo de stamina).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 4 vezes: -12% consumo de stamina"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouca vida, sua defesa e chance de sangrar aumentam (+12% defesa, +4.5% sangramento).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouca vida, sua defesa e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+12% defesa, +4.5% sangramento"
       }
     ],
     "actives": [
       {
         "title": "Ataque do céu",
-        "desc": "O dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa dano em área, com chance de atordoar e empurrar inimigos.",
-        "icon": "img/skill/pisao.png"
+        "desc": "O dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa effect em área, com chance de atordoar e empurrar inimigos.",
+        "icon": "img/skill/pisao.png",
+        "effect": "Dano base: -"
       },
       {
         "title": "Chicote de Cauda",
         "desc": "Um golpe de cauda em área, causa repulsão.",
-        "icon": "img/skill/cauda.png"
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 300"
       }
     ]
   },
@@ -1147,35 +1261,41 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta (até 2 vezes: +1% chance de fratura).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +1% chance de fratura"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, sua defesa aumenta (+10% defesa).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, sua defesa aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+10% defesa"
       },
       {
         "title": "Elemento nativo",
-        "desc": "quando seu dinossauro nada, sua defesa aumenta (+10% defesa).",
-        "icon": "img/skill/enativo.png"
+        "desc": "quando seu dinossauro nada, sua defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+10% defesa"
       }
     ],
     "actives": [
       {
         "title": "Capturar",
         "desc": "Seu dinossauro agarra uma presa com o boca podendo levá-la consigo, gastando stamina para tal. Funciona apenas com animais menores.",
-        "icon": "img/skill/capturarS.png"
+        "icon": "img/skill/capturarS.png",
+        "effect": "Dano base: 300"
       },
       {
         "title": "Mordida Mortal",
         "desc": "Uma mordida poderosa que drena o oxigênio e a resistência do inimigo.",
-        "icon": "img/skill/mordida.png"
+        "icon": "img/skill/mordida.png",
+        "effect": "Dano base: 350"
       }
     ]
   },
@@ -1197,30 +1317,35 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2.5% sangramento).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "+2.5% sangramento"
       },
       {
         "title": "Elemento nativo",
-        "desc": "Quando seu dinossauro nada, a defesa aumenta (+15% defesa).",
-        "icon": "img/skill/enativo.png"
+        "desc": "Quando seu dinossauro nada, a defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+15% defesa"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Chuva de Golpes",
-        "desc": "Seu dinossauro desfiere três golpes com suas garras. Aumenta a chance de infligir sangramento. Dano base: 180 (por ataque).",
-        "icon": "img/skill/garras.png"
+        "desc": "Seu dinossauro desfiere três golpes com suas garras. Aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 180 (por ataque)"
       },
       {
         "title": "Chicote de Cauda",
-        "desc": "Um golpe de cauda em área, causa repulsão. Dano base 265.",
-        "icon": "img/skill/cauda.png"
+        "desc": "Um golpe de cauda em área, causa repulsão.",
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 265"
       }
     ]
   },
@@ -1242,30 +1367,35 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta (+2% sangramento).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+2% sangramento"
       },
       {
         "title": "Elemento nativo",
-        "desc": "Quando seu dinossauro nada, a defesa aumenta (+15% defesa).",
-        "icon": "img/skill/enativo.png"
+        "desc": "Quando seu dinossauro nada, a defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+15% defesa"
       },
       {
         "title": "Presente das Profundezas",
-        "desc": "Durante um tempo, seu dinossauro gasta menos stamina após se alimentar de um peixe (-10% gasto de stamina).",
-        "icon": "img/skill/aquatico.png"
+        "desc": "Durante um tempo, seu dinossauro gasta menos stamina após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Estrondo do Lagarto",
         "desc": "Seu dinossauro ruge, aumentando temporariamente sua defesa e velocidade de movimento.",
-        "icon": "img/skill/buffS.png"
+        "icon": "img/skill/buffS.png",
+        "effect": "+15% defesa, +3% velocidade"
       },
       {
         "title": "Ataque Carregado",
-        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura. Dano base máximo 791.",
-        "icon": "img/skill/carregada.png"
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 791"
       }
     ]
   },
@@ -1287,25 +1417,29 @@
     "passives": [
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro tem pouco HP, seu consumo de vigor diminui e sua velocidade de movimento aumenta (-20% consumo de stamina, + 5% velocidade).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro tem pouco HP, seu consumo de vigor diminui e sua velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% consumo de stamina, +5% velocidade"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua regeneração de vigor aumenta (até 2 vezes: +8% regeneração de stamina).",
-        "icon": "img/skill/rebanhoH.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua regeneração de vigor aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +8% regeneração de stamina"
       }
     ],
     "actives": [
       {
         "title": "Bater",
-        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade (+25% velocidade, +15% consumo de vigor). Dano base máximo: 668.",
-        "icon": "img/skill/investida.png"
+        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investida.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 668"
       },
       {
         "title": "Golpe Esmagador",
-        "desc": "Seu dinossauro desfiere um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros. Dano base: 350.",
-        "icon": "img/skill/cranio.png"
+        "desc": "Seu dinossauro desfiere um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 350"
       }
     ]
   },
@@ -1327,40 +1461,47 @@
     "passives": [
       {
         "title": "Sede de Sangue",
-        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento. (até +4% chance de sangramento)",
-        "icon": "img/skill/sedesangue.png"
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até +4% chance de sangramento"
       },
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta (+7% defesa).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "+7% defesa"
       },
       {
         "title": "Surto de poder",
-        "desc": "Quando seu dinossauro está com pouco HP, o dano e chance de sangrar aumentam (+10% dano, +8,5% chance de sangramento).",
-        "icon": "img/skill/poucohp.png"
+        "desc": "Quando seu dinossauro está com pouco HP, o effect e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+29 dano, +8,5% chance de sangramento"
       },
       {
         "title": "Fúria insaciável",
-        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na defesa (até +5% defesa).",
-        "icon": "img/skill/furia.png"
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na defesa.",
+        "icon": "img/skill/furia.png",
+        "effect": "Até +5% defesa"
       },
       {
         "title": "Armadura resistente",
         "desc": "Sua mordida é capaz de roubar a força da vítima, restaurando o vigor roubada do inimigo.",
-        "icon": "img/skill/armadura.png"
+        "icon": "img/skill/armadura.png",
+        "effect": "Vigor roubado indefinido"
       }
     ],
     "actives": [
       {
         "title": "Mordida dupla",
-        "desc": "Seu dinossauro desfiere duas mordidas rápidas com maior dano e chance de causar sangramento. É possível atordoar. Dano base: 320 (por mordida).",
-        "icon": "img/skill/carregada.png"
+        "desc": "Seu dinossauro desfiere duas mordidas rápidas com maior dano e chance de causar sangramento. É possível atordoar.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base: 320 (por mordida)"
       },
       {
         "title": "Terremoto",
-        "desc": "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros. Dano base: indefinido.",
-        "icon": "img/skill/terra.png"
+        "desc": "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros.",
+        "icon": "img/skill/terra.png",
+        "effect": "Dano base: indefinido"
       }
     ]
   },
@@ -1382,20 +1523,23 @@
     "passives": [
       {
         "title": "O poder do bando",
-        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido (-10% gasto de stamina).",
-        "icon": "img/skill/rebanho.png"
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "-10% gasto de stamina"
       }
     ],
     "actives": [
       {
         "title": "Rugido Aterrorizante",
-        "desc": "Seu dinossauro ruge, reduzindo a defesa de inimigos próximos (-20% defesa inimiga).",
-        "icon": "img/skill/rugidoR.png"
+        "desc": "Seu dinossauro ruge, reduzindo a defesa de inimigos próximos.",
+        "icon": "img/skill/rugidoR.png",
+        "effect": "-20% defesa inimiga"
       },
       {
         "title": "Crânio de Ferro",
-        "desc": "Seu dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros. Dano base: 400.",
-        "icon": "img/skill/cranio.png"
+        "desc": "Seu dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 400"
       }
     ]
   }
