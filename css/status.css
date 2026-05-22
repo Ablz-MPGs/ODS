@@ -101,7 +101,6 @@ h2.tier-toggle.collapsed .arrow {
     width: 100%;
     border: 2px solid var(--accent);
     border-radius: 8px;
-    background-color: var(--preto);
     color: var(--text-primary);
     font: inherit;
     padding: 12px;
