@@ -71,7 +71,7 @@ h2.tier-toggle.collapsed .arrow {
 .skills-comparison {
     border: 2px solid var(--ink);
     border-radius: 8px;
-    background-color: var(--bg-blavk);
+    background-color: var(--bg-black);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 28px;
     padding: 18px;
