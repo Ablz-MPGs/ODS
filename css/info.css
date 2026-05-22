@@ -1,5 +1,5 @@
 .info-panel {
-    background-color: rgba(30, 30, 30, 0.96);
+    background-color: var(--preto);
     border: 2px solid var(--border-color);
     border-radius: 12px;
     padding: 25px;
@@ -31,8 +31,6 @@
     align-items: center;
     flex-wrap: wrap;
 }
-
-/* Estilos do Toggle Switch (Ordem Crescente/Decrescente) */
 .toggle-container {
     display: flex;
     align-items: center;
@@ -82,7 +80,6 @@ input:checked + .slider:before {
     transform: translateX(22px);
 }
 
-/* Estilo da Tabela Refinado */
 .table-container.info-table {
     border-color: var(--ink);
     border-width: 2px;
