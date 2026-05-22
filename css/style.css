@@ -124,16 +124,6 @@ p {
     font-size: 1rem;
     line-height: 1.6;
 }
-
-.dino-link {
-    color: #b4faff;
-    transition: color 0.25s ease;
-}
-
-.dino-link:hover {
-    color: #ffffff;
-}
-
 .search-wrapper {
     width: 100%;
     max-width: 600px; 
