@@ -99,6 +99,7 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .select-group select {
+    backgroud-color: var(--back);
     width: 100%;
     border: 2px solid var(--accent);
     border-radius: 8px;
