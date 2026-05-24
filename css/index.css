@@ -145,7 +145,7 @@
     justify-content: center;
 }
 
-.about-image img {
+.about-image img, .mais-image img{
     max-width: 100%;
     height: auto;
     border-radius: 10px;

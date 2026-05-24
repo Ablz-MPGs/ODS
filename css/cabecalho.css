@@ -279,6 +279,32 @@ tbody tr:hover {
     transform: translateX(5px);
 }
 
+.sociais-icones img{
+    width: 40px;
+    height: auto;
+}
+
+.dawn-icones img{
+    width: 30px;
+    height: auto;
+}
+
+/* Comportamento Padrão (Modo Escuro) */
+#apple > :first-child {
+    display: block;
+}
+#apple > :last-child {
+    display: none;
+}
+
+/* Comportamento no Modo Claro */
+.light #apple > :first-child {
+    display: none;
+}
+.light #apple > :last-child {
+    display: block;
+}
+
 .rodape-bottom {
     text-align: center;
     border-top: 1px solid var(--muted-2);
