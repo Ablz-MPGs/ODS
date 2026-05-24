@@ -116,11 +116,13 @@ p {
     background-color: var(--back);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 .texto-info-2{
-    color: var(--text-secondary);
-    max-width: 1200px;
+
+    color: var(--text-primary);
+    max-width: fit-content;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-top: 30px;
     text-indent: 30px;
     font-size: 1.1rem;
     border: 2px solid var(--ink);
