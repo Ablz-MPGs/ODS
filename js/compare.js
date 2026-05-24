@@ -109,10 +109,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // Lógica para definir o vencedor do atributo
             if (valA > valB) {
                 classA = 'winner';
-                diffText = `A (+${valA - valB})`;
+                diffText = `${dinoA.nome} (+${valA - valB})`;
             } else if (valB > valA) {
                 classB = 'winner';
-                diffText = `B (+${valB - valA})`;
+                diffText = `${dinoB.nome} (+${valB - valA})`;
             } else {
                 classA = 'tie';
                 classB = 'tie';
@@ -179,7 +179,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
     }
-
     // Inicia o script
     initCompare();
 });

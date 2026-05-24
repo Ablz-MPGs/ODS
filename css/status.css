@@ -316,6 +316,26 @@ h2.tier-toggle.collapsed .arrow {
     transition: border-color 0.2s ease-in-out;
 }
 
+.dadosContainers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-indent: 0;
+    gap: 18px;
+    margin-top: 30px;
+}
+
+@media (max-width: 769px) {
+    .dadosContainers{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-indent: 0;
+        gap: 18px;
+        margin-top: 30px;
+    }
+}
+
 .combat-simulator select:focus {
     border-color: var(--accent);
     box-shadow: 0 0 8px var(--hover-bg);
@@ -339,7 +359,7 @@ h2.tier-toggle.collapsed .arrow {
     flex-wrap: wrap;
 }
 
-button.alvo {
+button.alvo, button.atacante {
     padding: 0.6rem 1rem;
     border: 2px solid var(--accent);
     background-color: transparent;
@@ -350,12 +370,12 @@ button.alvo {
     transition: all 0.3s ease;
 }
 
-button.alvo:hover {
+button.alvo:hover, button.atacante:hover {
     background-color: var(--brilho);
     color:var(--text-highlight);
 }
 
-button.alvo.active {
+button.alvo.active, button.atacante.active {
     background-color: var(--accent);
     color: var(--ink);
 }
@@ -386,6 +406,12 @@ button.alvo.active {
 
 .result-row:not(:last-child) {
     border-bottom: 1px solid var(--text-highlight);
+}
+
+.combat-warning {
+    display: block;
+    color: var(--muted);
+    font-size: 0.95rem;
 }
 
 .fw-bold {

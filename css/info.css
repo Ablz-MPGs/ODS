@@ -31,6 +31,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .toggle-container {
     display: flex;
     align-items: center;
@@ -61,19 +62,15 @@
 }
 
 .slider:before {
+    background-color: var(--branco);
     position: absolute;
     content: "";
     height: 18px;
     width: 18px;
     left: 4px;
     bottom: 3px;
-    background-color: var(--text-light);
     transition: .4s;
     border-radius: 50%;
-}
-
-input:checked + .slider {
-    background-color: var(--primary-color, #458388);
 }
 
 input:checked + .slider:before {

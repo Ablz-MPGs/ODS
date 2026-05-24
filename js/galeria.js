@@ -9,10 +9,18 @@ const statGrowth = document.getElementById("stat-growth");
 const statPrice = document.getElementById("stat-price");
 const statSkin1 = document.getElementById("stat-skin1");
 const statSkin2 = document.getElementById("stat-skin2");
-
 const statFotinha = document.getElementById("stat-fotinha");
 const statCorgema = document.getElementById("stat-corgema");
 const statCormoeda = document.getElementById("stat-cormoeda");
+
+const dinoHp = document.getElementById("hp-dino");
+const dinoDano = document.getElementById("dmg-dino");
+const dinoPeso = document.getElementById("peso-dino");
+const dinoFratura = document.getElementById("frat-dino");
+const dinoSangramento = document.getElementById("sangra-dino");
+const dinoNata = document.getElementById("nata-dino");
+const dinoVelo = document.getElementById("velo-dino");
+const dinoVoo = document.getElementById("voo-dino");
 
 const passivesContainer = document.getElementById("passives-container");
 const activesContainer = document.getElementById("actives-container");
@@ -83,6 +91,18 @@ btns.forEach(btn => {
         statCorgema.innerText = data.stats.corgema;
         statCormoeda.innerText = data.stats.cormoeda;
 
+        dinosData.forEach(dino => {
+            if (dino.nome.split(" ")[0] === dinoKey) {
+                dinoHp.innerText = dino.hp;
+                dinoDano.innerText = dino.dano_base;
+                dinoPeso.innerText = dino.peso;
+                dinoFratura.innerText = dino.fratura;
+                dinoSangramento.innerText = dino.sangramento;
+                dinoNata.innerText = dino.crescimento;
+                dinoVelo.innerText = dino.vel_terra;
+                dinoVoo.innerText = dino.vel_ar;
+            }
+        });
 
         if (data.idStatus) {
             btnStatusModal.href = `status.html#${data.idStatus}`;

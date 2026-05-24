@@ -1,7 +1,9 @@
+//herbívoro = 1, carnívoro = 2, ceratopsideo = 3, voador = 4, barba = 5 
+
 const dinosData = [
     {
         nome: "Triceratops horridus",
-        classe: "ceratop",
+        classe: 3,
         tier: 5,
         peso: 1650,
         hp: 4875,
@@ -21,6 +23,7 @@ const dinosData = [
     },
     {
         nome: "Tyrannosaurus rex",
+        classe: 2,
         tier: 5,
         peso: 1750,
         hp: 4500,
@@ -40,6 +43,7 @@ const dinosData = [
     },
     {
         nome: "Giganotosaurus carolini",
+        classe: 2,
         tier: 5,
         peso: 1750,
         hp: 4450,
@@ -59,6 +63,7 @@ const dinosData = [
     },
     {
         nome: "Spinosaurus aegyptiacus",
+        classe: 2,
         tier: 5,
         peso: 1750,
         hp: 4440,
@@ -78,6 +83,7 @@ const dinosData = [
     },
     {
         nome: "Deinocheirus mirificus",
+        classe: 1,
         tier: 5,
         peso: 1650,
         hp: 4375,
@@ -97,7 +103,7 @@ const dinosData = [
     },
     {
         nome: "Stegosaurus ungulatus",
-        classe: "stego",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 3900,
@@ -117,6 +123,7 @@ const dinosData = [
     },
     {
         nome: "Therizinosaurus cheloniformis",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 3700,
@@ -136,6 +143,7 @@ const dinosData = [
     },
     {
         nome: "Parasaurolophus walkeri",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 3600,
@@ -155,6 +163,7 @@ const dinosData = [
     },
     {
         nome: "Suchomimus tenerensis",
+        classe: 2,
         tier: 4,
         peso: 1450,
         hp: 3700,
@@ -174,6 +183,7 @@ const dinosData = [
     },
     {
         nome: "Sarcosuchus imperator",
+        classe: 2,
         tier: 4,
         peso: 1500,
         hp: 3650,
@@ -193,6 +203,7 @@ const dinosData = [
     },
     {
         nome: "Amargasaurus cazaui",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 4000,
@@ -212,6 +223,7 @@ const dinosData = [
     },
     {
         nome: "Pachyrhinosaurus canadensis",
+        classe: 3,
         tier: 4,
         peso: 1500,
         hp: 3600,
@@ -231,6 +243,7 @@ const dinosData = [
     },
     {
         nome: "Plateosaurus trossingensis",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 3450,
@@ -249,6 +262,7 @@ const dinosData = [
     },
     {
         nome: "Tarchia kielanae",
+        classe: 1,
         tier: 4,
         peso: 1500,
         hp: 3735,
@@ -269,6 +283,7 @@ const dinosData = [
     {
         nome: "Styracosaurus albertensis",
         tier: 3,
+        classe: 3,
         peso: 1400,
         hp: 3000,
         dano_base: 220,
@@ -287,6 +302,7 @@ const dinosData = [
     },
     {
         nome: "Allosaurus fragilis",
+        classe: 2,
         tier: 3,
         peso: 1350,
         hp: 3300,
@@ -305,6 +321,7 @@ const dinosData = [
     },
     {
         nome: "Fasolasuchus tenax",
+        classe: 2,
         tier: 3,
         peso: 1250,
         hp: 3000,
@@ -324,6 +341,7 @@ const dinosData = [
     },
     {
         nome: "Gigantoraptor erlianensis",
+        classe: 1,
         tier: 3,
         peso: 1350,
         hp: 3100,
@@ -343,6 +361,7 @@ const dinosData = [
     },
     {
         nome: "Carnotaurus satrei",
+        classe: 2,
         tier: 3,
         peso: 1350,
         hp: 3000,
@@ -362,6 +381,7 @@ const dinosData = [
     },
     {
         nome: "Kentrosaurus aethiopicus",
+        classe: 1,
         tier: 3,
         peso: 1500,
         hp: 2700,
@@ -382,6 +402,7 @@ const dinosData = [
     },
     {
         nome: "Ceratosaurus nasicornis",
+        classe: 2,
         tier: 3,
         peso: 1400,
         hp: 2650,
@@ -400,6 +421,7 @@ const dinosData = [
     },
     {
         nome: "Megaraptor namunhuaiquii",
+        classe: 2,
         tier: 3,
         peso: 1300,
         hp: 2845,
@@ -419,6 +441,7 @@ const dinosData = [
     },
     {
         nome: "Dilophosaurus wetherilli",
+        classe: 2,
         tier: 2,
         peso: 1200,
         hp: 1800,
@@ -438,6 +461,7 @@ const dinosData = [
     },
     {
         nome: "Concavenator corcovatus",
+        classe: 2,
         tier: 2,
         peso: 1200,
         hp: 2200,
@@ -456,6 +480,7 @@ const dinosData = [
     },
     {
         nome: "Pachycephalosaurus wyomingensis",
+        classe: 1,
         tier: 2,
         peso: 1250,
         hp: 2000,
@@ -475,6 +500,7 @@ const dinosData = [
     },
     {
         nome: "Austroraptor cabazai",
+        classe: 2,
         tier: 2,
         peso: 1200,
         hp: 1550,
@@ -495,6 +521,7 @@ const dinosData = [
     {
         nome: "Quetzalcoatlus northropi",
         tier: 2,
+        classe: 4,
         peso: 1150,
         hp: 1800,
         dano_base: 160,
@@ -512,6 +539,7 @@ const dinosData = [
     },
     {
         nome: "Ornithomimus velox",
+        classe: 1,
         tier: 1,
         hp: 1200,
         peso: 900,
@@ -531,6 +559,7 @@ const dinosData = [
     },
     {
         nome: "Guanlong wucaii",
+        classe: 2,
         tier: 1,
         hp: 1150,
         peso: 1000,
@@ -550,6 +579,7 @@ const dinosData = [
     },
     {
         nome: "Deinonychus antirrhopus",
+        classe: 2,
         tier: 1,
         hp: 850,
         peso: 950,
@@ -568,7 +598,8 @@ const dinosData = [
         }
     },
     {
-        nome: "Psittacosaurus mongoliensis",
+        nome: "Psittacosaurus sibiricus",
+        classe: 1,
         tier: 1,
         hp: 980,
         peso: 1000,
@@ -587,6 +618,7 @@ const dinosData = [
     },
     {
         nome: "Coelophysis bauri",
+        classe: 2,
         tier: 1,
         hp: 550,
         peso: 750,
@@ -606,6 +638,7 @@ const dinosData = [
     },
     {
         nome: "Changyuraptor yangi",
+        classe: 2,
         tier: 1,
         hp: 400,
         peso: 750,
@@ -628,6 +661,7 @@ const dinosData = [
     },
     {
         nome: "Barbaridactylus grandis",
+        classe: 5,
         tier: 1,
         hp: 1000,
         peso: 1000,

@@ -17,7 +17,7 @@
 | CP | Changyuraptor yangi | 750 | 750 | 80 | 60 | 1 |
 | OT | Ornithomimus velox | 900 | 900 | 100 | 100 | 1 |
 | DY | Deinonychus antirrhopus | 950 | 950 | 120 | 120 | 1 |
-| PS | Psittacosaurus mongoliensis | 1000 | 1000 | 110 | 110 | 1 |
+| PS | Psittacosaurus sibiricus | 1000 | 1000 | 110 | 110 | 1 |
 | BR | Barbaridactylus grandis | 1000 | 1000 | 120 | 120 | 1 |
 | GG | Guanlong wucaii | 1000 | 1000 | 120 | 120 | 1 |
 
@@ -105,7 +105,7 @@
 - DY = Deinonychus antirrhopus (Peso: 950kg, CW: 950, DB: 120)
 - GG = Guanlong wucaii (Peso: 1000kg, CW: 1000, DB: 120)
 - OT = Ornithomimus velox (Peso: 900kg, CW: 900, DB: 100)
-- PS = Psittacosaurus mongoliensis (Peso: 1000kg, CW: 1000, DB: 110)
+- PS = Psittacosaurus sibiricus (Peso: 1000kg, CW: 1000, DB: 110)
 - BR = Barbaridactylus grandis (Peso: 1000kg, CW: 1000, DB: 120)
 
 ### TIER 2

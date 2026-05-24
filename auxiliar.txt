@@ -39,7 +39,7 @@ Tiers 1
 Ornithomimus velox: HP: 1200, Dano base: 100-114, Fratura: 0%, Sangramento: 11%, Vel. terra: 2000, Vel. água: 450, Vel. ar: N/A
 Guanlong wucaii: HP: 1150, Dano base: 120, Fratura: 0%, Sangramento: 24-%, Vel. terra: 1880, Vel. água: 500, Vel. ar: N/A
 Deinonychus antirrhopus: HP: 850, Dano base: 120-144, Fratura: 0%, Sangramento: 21-25%, Vel. terra: 1900, Vel. água: 400, Vel. ar: N/A
-Psittacosaurus mongoliensis: HP: 980, Dano base: 110-130, Fratura: 0%, Sangramento: 14%, Vel. terra: 1880-1973, Vel. água: 400-419, Vel. ar: N/A
+Psittacosaurus sibiricus: HP: 980, Dano base: 110-130, Fratura: 0%, Sangramento: 14%, Vel. terra: 1880-1973, Vel. água: 400-419, Vel. ar: N/A
 Coelophysis bauri: HP: 550, Dano base: 80-96, Fratura: 0%, Sangramento: 28%, Vel. terra: 2050-2152-2255 / 2357, Vel. água: 350-367-385 / 402, Vel. ar: N/A
 Changyuraptor yangi: HP: 400, Dano base: 60, Fratura: 0%, Sangramento: 25%, Vel. terra: 2050, Vel. água: 280, Vel. ar: -
 Barbaridactylus grandis: HP: 1000, Dano base: 120, Fratura: 0%, Sangramento: 8-9%, Vel. terra: 1200, Vel. água: 600, Vel. ar: 2800

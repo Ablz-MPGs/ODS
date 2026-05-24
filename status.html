@@ -44,7 +44,7 @@
         </nav>
     </header>
     <main>
-        <section class="container" id="comparador" class="info-jogo">
+        <section id="comparador">
         <h1>Comparar Espécies</h1>
         <h2>Selecione duas criaturas para avaliar seus dados lado a lado</h2>
 
@@ -91,12 +91,20 @@
         </section>
 
         <section class="container" id="status-geral" class="info-jogo">
-            <h1>Comparação de status geral</h1>
+            <section class="texto-info-2">
+                <h1>Comparação de status geral</h1>
+                <p>Analise os status de cada espécie separadas por seu tier.</p>
+            </section>
             <div id="tabelas-container"></div>
         </section> 
     
         <section class="container combat-simulator">
                     <h1>Simulação de Combate</h1>
+
+                    <section class="texto-info">
+                        <p>Descubra a quantidade de dano que um personagem causa em outro, aqui você pode testar o dano base ou de habilidades ativas e até mesmo o ponto de ataque para prever o dano causado. </p>
+                        <p>Capacidades passivas ainda não são suportadas. O dano causado por sangramento não é calculado.</p>
+                    </section>
                     
                     <section class="controls">
                         <div class="form-group">
@@ -110,14 +118,25 @@
                         </div>
                     </section>
 
-                    <section class="defense-modes">
-                        <p>Ponto de ataque:</p>
-                        <div class="buttons">
-                            <button class="alvo active" value="1" onclick="defender(this)">Cauda</button>
-                            <button class="alvo" value="2" onclick="defender(this)">Corpo</button>
-                            <button class="alvo" value="3" onclick="defender(this)">Cabeça</button>
-                        </div>
-                    </section>
+                    <div class="dadosContainers">
+                        <section class="defense-modes">
+                            <p>Ponto de ataque:</p>
+                            <div class="buttons">
+                                <button class="alvo active" value="1" onclick="defender(this)">Cauda</button>
+                                <button class="alvo" value="2" onclick="defender(this)">Corpo</button>
+                                <button class="alvo" value="3" onclick="defender(this)">Cabeça</button>
+                            </div>
+                        </section>
+
+                        <section class="defense-modes">
+                            <p>Meio de ataque:</p>
+                            <div class="buttons">
+                                <button class="atacante active" value="1" onclick="atacar(this)">Dano base</button>
+                                <button class="atacante" value="2" onclick="atacar(this)">Skill 1</button>
+                                <button class="atacante" value="3" onclick="atacar(this)">Skill 2</button>
+                            </div>
+                        </section>
+                    </div>
 
                     <section class="results-container">
                         <h2>Resultado</h2>
@@ -161,6 +180,5 @@
     <script src="js/index.js"></script>
     <script src="js/status.js"></script>
     <script src="js/compare.js"></script>
-    <script src="js/script.js"></script>
 </body>
 </html>

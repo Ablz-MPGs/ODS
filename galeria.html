@@ -464,56 +464,102 @@
                     </div>
                 </div>
 
-                <div class="stats-box">
-                    <div class="stat-header">
-                        <div class="stat-item">
-                            <h4>Espaços ocupados</h4>
-                            <p id="stat-group">0</p>
+                <div class="stats-container stat-container">
+                    <div class="stats-box">
+                        <div class="stat-header">
+                            <div class="stat-item">
+                                <h4>Espaços ocupados</h4>
+                                <p id="stat-group">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Crescimento</h4>
+                                <p id="stat-growth">0 min</p>
+                            </div>
                         </div>
-                        <div class="stat-item">
-                            <h4>Crescimento</h4>
-                            <p id="stat-growth">0 min</p>
+                        <div class="stat-body">
+                            <div class="stat-item">
+                                <h4>Preço</h4>
+                                <p id="stat-price">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Skin 1</h4>
+                                <p id="stat-skin1">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Skin 2</h4>
+                                <p id="stat-skin2">0</p>
+                            </div>
+
+                            <div class="stat-item">
+                                <h4>Avatar</h4>
+                                <p id="stat-fotinha">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Coloração gema</h4>
+                                <p id="stat-corgema">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Coloração moeda</h4>
+                                <p id="stat-cormoeda">0</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="stat-body">
-                        <div class="stat-item">
-                            <h4>Preço</h4>
-                            <p id="stat-price">0</p>
-                        </div>
-                        <div class="stat-item">
-                            <h4>Skin 1</h4>
-                            <p id="stat-skin1">0</p>
-                        </div>
-                        <div class="stat-item">
-                            <h4>Skin 2</h4>
-                            <p id="stat-skin2">0</p>
-                        </div>
 
-                        <div class="stat-item">
-                            <h4>Avatar</h4>
-                            <p id="stat-fotinha">0</p>
+                    <div class="stats-box">
+                        <div class="stat-header">
+                            <div class="stat-item">
+                                <h4>HP (Vida)</h4>
+                                <p id="hp-dino">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Dano base</h4>
+                                <p id="dmg-dino">0 min</p>
+                            </div>
                         </div>
-                        <div class="stat-item">
-                            <h4>Coloração gema</h4>
-                            <p id="stat-corgema">0</p>
-                        </div>
-                        <div class="stat-item">
-                            <h4>Coloração moeda</h4>
-                            <p id="stat-cormoeda">0</p>
+                        <div class="stat-body">
+                            <div class="stat-item">
+                                <h4>Peso de combate (relativo)</h4>
+                                <p id="peso-dino">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Chance de fratura</h4>
+                                <p id="frat-dino">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Chance de sangramento</h4>
+                                <p id="sangra-dino">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Velocidade</h4>
+                                <p id="velo-dino">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Natação</h4>
+                                <p id="nata-dino">0</p>
+                            </div>
+
+                            <div class="stat-item">
+                                <h4>Voo</h4>
+                                <p id="voo-dino">0</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
                 <h2 class="section-title">Habilidades</h2>
 
-                <h3 class="sub-title">Passivas</h3>
-                <div class="skills-container" id="passives-container"></div>
+                <div class="abilities-container">
+                    <div class="ability-box">
+                        <h3 class="sub-title">Passivas</h3>
+                        <div class="skills-container" id="passives-container"></div>
+                    </div>
 
-                <h3 class="sub-title">Ativas</h3>
-                <div class="skills-container" id="actives-container">
-                    <div class="skill-container" id="skill-effect"></div>
+                    <div class="ability-box">
+                        <h3 class="sub-title">Ativas</h3>
+                        <div class="skills-container" id="actives-container">
+                            <div class="skill-container" id="skill-effect"></div>
+                        </div>
+                    </div>
                 </div>
-
                 <div class="skills-container">
                     <p>O dano atribuído às habilidades ativas é calculado em testes, não possui respaldo oficial.</p>
                 </div>
@@ -561,6 +607,7 @@
     </footer>
 
     <script src="js/galeria.js"></script>
-    <script src="js/index.js"></script</script><script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="data/data.js"></script>
 </body>
 </html>
