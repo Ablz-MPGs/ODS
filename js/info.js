@@ -60,8 +60,7 @@ window.aplicarOrdenacao = function() {
     const toggleOrdem = document.getElementById('toggleOrdem').checked;
     const textoOrdem = document.getElementById('textoOrdem');
     const tabelaCorpo = document.getElementById('tabela-corpo');
-    
-    if (!tabelaCorpo) return;
+    if (!tabelaCorpo) return;  
 
     textoOrdem.textContent = toggleOrdem ? 'Decrescente' : 'Crescente';
 
