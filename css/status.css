@@ -58,7 +58,7 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .table-container {
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
 }
 
 .table-container.hidden {
