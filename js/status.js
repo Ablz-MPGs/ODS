@@ -260,6 +260,7 @@ function defender(botaoClicado) {
         selecionado.classList.remove('active');
     }
     botaoClicado.classList.add('active');
+    localStorage.setItem('combat_tipoDefesa', botaoClicado.value);
 
     atualizarInterface();
 }
@@ -270,6 +271,7 @@ function atacar(botaoClicado) {
         selecionado.classList.remove('active');
     }
     botaoClicado.classList.add('active');
+    localStorage.setItem('combat_tipoAtaque', botaoClicado.value);
     
     atualizarInterface();
 }
@@ -297,10 +299,40 @@ function inicializarInterface() {
 
     selectA.innerHTML = optionsHtml;
     selectB.innerHTML = optionsHtml;
-    selectB.selectedIndex = Math.min(1, selectB.options.length - 1);
 
-    selectA.addEventListener('change', atualizarInterface);
-    selectB.addEventListener('change', atualizarInterface);
+    // Recuperação de dados do Local Storage
+    const savedSpeciesA = localStorage.getItem('combat_speciesA');
+    const savedSpeciesB = localStorage.getItem('combat_speciesB');
+    const savedTipoAtaque = localStorage.getItem('combat_tipoAtaque');
+    const savedTipoDefesa = localStorage.getItem('combat_tipoDefesa');
+
+    if (savedSpeciesA !== null) selectA.value = savedSpeciesA;
+    if (savedSpeciesB !== null) {
+        selectB.value = savedSpeciesB;
+    } else {
+        selectB.selectedIndex = Math.min(1, selectB.options.length - 1);
+    }
+
+    if (savedTipoAtaque) {
+        document.querySelectorAll('.atacante').forEach(btn => {
+            btn.classList.toggle('active', btn.value === savedTipoAtaque);
+        });
+    }
+
+    if (savedTipoDefesa) {
+        document.querySelectorAll('.alvo').forEach(btn => {
+            btn.classList.toggle('active', btn.value === savedTipoDefesa);
+        });
+    }
+
+    selectA.addEventListener('change', () => {
+        localStorage.setItem('combat_speciesA', selectA.value);
+        atualizarInterface();
+    });
+    selectB.addEventListener('change', () => {
+        localStorage.setItem('combat_speciesB', selectB.value);
+        atualizarInterface();
+    });
     
     atualizarInterface();
 }

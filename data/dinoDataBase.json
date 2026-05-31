@@ -1,5 +1,7 @@
 {
   "Coelophysis": {
+    "shortName": "Coelophysis",
+    "desc": "Um terópode ágil do Triássico, um dos primeiros dinossauros a surgir.",
     "release": "25 / 01 / 2024",
     "idStatus": "coelo",
     "fullName": "COELOPHYSIS<br>BAURI",
@@ -9,7 +11,7 @@
       "group": "1 slot",
       "growth": "15 min",
       "price": "N/A",
-      "skin1": "4.000",
+      "skin1": "4000",
       "skin2": "40",
       "fotinha": "N/A",
       "cormoeda": "500",
@@ -51,6 +53,8 @@
     ]
   },
   "Changyuraptor": {
+    "shortName": "Changyuraptor",
+    "desc": "Um pequeno dinossauro carnivoro de quatro asas que viveu na China.",
     "release": "12 / 02 / 2026",
     "idStatus": "chang",
     "fullName": "CHANGYURAPTOR<br>YANGI",
@@ -114,6 +118,8 @@
     ]
   },
   "Ornithomimus": {
+    "shortName": "Ornithomimus",
+    "desc": "Um teropode majoritariamente herbivoro, capaz de atingir grandes velocidades.",
     "release": "21 / 12 / 2023",
     "idStatus": "ornitho",
     "fullName": "ORNITHOMIMUS<br>VELOX",
@@ -165,6 +171,8 @@
     ]
   },
   "Deinonychus": {
+    "shortName": "Deinonychus",
+    "desc": "Um predador agil e inteligente, famoso por sua terrivel garra curva no pé.",
     "release": "12 / 08 / 2025",
     "idStatus": "deino",
     "fullName": "DEINONYCHUS<br>ANTIRHOPUS",
@@ -210,6 +218,8 @@
     ]
   },
   "Pachycephalosaurus": {
+    "shortName": "Pachycephalosaurus",
+    "desc": "Herbivoro famoso por seu cranio espesso em forma de domo usado em combates.",
     "release": "21 / 12 / 2023",
     "idStatus": "pachy",
     "fullName": "PACHYCEPHALO<br>SAURUS WYOMINGENSIS",
@@ -255,6 +265,8 @@
     ]
   },
   "Guanlong": {
+    "shortName": "Guanlong",
+    "desc": "Um ancestral primitivo dos tiranossauros, possuia uma crista ornamental na cabeça.",
     "release": "25 / 01 / 2024",
     "idStatus": "guan",
     "fullName": "GUANLONG<br>WUCAII",
@@ -300,6 +312,8 @@
     ]
   },
   "Barbaridactylus": {
+    "shortName": "Barbaridactylus",
+    "desc":  "Um pterossauro nyctosaurideo distinto, conhecido por sua grande crista craniana.",
     "release": "22 / 05 / 2024",
     "idStatus": "barba",
     "fullName": "BARBARIDACTYLUS<br>GRANDIS",
@@ -339,6 +353,8 @@
     ]
   },
   "Psittacosaurus": {
+    "shortName": "Psittacosaurus",
+    "desc": "Um pequeno ceratopsiano bipede caracterizado pelo bico semelhante ao de um papagaio.",
     "release": "04 / 11 / 2024",
     "idStatus": "psitta",
     "fullName": "PSITTACOSAURUS<br>SIBIRICUS",
@@ -378,6 +394,8 @@
     ]
   },
   "Quetzalcoatlus": {
+    "shortName": "Quetzalcoatlus",
+    "desc": "Um gigante dos ceus, considerado um dos maiores animais voadores da historia.",
     "release": "01 / 06 / 2024",
     "idStatus": "quetzal",
     "fullName": "QUETZALCOATLUS<br>NORTHROPI",
@@ -417,6 +435,8 @@
     ]
   },
   "Austroraptor": {
+    "shortName": "Austroraptor",
+    "desc": "Um raptor de grande porte com focinho longo e dentes conicos.",
     "release": "09 / 10 / 2025",
     "idStatus": "austro",
     "fullName": "AUSTRORAPTOR<br>ABAZAI",
@@ -474,6 +494,8 @@
     ]
   },
   "Dilophosaurus": {
+    "shortName": "Dilophosaurus",
+    "desc": "Predador do Jurassico Inferior, reconhecido pelas duas cristas no topo da cabeca.",
     "release": "27 / 06 / 2025",
     "idStatus": "dilo",
     "fullName": "DILOPHOSAURUS<br>WETHERILLI",
@@ -519,6 +541,8 @@
     ]
   },
   "Concavenator": {
+    "shortName": "Concavenator",
+    "desc": "Um cacador unico com uma estrutura triangular elevada nas costas.",
     "release": "27 / 09 / 2024",
     "idStatus": "conca",
     "fullName": "CONCAVENATOR<br>CORCOVATUS",
@@ -558,6 +582,8 @@
     ]
   },
   "Fasolasuchus": {
+    "shortName": "Fasolasuchus",
+    "desc": "Um poderoso arcossauro predador, considerado o maior rauisuquiano que ja existiu.",
     "release": "03 / 02 / 2025",
     "idStatus": "fasola",
     "fullName": "FASOLASUCHUS<br>TENAX",
@@ -603,6 +629,8 @@
     ]
   },
   "Kentrosaurus": {
+    "shortName": "Kentrosaurus",
+    "desc": "Parente menor do Estegossauro, armado com longos espigoes defensivos nos ombros e cauda.",
     "release": "21 / 12 / 2023",
     "idStatus": "kentro",
     "fullName": "KENTROSAURUS<br>AETHIOPICUS",
@@ -654,6 +682,8 @@
     ]
   },
   "Megaraptor": {
+    "shortName": "Megaraptor",
+    "desc": "Um teropode veloz e formidavel, famoso por suas garras de mao gigantescas e curvas.",
     "release": "12 / 11 / 2025",
     "idStatus": "mega",
     "fullName": "MEGARAPTOR<br>NAMUNHUAIQUII",
@@ -705,6 +735,8 @@
     ]
   },
   "Ceratosaurus": {
+    "shortName": "Ceratosaurus",
+    "desc": "Predador jurassico distinto pelo chifre nasal proeminente e grandes dentes afiados.",
     "release": "06 / 03 / 2024",
     "idStatus": "cerato",
     "fullName": "CERATOSAURUS<br>NASICORNIS",
@@ -744,6 +776,8 @@
     ]
   },
   "Carnotaurus": {
+    "shortName": "Carnotaurus",
+    "desc": "O touro carnívoro, conhecido pelos chifres acima dos olhos e braços extremamente curtos.",
     "release": "08 / 05 / 2025",
     "idStatus": "carno",
     "fullName": "CARNOTAURUS<br>SASTREI",
@@ -789,6 +823,8 @@
     ]
   },
   "Gigantoraptor": {
+    "shortName": "Gigantoraptor",
+    "desc": "Um enorme oviraptorossauro que se assemelhava a uma ave gigante, porem muito mais massiva.",
     "release": "04 / 11 / 2024",
     "idStatus": "giganto",
     "fullName": "GIGANTORAPTOR<br>ERLIANENSIS",
@@ -834,6 +870,8 @@
     ]
   },
   "Allosaurus": {
+    "shortName": "Allosaurus",
+    "desc": "Conhecido como o leao do Jurassico, foi um dos predadores mais bem-sucedidos de sua era.",
     "release": "06 / 03 / 2024",
     "idStatus": "allo",
     "fullName": "ALLOSAURUS<br>FRAGILIS",
@@ -879,6 +917,8 @@
     ]
   },
   "Styracosaurus": {
+    "shortName": "Styracosaurus",
+    "desc":"Ceratopsideo iconico com um longo chifre nasal e uma coroa de espinhos no pescoco.",
     "release": "08 / 05 / 2025",
     "idStatus": "styra",
     "fullName": "STYRACOSAURUS<br>ALBERTENSIS",
@@ -924,6 +964,8 @@
     ]
   },
   "Plateosaurus": {
+    "shortName": "Plateosaurus",
+    "desc": "Um sauropodomorfo do Triássico, um dos primeiros dinossauros gigantes a existir.",
     "release": "14 / 02 / 2024",
     "idStatus": "plateo",
     "fullName": "PLATEOSAURUS<br>ENGELHARDTI",
@@ -963,6 +1005,8 @@
     ]
   },
   "Tarchia": {
+    "shortName": "Tarchia",
+    "desc": "Um grande ankylosaurideo que viveu nos antigos dessertos da atual Mongólia.",
     "release": "10 / 10 / 2023",
     "idStatus": "tarchia",
     "fullName": "TARCHIA<br>KIELANAE",
@@ -1002,6 +1046,8 @@
     ]
   },
   "Parasaurolophus": {
+    "shortName": "Parasaurolophus",
+    "desc": "Grande hadrossaurideo possuidor de uma crista caracteristica.",
     "release": "14 / 02 / 2024",
     "idStatus": "para",
     "fullName": "PARASAUROLOPHUS<br>WALKERI",
@@ -1041,6 +1087,8 @@
     ]
   },
   "Pachyrhinosaurus": {
+    "shortName": "Pachyrhinosaurus",
+    "desc": "Um ceratopsideo de grande porte, conhecido por sua massa ossea nasal.",
     "release": "13 / 01 / 2024",
     "idStatus": "rhino",
     "fullName": "PACHYRHINOSAURUS",
@@ -1086,6 +1134,8 @@
     ]
   },
   "Stegosaurus": {
+    "shortName": "Stegosaurus",
+    "desc": "Um dos herbívoros mais famosos, conhecido por seus espigões na cauda chamados de thagomizer.",
     "release": "25 / 12 / 2025",
     "idStatus": "stego",
     "fullName": "STEGOSAURUS<br>UNGULATUS",
@@ -1131,6 +1181,8 @@
     ]
   },
   "Therizinosaurus": {
+    "shortName": "Therizinosaurus",
+    "desc":"Um dos maiores terópodes essencialmente herbívoros, dotado de garras enormes.",
     "release": "14 / 09 / 2024",
     "idStatus": "theri",
     "fullName": "THERIZINOSAURUS<br>CHELONIFORMIS",
@@ -1176,6 +1228,8 @@
     ]
   },
   "Suchomimus": {
+    "shortName": "Suchomimus",
+    "desc": "Espinossaurídeo baryonichinae de grande porte, teoriza-se ser um dos mais terrestres de sua família.",
     "release": "02 / 04 / 2025",
     "idStatus": "sucho",
     "fullName": "SUCHOMIMUS<br>TENERENSIS",
@@ -1227,6 +1281,8 @@
     ]
   },
   "Amargasaurus": {
+    "shortName": "Amargasaurus",
+    "desc": "Sauropode argentino dotado de grandes espihos dorsais, pequeno quando comparado com seus primos.",
     "release": "03 / 02 / 2025",
     "idStatus": "amarga",
     "fullName": "AMARGASAURUS<br>CAZAUI",
@@ -1272,6 +1328,8 @@
     ]
   },
   "Sarcosuchus": {
+    "shortName": "Sarcosuchus",
+    "desc": "Predador de emboscadas africano, conhecido por estar entre maiores crocodilomorfos de todos os tempos!",
     "release": "30 / 11 / 2023",
     "idStatus": "sarco",
     "fullName": "SARCOSUCHUS<br>IMPERATOR",
@@ -1329,6 +1387,8 @@
     ]
   },
   "Spinosaurus": {
+    "shortName": "Spinosaurus",
+    "desc": "Dinossauro espinossaurídeo de hábitos semi-aquático, o dinossauro carnívoro mais comprido que já viveu.",
     "release": "30 / 03 / 2024",
     "idStatus": "spino",
     "fullName": "SPINOSAURUS<br>AEGYPTIACUS",
@@ -1380,6 +1440,8 @@
     ]
   },
   "Deinocheirus": {
+    "shortName": "Deinocheirus",
+    "desc": "O maior ornithomimosaurideo conhecido, dotado de braços gigantes e poderosas garras.",
     "release": "20 / 11 / 2024",
     "idStatus": "pato",
     "fullName": "DEINOCHEIRUS<br>MIRIFICUS",
@@ -1431,6 +1493,8 @@
     ]
   },
   "Triceratops": {
+    "shortName": "Triceratops",
+    "desc": "Um verdadeiro tank vivo, o 'trike' foi um ceratopsídeo de porte gigantesco, contemporâneo e rival do poderoso T. rex.",
     "release": "30 / 03 / 2024",
     "idStatus": "trike",
     "fullName": "TRICERATOPS<br>HORRIDUS",
@@ -1476,6 +1540,8 @@
     ]
   },
   "Giganotosaurus": {
+    "shortName": "Giganotosaurus",
+    "desc": "O grande lagarto do sul, um dos maiores carcharodontosaurideos, dinossauros com dente de tubarão, que já existiu.",
     "release": "13 / 04 / 2026",
     "idStatus": "giga",
     "fullName": "GIGANOTOSAURUS<br>CAROLINI",
@@ -1539,6 +1605,8 @@
     ]
   },
   "Tyrannosaurus": {
+    "shortName": "Tyrannosaurus",
+    "desc": "O rei tirano, o animal terrestre com a maior for~ça de mordida de todos os tempos.",
     "release": "30 / 03 / 2024",
     "idStatus": "trex",
     "fullName": "TYRANNOSAURUS<br>REX",

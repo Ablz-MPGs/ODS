@@ -23,14 +23,27 @@ document.addEventListener('DOMContentLoaded', () => {
         selectA.innerHTML = optionsHtml;
         selectB.innerHTML = optionsHtml;
 
-        // Define um dinossauro diferente para o Select B por padrão
-        if (selectB.options.length > 1) {
+        // Recuperação de dados do Local Storage
+        const savedA = localStorage.getItem('compare_speciesA');
+        const savedB = localStorage.getItem('compare_speciesB');
+
+        if (savedA !== null) selectA.value = savedA;
+        if (savedB !== null) {
+            selectB.value = savedB;
+        } else if (selectB.options.length > 1) {
+            // Define um dinossauro diferente para o Select B por padrão caso não haja salvo
             selectB.selectedIndex = 1;
         }
 
         // Adiciona os eventos de mudança
-        selectA.addEventListener('change', renderComparison);
-        selectB.addEventListener('change', renderComparison);
+        selectA.addEventListener('change', () => {
+            localStorage.setItem('compare_speciesA', selectA.value);
+            renderComparison();
+        });
+        selectB.addEventListener('change', () => {
+            localStorage.setItem('compare_speciesB', selectB.value);
+            renderComparison();
+        });
 
         // Renderiza a tela inicial
         renderComparison();

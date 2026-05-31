@@ -45,3 +45,1652 @@ Changyuraptor yangi: HP: 400, Dano base: 60, Fratura: 0%, Sangramento: 25%, Vel.
 Barbaridactylus grandis: HP: 1000, Dano base: 120, Fratura: 0%, Sangramento: 8-9%, Vel. terra: 1200, Vel. água: 600, Vel. ar: 2800
 
 
+JSON =
+{
+  "Coelophysis": {
+    "shortName": "Coelophysis",
+    "desc": "Um dos dinossauros mais antigos conhecidos, o Coelophysis era um carnívoro ágil e esguio que viveu no final do período Triássico na América do Norte. Possuía ossos ocos para reduzir o peso.",
+    "release": "25 / 01 / 2024",
+    "idStatus": "coelo",
+    "fullName": "COELOPHYSIS<br>BAURI",
+    "image": "img/pict/coeloperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "1 slot",
+      "growth": "15 min",
+      "price": "N/A",
+      "skin1": "4.000",
+      "skin2": "40",
+      "fotinha": "N/A",
+      "cormoeda": "500",
+      "corgema": "5"
+    },
+    "passives": [
+      {
+        "title": "Juntos somos fortes!",
+        "desc": "Recupera stamina mais rápido perto da matilha.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Indefinido"
+      },
+      {
+        "title": "Apetite louco",
+        "desc": "Seu dinossauro se torna mais rápido quando carrega algo na boca.",
+        "icon": "img/skill/apetite.png",
+        "effect": "+10% velocidade"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando com baixo HP, seu dinossauro corre mais rápido e gasta menos vigor.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% gasto de vigor, +5% velocidade"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Troféu de carne",
+        "desc": "Seu dinossauro desfere um golpe forte, retirando um pedaço de carne caso atinja um player.",
+        "icon": "img/skill/trofeu.png",
+        "effect": "Dano base: 125"
+      },
+      {
+        "title": "Grito de guerra",
+        "desc": "Seu dinossauro grita, aumentando o seu dano.",
+        "icon": "img/skill/buffS.png",
+        "effect": "+16 dano"
+      }
+    ]
+  },
+  "Changyuraptor": {
+    "shortName": "Changyuraptor",
+    "desc": "Um dinossauro predador de quatro asas descoberto na China. Foi um dos maiores microraptoríneos, sugerindo que o voo ou o planeio eram comuns entre dinossauros de tamanhos variados.",
+    "release": "12 / 02 / 2026",
+    "idStatus": "chang",
+    "fullName": "CHANGYURAPTOR<br>YANGI",
+    "image": "img/pict/changperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "1 slot",
+      "growth": "12 min",
+      "price": "550g",
+      "skin1": "25.000",
+      "skin2": "150",
+      "fotinha": "-",
+      "cormoeda": "8000",
+      "corgema": "50"
+    },
+    "passives": [
+      {
+        "title": "Juntos somos fortes!",
+        "desc": "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -35% consumo de vigor"
+      },
+      {
+        "title": "Força das Trevas",
+        "desc": "Seu dinossauro gasta menos stamina à noite.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% consumo de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Parkour",
+        "desc": "Capaz de escalar ao precionar salto próximo a uma superfície adequada.",
+        "icon": "img/skill/park.png",
+        "effect": null
+      },
+      {
+        "title": "Vento sob as asas",
+        "desc": "Quando no ar, pressione o botão de salto para planar. Recupera vigor enquanto planando.",
+        "icon": "img/skill/planar.png",
+        "effect": null
+      },
+      {
+        "title": "Escalador",
+        "desc": "Quando no ar, pressione o botão de salto para tentar prender-se a uma superfície.",
+        "icon": "img/skill/escalador.png",
+        "effect": null
+      },
+      {
+        "title": "Disparada",
+        "desc": "O dinossauro se impulsiona para a direção em que estiver olhando, funciona apenas no ar.",
+        "icon": "img/skill/impulso.png",
+        "effect": null
+      },
+      {
+        "title": "Corrida alta",
+        "desc": "Seu dinossauro executa um grande salto.",
+        "icon": "img/skill/puloC.png",
+        "effect": null
+      }
+    ]
+  },
+  "Ornithomimus": {
+    "shortName": "Ornithomimus",
+    "desc": "Cujo nome significa 'imitador de ave', este dinossauro se assemelhava a um avestruz moderno. Era extremamente veloz, possuía um bico desprovido de dentes e uma dieta provavelmente onívora.",
+    "release": "21 / 12 / 2023",
+    "idStatus": "ornitho",
+    "fullName": "ORNITHOMIMUS<br>VELOX",
+    "image": "img/pict/orniperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "1 slot",
+      "growth": "17 min",
+      "price": "N/A",
+      "skin1": "5.500",
+      "skin2": "40",
+      "fotinha": "N/A",
+      "cormoeda": "1000",
+      "corgema": "10"
+    },
+    "passives": [
+      {
+        "title": "Instinto materno",
+        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até 3 vezes: +14 dano"
+      },
+      {
+        "title": "Corredor de maratona",
+        "desc": "Quando há membros da matilha perto de você, sua recuperação de vigor acelera.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +15% regeneração de vigor"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+15% defesa"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Incentivo",
+        "desc": "Seu dinossauro emite um grito alto, reduzindo o consumo de vigor dos membros da matilha.",
+        "icon": "img/skill/buffS.png",
+        "effect": "-15% gasto de vigor"
+      },
+      {
+        "title": "Chute",
+        "desc": "Seu dinossauro ataca com as patas traseiras, causando dano adicional, com chance de atordoar e repelir alguns dinossauros.",
+        "icon": "img/skill/chute.png",
+        "effect": "dano base: 150"
+      }
+    ]
+  },
+  "Deinonychus": {
+    "shortName": "Deinonychus",
+    "desc": "Famoso por sua garra em forma de foice no segundo dedo do pé, o Deinonychus revolucionou a paleontologia ao sugerir que dinossauros eram animais ativos, ágeis e possivelmente de sangue quente.",
+    "release": "12 / 08 / 2025",
+    "idStatus": "deino",
+    "fullName": "DEINONYCHUS<br>ANTIRHOPUS",
+    "image": "img/pict/deinoperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "1.5 slots",
+      "growth": "18 min",
+      "price": "N/A",
+      "skin1": "6.500",
+      "skin2": "50",
+      "fotinha": "-",
+      "cormoeda": "2000",
+      "corgema": "15"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: + 9% defesa"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+24 dano, 4% chance de sangramento"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Grito de Guerra.",
+        "desc": "O dinossauro ruge, elevando seu moral e o da matilha, diminuindo seu consumo de vigor por um tempo.",
+        "icon": "img/skill/buffS.png",
+        "effect": "-20% gasto de vigor"
+      },
+      {
+        "title": "Lâminas Afiadas",
+        "desc": "Desfiere um golpe penetrantes com as garras, causando mais effect e podendo atordoar dinossauros menores.",
+        "icon": "img/skill/jump.png",
+        "effect": "dano base: 160"
+      }
+    ]
+  },
+  "Pachycephalosaurus": {
+    "shortName": "Pachycephalosaurus",
+    "desc": "Conhecido pelo topo de seu crânio extremamente espesso e em forma de domo. Paleontólogos acreditam que essa estrutura era usada em combates rituais por território ou parceiras.",
+    "release": "21 / 12 / 2023",
+    "idStatus": "pachy",
+    "fullName": "PACHYCEPHALO<br>SAURUS WYOMINGENSIS",
+    "image": "img/pict/pachyperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "28 min",
+      "price": "8.000",
+      "skin1": "6.000",
+      "skin2": "80",
+      "fotinha": "5.000",
+      "cormoeda": "2000",
+      "corgema": "20"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 3 vezes: +13% defesa"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, sua velocidade e chance de fraturar aumentam.",
+        "icon": "img/skill/poucohpP.png",
+        "effect": "+5% velocidade e chance de fratura"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Bater",
+        "desc": "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investidaP.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 457"
+      },
+      {
+        "title": "Ataque Carregado",
+        "desc": "Após algum tempo de carregamento, seu dinossauro desfiere um golpe poderoso com a cabeça, causando dano aumentado, aumentando a chance de fratura e podendo atordoar.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 557"
+      }
+    ]
+  },
+  "Guanlong": {
+    "shortName": "Guanlong",
+    "desc": "Um ancestral primitivo do Tyrannosaurus rex que viveu no Jurássico. Possuía uma crista distinta e delicada no topo da cabeça, usada provavelmente para exibição.",
+    "release": "25 / 01 / 2024",
+    "idStatus": "guan",
+    "fullName": "GUANLONG<br>WUCAII",
+    "image": "img/pict/guanperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "1.5 slots",
+      "growth": "28 min",
+      "price": "180g",
+      "skin1": "8.000",
+      "skin2": "50",
+      "fotinha": "3.000",
+      "cormoeda": "2000",
+      "corgema": "15"
+    },
+    "passives": [
+      {
+        "title": "Poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +13% defesa"
+      },
+      {
+        "title": "Força das Trevas",
+        "desc": "Seu dinossauro gasta menos stamina à noite.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Grito de Guerra",
+        "desc": "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo.",
+        "icon": "img/skill/sangra.png",
+        "effect": "+15% chance de sangramento"
+      },
+      {
+        "title": "Ataque Carregado",
+        "desc": "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base: 336"
+      }
+    ]
+  },
+  "Barbaridactylus": {
+    "shortName": "Barbaridactylus",
+    "desc": "Um pterossauro nictossaurídeo com uma crista craniana extraordinariamente grande. Viveu no final do Cretáceo e era especializado em pescar em mar aberto.",
+    "release": "22 / 05 / 2024",
+    "idStatus": "barba",
+    "fullName": "BARBARIDACTYLUS<br>GRANDIS",
+    "image": "img/pict/barbaperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2 slots",
+      "growth": "31 min",
+      "price": "600g",
+      "skin1": "20.000",
+      "skin2": "200",
+      "fotinha": "18.000",
+      "cormoeda": "4000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -18% gasto de stamina"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Enxame Barulhento",
+        "desc": "O pterossauro emite um grito estridente, aumentando a sua capacidade de infligir sangramento e a de aliados próximos por um curto período.",
+        "icon": "img/skill/sangra.png",
+        "effect": "+15% chance de sangramento"
+      }
+    ]
+  },
+  "Psittacosaurus": {
+    "shortName": "Psittacosaurus",
+    "desc": "O 'lagarto papagaio' era um ceratopsiano primitivo e bípede. Possuía um bico forte para triturar vegetação dura e cerdas longas na cauda, semelhantes a espinhos.",
+    "release": "04 / 11 / 2024",
+    "idStatus": "psitta",
+    "fullName": "PSITTACOSAURUS<br>SIBIRICUS",
+    "image": "img/pict/psittaperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "1 slot",
+      "growth": "20 min",
+      "price": "5.000",
+      "skin1": "8.500",
+      "skin2": "70",
+      "fotinha": "70g",
+      "cormoeda": "2000",
+      "corgema": "20"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Seu dinossauro gasta menos stamina e sua velocidade aumenta quando está com HP baixo.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
+      },
+      {
+        "title": "Instinto materno",
+        "desc": "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até: +30 dano"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Grito de Cura",
+        "desc": "Seu dinossauro emite um grito que acelera a própria regeneração de HP e dos membros da matilha próximos.",
+        "icon": "img/skill/buffR.png",
+        "effect": "+20% regeneração de HP"
+      }
+    ]
+  },
+  "Quetzalcoatlus": {
+    "shortName": "Quetzalcoatlus",
+    "desc": "Nomeado em homenagem a uma divindade asteca, foi um dos maiores animais voadores da história. Tinha a altura de uma girafa quando estava no chão e uma envergadura colossal.",
+    "release": "01 / 06 / 2024",
+    "idStatus": "quetzal",
+    "fullName": "QUETZALCOATLUS<br>NORTHROPI",
+    "image": "img/pict/quetzalperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "3 slots",
+      "growth": "41 min",
+      "price": "125.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "15.000",
+      "cormoeda": "4000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu effect é aumentado.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +17 dano"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor diminui e sua velocidade aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Capturar",
+        "desc": "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.",
+        "icon": "img/skill/capturar.png",
+        "effect": "-15% velocidade. Dano base: 160"
+      }
+    ]
+  },
+  "Austroraptor": {
+    "shortName": "Austroraptor",
+    "desc": "Um grande dromaeossaurídeo da América do Sul com focinho longo e braços curtos. Seus dentes cônicos sugerem uma dieta que incluía peixes, diferente de outros raptores.",
+    "release": "09 / 10 / 2025",
+    "idStatus": "austro",
+    "fullName": "AUSTRORAPTOR<br>ABAZAI",
+    "image": "img/pict/austroperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2 slots",
+      "growth": "24 min",
+      "price": "28.000",
+      "skin1": "15.000",
+      "skin2": "195g",
+      "fotinha": "12.000",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Vampirismo",
+        "desc": "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o effect causado.",
+        "icon": "img/skill/vamp.png",
+        "effect": "HP +25% do dano causado"
+      },
+      {
+        "title": "Juntos somos fortes!",
+        "desc": "Quando os membros da matilha estão perto de você, o gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: -15% gasto de vigor"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de vigor"
+      },
+      {
+        "title": "Frescor Marinho",
+        "desc": "Ao sair da água, sua velocidade de corrida e nado aumentam.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+5% velocidade"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque do céu",
+        "desc": "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.",
+        "icon": "img/skill/mordida.png",
+        "effect": "-15% defesa inimiga. Dano base: 200"
+      },
+      {
+        "title": "Disparada",
+        "desc": "Salte para alcançar o inimigo ou escapar velozmente, pode ser usado na água.",
+        "icon": "img/skill/dash.png",
+        "effect": null
+      }
+    ]
+  },
+  "Dilophosaurus": {
+    "shortName": "Dilophosaurus",
+    "desc": "Um dos primeiros grandes dinossauros carnívoros do Jurássico Inferior. Caracterizava-se por duas cristas paralelas no crânio; na realidade, não lançava veneno como na ficção.",
+    "release": "27 / 06 / 2025",
+    "idStatus": "dilo",
+    "fullName": "DILOPHOSAURUS<br>WETHERILLI",
+    "image": "img/pict/diloperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2 slots",
+      "growth": "28 min",
+      "price": "32.000",
+      "skin1": "18.000",
+      "skin2": "180g",
+      "fotinha": "120g",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Sede de Sangue",
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até 10 vezes: +6% velocidade, +5% chance de sangramento"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, a recuperação de vigor acelera.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 5 vezes: +28% recuperação de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Arranhão",
+        "desc": "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos effect.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 100"
+      },
+      {
+        "title": "Chuva de Golpes",
+        "desc": "Seu dinossauro desfiere três mordidas com maior chance de causar sangramento.",
+        "icon": "img/skill/multbite.png",
+        "effect": "Dano base: 140 (por mordida)"
+      }
+    ]
+  },
+  "Concavenator": {
+    "shortName": "Concavenator",
+    "desc": "Um carcharodontossaurídeo único que apresentava uma corcova pontiaguda nas costas. Também possuía protuberâncias nos braços que poderiam indicar a presença de penas ou cerdas.",
+    "release": "27 / 09 / 2024",
+    "idStatus": "conca",
+    "fullName": "CONCAVENATOR<br>CORCOVATUS",
+    "image": "img/pict/concaperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2 slots",
+      "growth": "32 min",
+      "price": "280g",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "150g",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão próximos, você recupera HP mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +20% recuperação de HP"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de vigor é reduzido.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+20 dano, -20% consumo de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Golpe Esmagador",
+        "desc": "O dinossauro causa um golpe devastador comdano e chance de sangrar aumentados.",
+        "icon": "img/skill/mordida.png",
+        "effect": "Dano base: 200"
+      }
+    ]
+  },
+  "Fasolasuchus": {
+    "shortName": "Fasolasuchus",
+    "desc": "Embora pareça um dinossauro, era um pseudossuquio (parente distante dos crocodilos). Foi o maior predador terrestre do Triássico, superando muitos dinossauros carnívoros da época.",
+    "release": "03 / 02 / 2025",
+    "idStatus": "fasola",
+    "fullName": "FASOLASUCHUS<br>TENAX",
+    "image": "img/pict/fasolaperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "2 slots",
+      "growth": "29 min",
+      "price": "500g",
+      "skin1": "-",
+      "skin2": "160",
+      "fotinha": "15.000",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu pseudosuchio está com baixo HP, o consumo de vigor diminui e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -25% consumo de vigor"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +1% chance de fratura"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Capturar",
+        "desc": "Seu dinossauro agarra uma presa com o boca podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.",
+        "icon": "img/skill/capturarf.png",
+        "effect": "-15% velocidade. Dano base: 245"
+      },
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 670"
+      }
+    ]
+  },
+  "Kentrosaurus": {
+    "shortName": "Kentrosaurus",
+    "desc": "Um parente africano do Estegossauro, coberto por placas ósseas na parte frontal do corpo e longos espinhos na parte traseira e na cauda para defesa contra predadores.",
+    "release": "21 / 12 / 2023",
+    "idStatus": "kentro",
+    "fullName": "KENTROSAURUS<br>AETHIOPICUS",
+    "image": "img/pict/kentroperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "39 min",
+      "price": "30.000",
+      "skin1": "12.000",
+      "skin2": "120g",
+      "fotinha": "10.000",
+      "cormoeda": "2000",
+      "corgema": "20"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, o consumo de vigor diminui e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% consumo de vigor"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até +4% sangramento"
+      },
+      {
+        "title": "Instinto Primordial",
+        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.",
+        "icon": "img/skill/instintop.png",
+        "effect": "+9% sangramento"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chuva de Golpes",
+        "desc": "Seu dinossauro bate a cauda três vezes, causando dano várias vezes ao mesmo alvo.",
+        "icon": "img/skill/tago.png",
+        "effect": "Dano base: 230 (por golpe)"
+      },
+      {
+        "title": "Armadura",
+        "desc": "Seu dinossauro se levanta, ganha força e então cai. Suas placas se movem, aumentando temporariamente a defesa.",
+        "icon": "img/skill/defesa.png",
+        "effect": "+25% defesa"
+      }
+    ]
+  },
+  "Megaraptor": {
+    "shortName": "Megaraptor",
+    "desc": "Inicialmente confundido com um raptor devido à sua enorme garra, descobriu-se depois que essa garra pertencia às mãos, e não aos pés. Era um carnívoro de topo na América do Sul.",
+    "release": "12 / 11 / 2025",
+    "idStatus": "mega",
+    "fullName": "MEGARAPTOR<br>NAMUNHUAIQUII",
+    "image": "img/pict/megaperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "38 min",
+      "price": "600g",
+      "skin1": "40.000",
+      "skin2": "450g",
+      "fotinha": "-",
+      "cormoeda": "8000",
+      "corgema": "50"
+    },
+    "passives": [
+      {
+        "title": "Poder Acumulado",
+        "desc": "Seu primeiro ataque causa dano aumentado, há um tempo de recarga.",
+        "icon": "img/skill/poderacumulado.png",
+        "effect": "+70 dano"
+      },
+      {
+        "title": "Devorador da Noite",
+        "desc": "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de vigor diminui.",
+        "icon": "img/skill/devorador.png",
+        "effect": "+20% chance de sangramento, -15% gasto de vigor"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: -10% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Rugido Aterrorizante",
+        "desc": "Seu dinossauro ruge, fazendo com que os jogadores próximos fiquem com medo e percam parte do conforto, manter-se próximo fará com que o efeito se torne continuo.",
+        "icon": "img/skill/rugido.png",
+        "effect": "-30% conforto imediato, podendo escalar"
+      },
+      {
+        "title": "Garras Afiadas",
+        "desc": "O dinossauro faz dois movimentos com suas garras. O ataque tem maiores chances de infligir sangramento.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 245 (por ataque)"
+      }
+    ]
+  },
+  "Ceratosaurus": {
+    "shortName": "Ceratosaurus",
+    "desc": "Distinguia-se por um chifre proeminente no nariz e cristas sobre os olhos. Foi um dos poucos terópodes a possuir uma fileira de osteodermas (placas ósseas) ao longo das costas.",
+    "release": "06 / 03 / 2024",
+    "idStatus": "cerato",
+    "fullName": "CERATOSAURUS<br>NASICORNIS",
+    "image": "img/pict/ceratoperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "39 min",
+      "price": "120.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "30.000",
+      "cormoeda": "6000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, sua defesa e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+12% defesa, +3.6% chance de sangramento"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +20% recuperação de HP"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 616"
+      }
+    ]
+  },
+  "Carnotaurus": {
+    "shortName": "Carnotaurus",
+    "desc": "Conhecido como o 'touro carnívoro' devido aos dois chifres curtos acima dos olhos. Possuía braços minúsculos e vestigiais, mas era um dos terópodes mais velozes conhecidos.",
+    "release": "08 / 05 / 2025",
+    "idStatus": "carno",
+    "fullName": "CARNOTAURUS<br>SASTREI",
+    "image": "img/pict/carnoperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "29 min",
+      "price": "100.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "150g",
+      "cormoeda": "2500",
+      "corgema": "25"
+    },
+    "passives": [
+      {
+        "title": "Sede de Sangue",
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até 10 vezes: +3,6% chance de sangramento, +6% velocidade"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando há membros da matilha perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "--% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 560"
+      },
+      {
+        "title": "Crânio de Ferro",
+        "desc": "Seu dinossauro causa um golpe devastador com dano aumentado, podendo atordoar inimigos.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base 245"
+      }
+    ]
+  },
+  "Gigantoraptor": {
+    "shortName": "Gigantoraptor",
+    "desc": "Um oviraptorossauro gigante que chegava a pesar duas toneladas. Apesar de sua aparência de pássaro gigante e bico sem dentes, era um animal imponente do Cretáceo da Mongólia.",
+    "release": "04 / 11 / 2024",
+    "idStatus": "giganto",
+    "fullName": "GIGANTORAPTOR<br>ERLIANENSIS",
+    "image": "img/pict/gigantoperfil.png",
+    "diet": "🥩🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "42 min",
+      "price": "55.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "15.000",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Instinto Materno",
+        "desc": "Quando seu dinossauro está perto do ninho, o dano aumenta para cada ovo.",
+        "icon": "img/skill/ninho.png",
+        "effect": "Até 3 vezes: +32 dano"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu dano aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +18 dano"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chute",
+        "desc": "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.",
+        "icon": "img/skill/chute.png",
+        "effect": "Dano base 250"
+      },
+      {
+        "title": "Chuva de Golpes",
+        "desc": "Seu dinossauro desfiere múltiplas bicadas com maior chance de causar sangramento. Ataques causam menos dano.",
+        "icon": "img/skill/chuvagolpes.png",
+        "effect": "Dano base 110"
+      }
+    ]
+  },
+  "Allosaurus": {
+    "shortName": "Allosaurus",
+    "desc": "O predador mais comum e dominante do Jurássico Superior na América do Norte. Tinha braços fortes com garras afiadas e uma estrutura craniana que permitia aberturas de boca extremas.",
+    "release": "06 / 03 / 2024",
+    "idStatus": "allo",
+    "fullName": "ALLOSAURUS<br>FRAGILIS",
+    "image": "img/pict/alloperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "38 min",
+      "price": "650g",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "-",
+      "cormoeda": "6000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu vigor recupera mais rápido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 3 vezes: +9% regeneração de vigor"
+      },
+      {
+        "title": "Bom Sono",
+        "desc": "Seu dinossauro gasta menos vigor enquanto o cansaço estiver acima de 79%.",
+        "icon": "img/skill/sono.png",
+        "effect": "-15% gasto de stamina"
+      },
+      {
+        "title": "Instinto Primordial",
+        "desc": "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.",
+        "icon": "img/skill/instintop.png",
+        "effect": "+9% sangramento"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 672"
+      }
+    ]
+  },
+  "Styracosaurus": {
+    "shortName": "Styracosaurus",
+    "desc": "Um dinossauro com chifres que possuía um escudo craniano espetacular, adornado com vários espinhos longos, além de um chifre nasal imponente para defesa e exibição.",
+    "release": "08 / 05 / 2025",
+    "idStatus": "styra",
+    "fullName": "STYRACOSAURUS<br>ALBERTENSIS",
+    "image": "img/pict/styraperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "39 min",
+      "price": "55.000",
+      "skin1": "25.000",
+      "skin2": "250g",
+      "fotinha": "10.000",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Fúria com Chifres",
+        "desc": "Quando seu dinossauro está com pouco HP, seu consumo de vigor é reduzido e sua chance de sangrar aumenta.",
+        "icon": "img/skill/sangra.png",
+        "effect": "-15% gasto de vigor, +7% chance de sangrar"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% defesa"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chute",
+        "desc": "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.",
+        "icon": "img/skill/coice.png",
+        "effect": "Dano base: 270"
+      },
+      {
+        "title": "Golpe Esmagador",
+        "desc": "O dinossauro golpeia com seu chifre, causa dano aumentado, podendo atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 300"
+      }
+    ]
+  },
+  "Plateosaurus": {
+    "shortName": "Plateosaurus",
+    "desc": "Um dos primeiros grandes herbívoros da Europa. Este 'prossaurópode' podia caminhar tanto de forma quadrúpede quanto bípede para alcançar vegetação alta.",
+    "release": "14 / 02 / 2024",
+    "idStatus": "plateo",
+    "fullName": "PLATEOSAURUS<br>ENGELHARDTI",
+    "image": "img/pict/plateoperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "31 min",
+      "price": "20.500",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "N/A",
+      "cormoeda": "2000",
+      "corgema": "20"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "Até 2 vezes: +11% defesa"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP seu consumo de vigor diminui e a velocidade aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chicote de cauda",
+        "desc": "Um golpe de cauda em área, que causa repulsão.",
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 220, recarga em 5 segundos "
+      }
+    ]
+  },
+  "Tarchia": {
+    "shortName": "Tarchia",
+    "desc": "Um dos maiores anquilossaurídeos conhecidos da Ásia. Era um verdadeiro 'tanque vivo', coberto por armadura óssea e equipado com uma clava pesada na ponta da cauda.",
+    "release": "10 / 10 / 2023",
+    "idStatus": "tarchia",
+    "fullName": "TARCHIA<br>KIELANAE",
+    "image": "img/pict/tarchiaperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "39 min",
+      "price": "35.000",
+      "skin1": "12.000",
+      "skin2": "-",
+      "fotinha": "8.000",
+      "cormoeda": "2500",
+      "corgema": "25"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com HP baixo, seu effect e chance de fraturar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+48 dano, +7,5% fratura"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir fratura, pode causar repulsão e atordoamento.",
+        "icon": "img/skill/carregadaT.png",
+        "effect": "Dano base máximo 767"
+      },
+      {
+        "title": "Armadura Resistente",
+        "desc": "Seu dinossauro chacoalha o corpo por alguns segundos, após isso, ganha defesa e perde velocidade.",
+        "icon": "img/skill/defesa.png",
+        "effect": "+30% defesa, -12% velocidade"
+      }
+    ]
+  },
+  "Parasaurolophus": {
+    "shortName": "Parasaurolophus",
+    "desc": "Famoso por sua crista tubular longa que se estendia para trás do crânio. Acredita-se que essa crista servia como uma caixa de ressonância para emitir sons graves e potentes.",
+    "release": "14 / 02 / 2024",
+    "idStatus": "para",
+    "fullName": "PARASAUROLOPHUS<br>WALKERI",
+    "image": "img/pict/paraperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "29 min",
+      "price": "32.000",
+      "skin1": "10.000",
+      "skin2": "120g",
+      "fotinha": "N/A",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% consumo de stamina, +5% velocidade"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chute",
+        "desc": "Ataca com as patas traseiras, causando dano adicional e tendo chance de atordoar e repelir outros dinossauros. Não pode ser usada enquanto estiver correndo.",
+        "icon": "img/skill/coice.png",
+        "effect": "Dano base: 350, recarga em 5 segundos"
+      },
+      {
+        "title": "Um rugido aterrorizante",
+        "desc": "Solta um rugido que causa medo nos dinossauros, reduzindo sua defesa.",
+        "icon": "img/skill/rugido.png",
+        "effect": "-20% defesa inimiga"
+      }
+    ]
+  },
+  "Pachyrhinosaurus": {
+    "shortName": "Pachyrhinosaurus",
+    "desc": "Diferente de outros ceratopsianos, em vez de chifres pontiagudos, possuía grandes massas ósseas e rugosas no focinho. Viveu em climas frios da América do Norte.",
+    "release": "13 / 01 / 2024",
+    "idStatus": "rhino",
+    "fullName": "PACHYRHINOSAURUS",
+    "image": "img/pict/rhinoperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2 slots",
+      "growth": "36 min",
+      "price": "75.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "7.000",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+20% regeneração de HP"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro tem pouco HP, o consumo de vigor é reduzido e a velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+5% velocidade, -20% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Bater",
+        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investida.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 618"
+      },
+      {
+        "title": "Terremoto",
+        "desc": "Seu dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa effect em área, com chance de atordoar e empurrar inimigos, mas o effect é baixo.",
+        "icon": "img/skill/terra.png",
+        "effect": "Dano base: indefinido"
+      }
+    ]
+  },
+  "Stegosaurus": {
+    "shortName": "Stegosaurus",
+    "desc": "Um dos dinossauros mais reconhecíveis, com suas icônicas placas dorsais em forma de losango e quatro espinhos defensivos na cauda, conhecidos como 'tagomizadores'.",
+    "release": "25 / 12 / 2025",
+    "idStatus": "stego",
+    "fullName": "STEGOSAURUS<br>UNGULATUS",
+    "image": "img/pict/stegoperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "3 slots",
+      "growth": "40 min",
+      "price": "100.000",
+      "skin1": "18.000",
+      "skin2": "120",
+      "fotinha": "60g",
+      "cormoeda": "6000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% de sangramento"
+      },
+      {
+        "title": "Energia solar",
+        "desc": "Durante o dia, seu dinossauro consome menos vigor.",
+        "icon": "img/skill/hora.png",
+        "effect": "-20% gasto de vigor"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo três movimentos de cauda em poucos segundos, aumenta a chance de infligir fratura e sangramento, pode causar atordoamento.",
+        "icon": "img/skill/tago.png",
+        "effect": "Dano base máximo: 488 (por golpe)"
+      },
+      {
+        "title": "Golpe Esmagador",
+        "desc": "Seu dinossauro causa um golpe devastador com dano aumentado, pode atordoar inimigos.",
+        "icon": "img/skill/esmaga.png",
+        "effect": "Dano base: 350"
+      }
+    ]
+  },
+  "Therizinosaurus": {
+    "shortName": "Therizinosaurus",
+    "desc": "Um bizarro terópode herbívoro que possuía as maiores garras já encontradas em qualquer animal terrestre, usadas provavelmente para puxar galhos ou se defender de predadores.",
+    "release": "14 / 09 / 2024",
+    "idStatus": "theri",
+    "fullName": "THERIZINOSAURUS<br>CHELONIFORMIS",
+    "image": "img/pict/theriperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "48 min",
+      "price": "150.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "-",
+      "cormoeda": "4000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "quando seu dinossauro está com pouco HP, seu dano e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+45 dano, +15% chance de sangramento"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +11% defesa"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chuva de Golpes",
+        "desc": "Seu dinossauro faz dois movimentos com suas garras, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 150 (por ataque)"
+      },
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/carregada.png",
+        "effect": "dano base máximo: 873"
+      }
+    ]
+  },
+  "Suchomimus": {
+    "shortName": "Suchomimus",
+    "desc": "O 'imitador de crocodilo', possuía um focinho longo e estreito, ideal para capturar peixes em rios africanos no período Cretáceo. Tinha uma garra de polegar enorme.",
+    "release": "02 / 04 / 2025",
+    "idStatus": "sucho",
+    "fullName": "SUCHOMIMUS<br>TENERENSIS",
+    "image": "img/pict/suchoperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "41 min",
+      "price": "110.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "15.000",
+      "cormoeda": "2000",
+      "corgema": "20"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa é aumentada.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +8% defesa"
+      },
+      {
+        "title": "Elemento nativo",
+        "desc": "Quando seu dinossauro nada, seu dano aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+31 dano"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
+        "icon": "img/skill/carregada.png",
+        "effect": "null"
+      },
+      {
+        "title": "Garras Afiadas",
+        "desc": "O dinossauro faz dois movimentos com suas garras aumentando as chances de infligir sangramento e fratura.",
+        "icon": "img/skill/garras.png",
+        "effect": "null"
+      }
+    ]
+  },
+  "Amargasaurus": {
+    "shortName": "Amargasaurus",
+    "desc": "Um saurópode incomum e relativamente pequeno, com duas fileiras de espinhos neurais altos saindo de seu pescoço. Esses espinhos poderiam ter sustentado velas de pele ou apenas cerdas.",
+    "release": "03 / 02 / 2025",
+    "idStatus": "amarga",
+    "fullName": "AMARGASAURUS<br>CAZAUI",
+    "image": "img/pict/amargaperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "48 min",
+      "price": "120.000",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "-",
+      "cormoeda": "3000",
+      "corgema": "30"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 4 vezes: -12% consumo de stamina"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouca vida, sua defesa e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+12% defesa, +4.5% sangramento"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Ataque do céu",
+        "desc": "O dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa effect em área, com chance de atordoar e empurrar inimigos.",
+        "icon": "img/skill/pisao.png",
+        "effect": "Dano base: -"
+      },
+      {
+        "title": "Chicote de Cauda",
+        "desc": "Um golpe de cauda em área, causa repulsão.",
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 300"
+      }
+    ]
+  },
+  "Sarcosuchus": {
+    "shortName": "Sarcosuchus",
+    "desc": "Conhecido como 'SuperCroc', não era um dinossauro, mas um parente gigante dos crocodilos modernos. Podia atingir 12 metros de comprimento e caçava até dinossauros médios.",
+    "release": "30 / 11 / 2023",
+    "idStatus": "sarco",
+    "fullName": "SARCOSUCHUS<br>IMPERATOR",
+    "image": "img/pict/sarcoperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "2.5 slots",
+      "growth": "48 min",
+      "price": "650g",
+      "skin1": "-",
+      "skin2": "-",
+      "fotinha": "250g",
+      "cormoeda": "8000",
+      "corgema": "70"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "Até 2 vezes: +1% chance de fratura"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, sua defesa aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+10% defesa"
+      },
+      {
+        "title": "Elemento nativo",
+        "desc": "quando seu dinossauro nada, sua defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+10% defesa"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Capturar",
+        "desc": "Seu dinossauro agarra uma presa com o boca podendo levá-la consigo, gastando stamina para tal. Funciona apenas com animais menores.",
+        "icon": "img/skill/capturarS.png",
+        "effect": "Dano base: 300"
+      },
+      {
+        "title": "Mordida Mortal",
+        "desc": "Uma mordida poderosa que drena o oxigênio e a resistência do inimigo.",
+        "icon": "img/skill/mordida.png",
+        "effect": "Dano base: 350"
+      }
+    ]
+  },
+  "Spinosaurus": {
+    "shortName": "Spinosaurus",
+    "desc": "O maior carnívoro terrestre conhecido, o Espinossauro era adaptado para a vida semi-aquática, possuindo uma vela dorsal imensa e focinho longo para pescar.",
+    "release": "30 / 03 / 2024",
+    "idStatus": "spino",
+    "fullName": "SPINOSAURUS<br>AEGYPTIACUS",
+    "image": "img/pict/spinoperfil.png",
+    "diet": "🥩🦈",
+    "stats": {
+      "group": "3 slots",
+      "growth": "48 min",
+      "price": "150.000",
+      "skin1": "50.000",
+      "skin2": "300",
+      "fotinha": "22.000",
+      "cormoeda": "6000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "+2.5% sangramento"
+      },
+      {
+        "title": "Elemento nativo",
+        "desc": "Quando seu dinossauro nada, a defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+15% defesa"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo, seu dinossauro gasta menos vigor após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Chuva de Golpes",
+        "desc": "Seu dinossauro desfiere três golpes com suas garras. Aumenta a chance de infligir sangramento.",
+        "icon": "img/skill/garras.png",
+        "effect": "Dano base: 180 (por ataque)"
+      },
+      {
+        "title": "Chicote de Cauda",
+        "desc": "Um golpe de cauda em área, causa repulsão.",
+        "icon": "img/skill/cauda.png",
+        "effect": "Dano base: 265"
+      }
+    ]
+  },
+  "Deinocheirus": {
+    "shortName": "Deinocheirus",
+    "desc": "Um dinossauro ornitomimossauro gigante e corcunda com braços maciços e um bico de pato. Era um comedor de plantas e peixes de pântanos da Mongólia.",
+    "release": "20 / 11 / 2024",
+    "idStatus": "pato",
+    "fullName": "DEINOCHEIRUS<br>MIRIFICUS",
+    "image": "img/pict/patoperfil.png",
+    "diet": "🌿🦈",
+    "stats": {
+      "group": "3 slots",
+      "growth": "48 min",
+      "price": "800g",
+      "skin1": "-",
+      "skin2": "225g",
+      "fotinha": "-",
+      "cormoeda": "4000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "+2% sangramento"
+      },
+      {
+        "title": "Elemento nativo",
+        "desc": "Quando seu dinossauro nada, a defesa aumenta.",
+        "icon": "img/skill/enativo.png",
+        "effect": "+15% defesa"
+      },
+      {
+        "title": "Presente das Profundezas",
+        "desc": "Durante um tempo, seu dinossauro gasta menos stamina após se alimentar de um peixe.",
+        "icon": "img/skill/aquatico.png",
+        "effect": "-10% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Estrondo do Lagarto",
+        "desc": "Seu dinossauro ruge, aumentando temporariamente sua defesa e velocidade de movimento.",
+        "icon": "img/skill/buffS.png",
+        "effect": "+15% defesa, +3% velocidade"
+      },
+      {
+        "title": "Ataque Carregado",
+        "desc": "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base máximo: 791"
+      }
+    ]
+  },
+  "Triceratops": {
+    "shortName": "Triceratops",
+    "desc": "O mais famoso dos dinossauros de chifres. O Triceratops possuía três chifres faciais e um escudo ósseo sólido para proteção contra predadores como o T. rex.",
+    "release": "30 / 03 / 2024",
+    "idStatus": "trike",
+    "fullName": "TRICERATOPS<br>HORRIDUS",
+    "image": "img/pict/trikeperfil.png",
+    "diet": "🌿",
+    "stats": {
+      "group": "3 slots",
+      "growth": "48 min",
+      "price": "110.000",
+      "skin1": "30.000",
+      "skin2": "300g",
+      "fotinha": "20.000",
+      "cormoeda": "4000",
+      "corgema": "40"
+    },
+    "passives": [
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro tem pouco HP, seu consumo de vigor diminui e sua velocidade de movimento aumenta.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "-20% consumo de stamina, +5% velocidade"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua regeneração de vigor aumenta.",
+        "icon": "img/skill/rebanhoH.png",
+        "effect": "Até 2 vezes: +8% regeneração de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Bater",
+        "desc": "Seu dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.",
+        "icon": "img/skill/investida.png",
+        "effect": "+25% velocidade, +15% consumo de vigor. Dano base máximo: 668"
+      },
+      {
+        "title": "Golpe Esmagador",
+        "desc": "Seu dinossauro desfiere um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 350"
+      }
+    ]
+  },
+  "Giganotosaurus": {
+    "shortName": "Giganotosaurus",
+    "desc": "Um dos maiores carnívoros que já existiu, superando o T. rex em comprimento. Viveu na América do Sul e provavelmente caçava saurópodes gigantes em grupos.",
+    "release": "13 / 04 / 2026",
+    "idStatus": "giga",
+    "fullName": "GIGANOTOSAURUS<br>CAROLINI",
+    "image": "img/pict/gigaperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "3 slots",
+      "growth": "48 min",
+      "price": "140.000",
+      "skin1": "40.000",
+      "skin2": "300g",
+      "fotinha": "-",
+      "cormoeda": "8000",
+      "corgema": "50"
+    },
+    "passives": [
+      {
+        "title": "Sede de Sangue",
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento.",
+        "icon": "img/skill/sedesangue.png",
+        "effect": "Até +4% chance de sangramento"
+      },
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, sua defesa aumenta.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "+7% defesa"
+      },
+      {
+        "title": "Surto de poder",
+        "desc": "Quando seu dinossauro está com pouco HP, o effect e chance de sangrar aumentam.",
+        "icon": "img/skill/poucohp.png",
+        "effect": "+29 dano, +8,5% chance de sangramento"
+      },
+      {
+        "title": "Fúria insaciável",
+        "desc": "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na defesa.",
+        "icon": "img/skill/furia.png",
+        "effect": "Até +5% defesa"
+      },
+      {
+        "title": "Armadura resistente",
+        "desc": "Sua mordida é capaz de roubar a força da vítima, restaurando o vigor roubada do inimigo.",
+        "icon": "img/skill/armadura.png",
+        "effect": "Vigor roubado indefinido"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Mordida dupla",
+        "desc": "Seu dinossauro desfiere duas mordidas rápidas com maior dano e chance de causar sangramento. É possível atordoar.",
+        "icon": "img/skill/carregada.png",
+        "effect": "Dano base: 320 (por mordida)"
+      },
+      {
+        "title": "Terremoto",
+        "desc": "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros.",
+        "icon": "img/skill/terra.png",
+        "effect": "Dano base: indefinido"
+      }
+    ]
+  },
+  "Tyrannosaurus": {
+    "shortName": "Tyrannosaurus",
+    "desc": "O 'rei dos lagartos tiranos', possuía uma das mordidas mais poderosas de todos os tempos. Era um predador de topo e carniceiro ocasional com visão binocular aguçada.",
+    "release": "30 / 03 / 2024",
+    "idStatus": "trex",
+    "fullName": "TYRANNOSAURUS<br>REX",
+    "image": "img/pict/trexperfil.png",
+    "diet": "🥩",
+    "stats": {
+      "group": "3 slots",
+      "growth": "56 min",
+      "price": "800g",
+      "skin1": "40.000",
+      "skin2": "450g",
+      "fotinha": "200g",
+      "cormoeda": "8000",
+      "corgema": "50"
+    },
+    "passives": [
+      {
+        "title": "O poder do bando",
+        "desc": "Quando os membros da matilha estão perto de você, seu gasto de vigor é reduzido.",
+        "icon": "img/skill/rebanho.png",
+        "effect": "-10% gasto de stamina"
+      }
+    ],
+    "actives": [
+      {
+        "title": "Rugido Aterrorizante",
+        "desc": "Seu dinossauro ruge, reduzindo a defesa de inimigos próximos.",
+        "icon": "img/skill/rugidoR.png",
+        "effect": "-20% defesa inimiga"
+      },
+      {
+        "title": "Crânio de Ferro",
+        "desc": "Seu dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros.",
+        "icon": "img/skill/cranio.png",
+        "effect": "Dano base: 400"
+      }
+    ]
+  }
+}

@@ -1,84 +1,20 @@
-tr[id] {
-    scroll-margin-top: 150px; 
-}
-
-@keyframes highlight-pulse {
-    0% { background-color: transparent; }
-    50% { background-color: var(--hover-bg); }
-    100% { background-color: var(so-hover); }
-}
-
-tbody tr td {
-    transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
-}
-
-tr:target td {
-    animation: highlight-pulse 1.5s ease-out forwards;
-    background-color: var(--so-hover);
-    border-top: 1px solid var(--text-highlight);
-    border-bottom: 1px solid var(--text-highlight);
-    color: var(--text-primary);
-    font-weight: 700;
-}
-
-tr:target td:first-child::before {
-    content: "* ";
-    margin-right: 5px;
-}
-
-h2.tier-toggle {
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--ink); 
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-h2.tier-toggle:hover {
-    background-color: var(--hover-bg); 
-}
-
-.arrow {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 8px solid var(--accent); 
-    transition: transform 0.3s ease;
-    transform-origin: 50% 50%; 
-}
-
-h2.tier-toggle.collapsed .arrow {
-    transform: rotate(-90deg);
-}
-
-.table-container {
-    transition: opacity 0.8s ease;
-}
-
-.table-container.hidden {
-    display: none;
-}
-
+/* =========================================
+   PAINEL DE COMPARAÇÃO & HABILIDADES
+   ========================================= */
 .compare-panel,
 .comparison-section,
 .skills-comparison {
-    border: 2px solid var(--ink);
-    border-radius: 8px;
-    background-color: var(--bg-black);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     margin-bottom: 28px;
     padding: 18px;
+    background-color: var(--bg-black);
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .compare-panel h3 {
-    text-align: center;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .compare-controls {
@@ -97,13 +33,13 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .select-group select {
-    background-color: var(--back);
     width: 100%;
-    border: 2px solid var(--accent);
-    border-radius: 8px;
+    padding: 12px;
+    background-color: var(--back);
     color: var(--text-primary);
     font: inherit;
-    padding: 12px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
 }
 
 .select-group select:focus {
@@ -118,10 +54,10 @@ h2.tier-toggle.collapsed .arrow {
     justify-content: center;
     min-width: 52px;
     height: 52px;
-    border-radius: 50%;
-    color: var(--text-primary);
     background-color: var(--hover-bg);
+    color: var(--text-primary);
     font-weight: 900;
+    border-radius: 50%;
 }
 
 .summary-grid {
@@ -132,17 +68,17 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .species-summary {
+    padding: 18px;
+    background-color: var(--brilho);
     border: 2px solid var(--panel);
     border-radius: 8px;
-    background-color: var(--brilho);
-    padding: 18px;
 }
 
 .species-summary h3 {
+    margin-bottom: 14px;
     color: var(--text-highlight);
     font-size: 1.15rem;
     line-height: 1.25;
-    margin-bottom: 14px;
 }
 
 .summary-stats {
@@ -152,18 +88,18 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .summary-stat {
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
     padding: 10px;
     background-color: var(--bg-black);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
 }
 
 .summary-stat span {
     display: block;
+    margin-bottom: 4px;
     color: var(--text-secondary);
     font-size: 0.8rem;
     font-weight: 700;
-    margin-bottom: 4px;
 }
 
 .summary-stat strong {
@@ -210,10 +146,10 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .skill-column {
-    border: 2px solid var(--panel);
-    border-radius: 8px;
     padding: 16px;
     background-color: var(--brilho);
+    border: 2px solid var(--panel);
+    border-radius: 8px;
 }
 
 .skill-column h3 {
@@ -221,8 +157,8 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .skill-column h4 {
-    color: var(--accent);
     margin: 18px 0 8px;
+    color: var(--accent);
 }
 
 .skill-list {
@@ -231,22 +167,22 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .skill-card {
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
     padding: 12px;
     background-color: var(--back);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
 }
 
 .skill-card strong {
     display: block;
-    color: var(--text-highlight);
     margin-bottom: 6px;
+    color: var(--text-highlight);
 }
 
 .skill-card p {
+    margin: 0;
     color: var(--text-primary);
     font-size: 0.95rem;
-    margin: 0;
 }
 
 .empty-skill {
@@ -254,22 +190,11 @@ h2.tier-toggle.collapsed .arrow {
     font-style: italic;
 }
 
-@media (max-width: 760px) {
-    .compare-controls,
-    .summary-grid,
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
+/* =========================================
+   SIMULADOR DE COMBATE
+   ========================================= */
 
-    .compare-versus {
-        justify-self: center;
-    }
-
-    .summary-stats {
-        grid-template-columns: 1fr;
-    }
-}
-.container {
+.containerB {
     background-color: var(--back);
     padding: 2rem;
     border-radius: 8px;
@@ -281,10 +206,10 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .combat-simulator h1 {
-    text-align: center;
     margin-bottom: 2rem;
     color: var(--accent);
     font-size: 1.75rem;
+    text-align: center;
 }
 
 .controls {
@@ -294,51 +219,40 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .form-group {
-    flex: 1;
     display: flex;
+    flex: 1;
     flex-direction: column;
 }
 
 .form-group label {
-    font-weight: 600;
     margin-bottom: 0.5rem;
     color: var(--text-highlight);
+    font-weight: 600;
 }
 
 .combat-simulator select {
     padding: 0.65rem;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
     background-color: var(--bg);
     color: var(--text-primary);
     font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
     outline: none;
     transition: border-color 0.2s ease-in-out;
-}
-
-.dadosContainers{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-indent: 0;
-    gap: 18px;
-    margin-top: 30px;
-}
-
-@media (max-width: 769px) {
-    .dadosContainers{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-indent: 0;
-        gap: 18px;
-        margin-top: 30px;
-    }
 }
 
 .combat-simulator select:focus {
     border-color: var(--accent);
     box-shadow: 0 0 8px var(--hover-bg);
+}
+
+.dadosContainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 30px;
+    text-indent: 0;
 }
 
 .defense-modes {
@@ -347,55 +261,61 @@ h2.tier-toggle.collapsed .arrow {
 }
 
 .defense-modes p {
-    font-weight: 600;
     margin-bottom: 1rem;
     color: var(--text-highlight);
+    font-weight: 600;
 }
 
 .buttons {
     display: flex;
-    gap: 0.5rem;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
-button.alvo, button.atacante {
+button.alvo, 
+button.atacante {
     padding: 0.6rem 1rem;
-    border: 2px solid var(--accent);
     background-color: transparent;
     color: var(--accent);
+    font-weight: bold;
+    border: 2px solid var(--accent);
     border-radius: 8px;
     cursor: pointer;
-    font-weight: bold;
     transition: all 0.3s ease;
 }
 
-button.alvo:hover, button.atacante:hover {
+button.alvo:hover, 
+button.atacante:hover {
     background-color: var(--brilho);
-    color:var(--text-highlight);
+    color: var(--text-highlight);
 }
 
-button.alvo.active, button.atacante.active {
+button.alvo.active, 
+button.atacante.active {
     background-color: var(--accent);
     color: var(--ink);
 }
 
+/* =========================================
+   RESULTADOS E UTILITÁRIOS
+   ========================================= */
 .results-container {
-    border-top: 1px solid var(--border-color);
     padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
 }
 
 .results-container h2 {
-    font-size: 1.25rem;
     margin-bottom: 1rem;
     color: var(--accent);
+    font-size: 1.25rem;
 }
 
 #results {
-    background-color: var(--bg-back);
     padding: 1rem;
-    border-radius: 8px;
+    background-color: var(--bg-back);
     border: 1px solid var(--panel);
+    border-radius: 8px;
 }
 
 .result-row {
@@ -427,6 +347,29 @@ button.alvo.active, button.atacante.active {
     color: #dc3545;
     font-weight: bold;
     text-align: center;
+}
+
+/* =========================================
+   MEDIA QUERIES (RESPONSIVIDADE)
+   ========================================= */
+@media (max-width: 768px) {
+    .compare-controls,
+    .summary-grid,
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .compare-versus {
+        justify-self: center;
+    }
+
+    .summary-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .dadosContainers {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 620px) {

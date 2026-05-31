@@ -8,49 +8,36 @@ if (hamburger && navMenu) {
     });
 }
 
-const dropdownToggle = document.querySelector(".dropdown-toggle");
-const dropdownMenu = document.querySelector(".dropdown-menu");
+// Seleciona todos os dropdowns para garantir que funcionem em qualquer lugar do cabeçalho
+const dropdowns = document.querySelectorAll(".dropdown");
 
-if (dropdownToggle && dropdownMenu) {
-    dropdownToggle.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation(); 
-        dropdownMenu.classList.toggle("show");
-    });
-}
+dropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector(".dropdown-toggle");
+    const menu = dropdown.querySelector(".dropdown-menu");
 
-window.addEventListener("click", (e) => {
-    if (dropdownToggle && dropdownMenu && !dropdownToggle.contains(e.target)) {
-        dropdownMenu.classList.remove("show");
-    }
-    
-    if (e.target && e.target.classList && !e.target.classList.contains('dropdown-toggle') && e.target.classList.contains('nav-link')) {
-        if (hamburger) hamburger.classList.remove("active");
-        if (navMenu) navMenu.classList.remove("active");
+    if (toggle && menu) {
+        toggle.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            // Fecha outros menus abertos antes de abrir o atual
+            document.querySelectorAll(".dropdown-menu.show").forEach(openMenu => {
+                if (openMenu !== menu) openMenu.classList.remove("show");
+            });
+            menu.classList.toggle("show");
+        });
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('searchInput');
-    
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const termo = searchInput.value.toLowerCase().trim();
-            const linhas = document.querySelectorAll('tbody tr');
+window.addEventListener("click", (e) => {
+    // Fecha os dropdowns se o clique for fora de qualquer elemento .dropdown
+    if (!e.target.closest(".dropdown") && !e.target.closest(".dropdown-toggle")) {
+        document.querySelectorAll(".dropdown-menu.show").forEach(menu => menu.classList.remove("show"));
+    }
 
-            linhas.forEach(linha => {
-                const celulaNome = linha.querySelector('td:first-child');
-                
-                if (celulaNome) {
-                    const texto = celulaNome.textContent.toLowerCase();
-                    if (texto.includes(termo)) {
-                        linha.style.display = '';
-                    } else {
-                        linha.style.display = 'none';
-                    }
-                }
-            });
-        });
+    // Fecha o menu hambúrguer se clicar fora do cabeçalho ou em um link (exceto toggle)
+    if (!e.target.closest(".cabecalho") || (e.target.classList.contains('nav-link') && !e.target.closest('.dropdown-toggle'))) {
+        hamburger?.classList.remove("active");
+        navMenu?.classList.remove("active");
     }
 });
 
@@ -89,4 +76,3 @@ if (viewMode) {
         light !== 'active' ? lightMode() : darkMode();
     });
 }
-

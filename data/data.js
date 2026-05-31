@@ -145,7 +145,7 @@ const dinosData = [
         nome: "Parasaurolophus walkeri",
         classe: 1,
         tier: 4,
-        peso: 1500,
+        peso: 1550,
         hp: 3600,
         dano_base: 200,
         fratura: 7,
@@ -177,8 +177,8 @@ const dinosData = [
         dieta: "🥩🦈",
         slots: 2.5,
         ativas: {
-            skill1: 0,
-            skill2: 0
+            skill1: 240,
+            skill2: 575
         }
     },
     {
@@ -404,7 +404,7 @@ const dinosData = [
         nome: "Ceratosaurus nasicornis",
         classe: 2,
         tier: 3,
-        peso: 1400,
+        peso: 1200,
         hp: 2650,
         dano_base: 220,
         fratura: 0,
@@ -482,7 +482,7 @@ const dinosData = [
         nome: "Pachycephalosaurus wyomingensis",
         classe: 1,
         tier: 2,
-        peso: 1250,
+        peso: 1100,
         hp: 2000,
         dano_base: 185,
         fratura: 14,
@@ -494,8 +494,8 @@ const dinosData = [
         dieta: "🌿",
         slots: 2,
         ativas: {
-            skill1: 457,
-            skill2: 557
+            skill1: 504,
+            skill2: 457
         }
     },
     {

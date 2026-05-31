@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    const searchInput = document.getElementById('searchInput');
+    const searchInput = document.getElementById('searchInputTask');
     const tabelaCorpo = document.getElementById('tabela-corpo');
     
     if (searchInput && tabelaCorpo) {
