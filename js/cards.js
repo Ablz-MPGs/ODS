@@ -71,14 +71,8 @@ function getCardImage(image = "") {
 
 function getCardSearchText(card) {
     return normalizeText([
-        card.key,
-        card.id,
         card.name,
-        card.fullName,
-        card.description,
-        card.diet,
-        `tier ${card.tier}`,
-        `tier${card.tier}`
+        card.fullName
     ].join(" "));
 }
 
