@@ -1082,7 +1082,7 @@
         "title": "Um rugido aterrorizante",
         "desc": "Solta um rugido que causa medo nos dinossauros, reduzindo sua defesa.",
         "icon": "img/skill/rugido.png",
-        "effect": "-20% defesa inimiga"
+        "effect": "-15% defesa inimiga"
       }
     ]
   },
