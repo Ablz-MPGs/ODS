@@ -463,7 +463,7 @@ const dinosData = [
         nome: "Concavenator corcovatus",
         classe: 2,
         tier: 2,
-        peso: 1200,
+        peso: 1250,
         hp: 2200,
         dano_base: 140,
         fratura: 0,

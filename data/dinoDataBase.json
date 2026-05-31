@@ -20,9 +20,9 @@
     "passives": [
       {
         "title": "Juntos somos fortes!",
-        "desc": "Recupera stamina mais rápido perto da matilha.",
+        "desc": "Consome menos vigor quando perto dos demais membros de sua matilha.",
         "icon": "img/skill/rebanho.png",
-        "effect": "Indefinido"
+        "effect": "Até 3 vezes: -15% gasto de vigor"
       },
       {
         "title": "Apetite louco",
@@ -388,7 +388,7 @@
       {
         "title": "Grito de Cura",
         "desc": "Seu dinossauro emite um grito que acelera a própria regeneração de HP e dos membros da matilha próximos.",
-        "icon": "img/skill/buffR.png",
+        "icon": "img/skill/buffC.png",
         "effect": "+20% regeneração de HP"
       }
     ]
@@ -429,7 +429,7 @@
       {
         "title": "Capturar",
         "desc": "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando vigor para tal. Funciona apenas com animais menores e reduz sua velocidade.",
-        "icon": "img/skill/capturar.png",
+        "icon": "img/skill/capturarQ.png",
         "effect": "-15% velocidade. Dano base: 160"
       }
     ]
@@ -1375,7 +1375,7 @@
       {
         "title": "Capturar",
         "desc": "Seu dinossauro agarra uma presa com o boca podendo levá-la consigo, gastando stamina para tal. Funciona apenas com animais menores.",
-        "icon": "img/skill/capturarS.png",
+        "icon": "img/skill/capturaS.png",
         "effect": "Dano base: 300"
       },
       {
