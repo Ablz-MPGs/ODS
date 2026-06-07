@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <thead>
                         <tr class="head">
                             <th>Nome</th>
-                            <th>HP</th>
+                            <th>Saúde</th>
                             <th>Dano base</th>
                             <th>Fratura</th>
                             <th>Sangramento</th>
@@ -300,7 +300,6 @@ function inicializarInterface() {
     selectA.innerHTML = optionsHtml;
     selectB.innerHTML = optionsHtml;
 
-    // Recuperação de dados do Local Storage
     const savedSpeciesA = localStorage.getItem('combat_speciesA');
     const savedSpeciesB = localStorage.getItem('combat_speciesB');
     const savedTipoAtaque = localStorage.getItem('combat_tipoAtaque');
