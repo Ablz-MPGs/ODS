@@ -441,7 +441,7 @@ h5, p{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: radial-gradient(circle at 40% 10%, rgb(55, 167, 167), rgba(10, 27, 27, 0.87) 50%);
+    background: radial-gradient(circle at 45% 15%, rgb(42, 134, 134), rgba(10, 27, 27, 0.87) 50%);
     border: 2px solid var(--accent);
     padding: 4px;
     object-fit: contain;
